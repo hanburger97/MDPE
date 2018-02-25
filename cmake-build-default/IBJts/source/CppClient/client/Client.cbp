@@ -1,0 +1,256 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6"/>
+	<Project>
+		<Option title="Client"/>
+		<Option makefile_is_custom="1"/>
+		<Option compiler="gcc"/>
+		<Option virtualFolders="CMake Files\;CMake Files\IBJts\;CMake Files\IBJts\source\;CMake Files\IBJts\source\CppClient\;CMake Files\IBJts\source\CppClient\client\;"/>
+		<Build>
+			<Target title="all">
+				<Option working_dir="/Users/hanxiao/xtnc/RND/Pipeline/cmake-build-default/IBJts/source/CppClient/client"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/Users/hanxiao/xtnc/RND/Pipeline/cmake-build-default/IBJts/source/CppClient/client/Makefile&quot;  VERBOSE=1 all"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/hanxiao/xtnc/RND/Pipeline/cmake-build-default/IBJts/source/CppClient/client/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/Users/hanxiao/xtnc/RND/Pipeline/cmake-build-default/IBJts/source/CppClient/client/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/hanxiao/xtnc/RND/Pipeline/cmake-build-default/IBJts/source/CppClient/client/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="IB_Client">
+				<Option output="/Users/hanxiao/xtnc/RND/Pipeline/cmake-build-default/IBJts/source/CppClient/client/libIB_Client.a" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/hanxiao/xtnc/RND/Pipeline/cmake-build-default/IBJts/source/CppClient/client"/>
+				<Option object_output="./"/>
+				<Option type="2"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/Users/hanxiao/xtnc/RND/Pipeline/IBJts/source/CppClient/client"/>
+					<Add directory="/Users/hanxiao/xtnc/RND/Pipeline/src"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/include/c++/v1"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/lib/clang/9.0.0/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/include"/>
+					<Add directory="/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/Users/hanxiao/xtnc/RND/Pipeline/cmake-build-default/IBJts/source/CppClient/client/Makefile&quot;  VERBOSE=1 IB_Client"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/hanxiao/xtnc/RND/Pipeline/cmake-build-default/IBJts/source/CppClient/client/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/Users/hanxiao/xtnc/RND/Pipeline/cmake-build-default/IBJts/source/CppClient/client/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/hanxiao/xtnc/RND/Pipeline/cmake-build-default/IBJts/source/CppClient/client/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="IB_Client/fast">
+				<Option output="/Users/hanxiao/xtnc/RND/Pipeline/cmake-build-default/IBJts/source/CppClient/client/libIB_Client.a" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/hanxiao/xtnc/RND/Pipeline/cmake-build-default/IBJts/source/CppClient/client"/>
+				<Option object_output="./"/>
+				<Option type="2"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/Users/hanxiao/xtnc/RND/Pipeline/IBJts/source/CppClient/client"/>
+					<Add directory="/Users/hanxiao/xtnc/RND/Pipeline/src"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/include/c++/v1"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/lib/clang/9.0.0/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/include"/>
+					<Add directory="/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/Users/hanxiao/xtnc/RND/Pipeline/cmake-build-default/IBJts/source/CppClient/client/Makefile&quot;  VERBOSE=1 IB_Client/fast"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/hanxiao/xtnc/RND/Pipeline/cmake-build-default/IBJts/source/CppClient/client/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/Users/hanxiao/xtnc/RND/Pipeline/cmake-build-default/IBJts/source/CppClient/client/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/hanxiao/xtnc/RND/Pipeline/cmake-build-default/IBJts/source/CppClient/client/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+		</Build>
+		<Unit filename="/Users/hanxiao/xtnc/RND/Pipeline/IBJts/source/CppClient/client/CommissionReport.h">
+			<Option target="IB_Client"/>
+		</Unit>
+		<Unit filename="/Users/hanxiao/xtnc/RND/Pipeline/IBJts/source/CppClient/client/CommonDefs.h">
+			<Option target="IB_Client"/>
+		</Unit>
+		<Unit filename="/Users/hanxiao/xtnc/RND/Pipeline/IBJts/source/CppClient/client/Contract.h">
+			<Option target="IB_Client"/>
+		</Unit>
+		<Unit filename="/Users/hanxiao/xtnc/RND/Pipeline/IBJts/source/CppClient/client/ContractCondition.cpp">
+			<Option target="IB_Client"/>
+		</Unit>
+		<Unit filename="/Users/hanxiao/xtnc/RND/Pipeline/IBJts/source/CppClient/client/ContractCondition.h">
+			<Option target="IB_Client"/>
+		</Unit>
+		<Unit filename="/Users/hanxiao/xtnc/RND/Pipeline/IBJts/source/CppClient/client/DefaultEWrapper.cpp">
+			<Option target="IB_Client"/>
+		</Unit>
+		<Unit filename="/Users/hanxiao/xtnc/RND/Pipeline/IBJts/source/CppClient/client/DefaultEWrapper.h">
+			<Option target="IB_Client"/>
+		</Unit>
+		<Unit filename="/Users/hanxiao/xtnc/RND/Pipeline/IBJts/source/CppClient/client/EClient.cpp">
+			<Option target="IB_Client"/>
+		</Unit>
+		<Unit filename="/Users/hanxiao/xtnc/RND/Pipeline/IBJts/source/CppClient/client/EClient.h">
+			<Option target="IB_Client"/>
+		</Unit>
+		<Unit filename="/Users/hanxiao/xtnc/RND/Pipeline/IBJts/source/CppClient/client/EClientMsgSink.h">
+			<Option target="IB_Client"/>
+		</Unit>
+		<Unit filename="/Users/hanxiao/xtnc/RND/Pipeline/IBJts/source/CppClient/client/EClientSocket.cpp">
+			<Option target="IB_Client"/>
+		</Unit>
+		<Unit filename="/Users/hanxiao/xtnc/RND/Pipeline/IBJts/source/CppClient/client/EClientSocket.h">
+			<Option target="IB_Client"/>
+		</Unit>
+		<Unit filename="/Users/hanxiao/xtnc/RND/Pipeline/IBJts/source/CppClient/client/EDecoder.cpp">
+			<Option target="IB_Client"/>
+		</Unit>
+		<Unit filename="/Users/hanxiao/xtnc/RND/Pipeline/IBJts/source/CppClient/client/EDecoder.h">
+			<Option target="IB_Client"/>
+		</Unit>
+		<Unit filename="/Users/hanxiao/xtnc/RND/Pipeline/IBJts/source/CppClient/client/EMessage.cpp">
+			<Option target="IB_Client"/>
+		</Unit>
+		<Unit filename="/Users/hanxiao/xtnc/RND/Pipeline/IBJts/source/CppClient/client/EMessage.h">
+			<Option target="IB_Client"/>
+		</Unit>
+		<Unit filename="/Users/hanxiao/xtnc/RND/Pipeline/IBJts/source/CppClient/client/EMutex.cpp">
+			<Option target="IB_Client"/>
+		</Unit>
+		<Unit filename="/Users/hanxiao/xtnc/RND/Pipeline/IBJts/source/CppClient/client/EMutex.h">
+			<Option target="IB_Client"/>
+		</Unit>
+		<Unit filename="/Users/hanxiao/xtnc/RND/Pipeline/IBJts/source/CppClient/client/EPosixClientSocketPlatform.h">
+			<Option target="IB_Client"/>
+		</Unit>
+		<Unit filename="/Users/hanxiao/xtnc/RND/Pipeline/IBJts/source/CppClient/client/EReader.cpp">
+			<Option target="IB_Client"/>
+		</Unit>
+		<Unit filename="/Users/hanxiao/xtnc/RND/Pipeline/IBJts/source/CppClient/client/EReader.h">
+			<Option target="IB_Client"/>
+		</Unit>
+		<Unit filename="/Users/hanxiao/xtnc/RND/Pipeline/IBJts/source/CppClient/client/EReaderOSSignal.cpp">
+			<Option target="IB_Client"/>
+		</Unit>
+		<Unit filename="/Users/hanxiao/xtnc/RND/Pipeline/IBJts/source/CppClient/client/EReaderOSSignal.h">
+			<Option target="IB_Client"/>
+		</Unit>
+		<Unit filename="/Users/hanxiao/xtnc/RND/Pipeline/IBJts/source/CppClient/client/EReaderSignal.h">
+			<Option target="IB_Client"/>
+		</Unit>
+		<Unit filename="/Users/hanxiao/xtnc/RND/Pipeline/IBJts/source/CppClient/client/EReaderWMSignal.cpp">
+			<Option target="IB_Client"/>
+		</Unit>
+		<Unit filename="/Users/hanxiao/xtnc/RND/Pipeline/IBJts/source/CppClient/client/EReaderWMSignal.h">
+			<Option target="IB_Client"/>
+		</Unit>
+		<Unit filename="/Users/hanxiao/xtnc/RND/Pipeline/IBJts/source/CppClient/client/ESocket.cpp">
+			<Option target="IB_Client"/>
+		</Unit>
+		<Unit filename="/Users/hanxiao/xtnc/RND/Pipeline/IBJts/source/CppClient/client/ESocket.h">
+			<Option target="IB_Client"/>
+		</Unit>
+		<Unit filename="/Users/hanxiao/xtnc/RND/Pipeline/IBJts/source/CppClient/client/ETransport.h">
+			<Option target="IB_Client"/>
+		</Unit>
+		<Unit filename="/Users/hanxiao/xtnc/RND/Pipeline/IBJts/source/CppClient/client/EWrapper.h">
+			<Option target="IB_Client"/>
+		</Unit>
+		<Unit filename="/Users/hanxiao/xtnc/RND/Pipeline/IBJts/source/CppClient/client/Execution.h">
+			<Option target="IB_Client"/>
+		</Unit>
+		<Unit filename="/Users/hanxiao/xtnc/RND/Pipeline/IBJts/source/CppClient/client/IExternalizable.h">
+			<Option target="IB_Client"/>
+		</Unit>
+		<Unit filename="/Users/hanxiao/xtnc/RND/Pipeline/IBJts/source/CppClient/client/MarginCondition.cpp">
+			<Option target="IB_Client"/>
+		</Unit>
+		<Unit filename="/Users/hanxiao/xtnc/RND/Pipeline/IBJts/source/CppClient/client/MarginCondition.h">
+			<Option target="IB_Client"/>
+		</Unit>
+		<Unit filename="/Users/hanxiao/xtnc/RND/Pipeline/IBJts/source/CppClient/client/OperatorCondition.cpp">
+			<Option target="IB_Client"/>
+		</Unit>
+		<Unit filename="/Users/hanxiao/xtnc/RND/Pipeline/IBJts/source/CppClient/client/OperatorCondition.h">
+			<Option target="IB_Client"/>
+		</Unit>
+		<Unit filename="/Users/hanxiao/xtnc/RND/Pipeline/IBJts/source/CppClient/client/Order.h">
+			<Option target="IB_Client"/>
+		</Unit>
+		<Unit filename="/Users/hanxiao/xtnc/RND/Pipeline/IBJts/source/CppClient/client/OrderCondition.cpp">
+			<Option target="IB_Client"/>
+		</Unit>
+		<Unit filename="/Users/hanxiao/xtnc/RND/Pipeline/IBJts/source/CppClient/client/OrderCondition.h">
+			<Option target="IB_Client"/>
+		</Unit>
+		<Unit filename="/Users/hanxiao/xtnc/RND/Pipeline/IBJts/source/CppClient/client/OrderState.h">
+			<Option target="IB_Client"/>
+		</Unit>
+		<Unit filename="/Users/hanxiao/xtnc/RND/Pipeline/IBJts/source/CppClient/client/PercentChangeCondition.cpp">
+			<Option target="IB_Client"/>
+		</Unit>
+		<Unit filename="/Users/hanxiao/xtnc/RND/Pipeline/IBJts/source/CppClient/client/PercentChangeCondition.h">
+			<Option target="IB_Client"/>
+		</Unit>
+		<Unit filename="/Users/hanxiao/xtnc/RND/Pipeline/IBJts/source/CppClient/client/PriceCondition.cpp">
+			<Option target="IB_Client"/>
+		</Unit>
+		<Unit filename="/Users/hanxiao/xtnc/RND/Pipeline/IBJts/source/CppClient/client/PriceCondition.h">
+			<Option target="IB_Client"/>
+		</Unit>
+		<Unit filename="/Users/hanxiao/xtnc/RND/Pipeline/IBJts/source/CppClient/client/Resource.h">
+			<Option target="IB_Client"/>
+		</Unit>
+		<Unit filename="/Users/hanxiao/xtnc/RND/Pipeline/IBJts/source/CppClient/client/ScannerSubscription.h">
+			<Option target="IB_Client"/>
+		</Unit>
+		<Unit filename="/Users/hanxiao/xtnc/RND/Pipeline/IBJts/source/CppClient/client/SoftDollarTier.cpp">
+			<Option target="IB_Client"/>
+		</Unit>
+		<Unit filename="/Users/hanxiao/xtnc/RND/Pipeline/IBJts/source/CppClient/client/SoftDollarTier.h">
+			<Option target="IB_Client"/>
+		</Unit>
+		<Unit filename="/Users/hanxiao/xtnc/RND/Pipeline/IBJts/source/CppClient/client/StdAfx.cpp">
+			<Option target="IB_Client"/>
+		</Unit>
+		<Unit filename="/Users/hanxiao/xtnc/RND/Pipeline/IBJts/source/CppClient/client/StdAfx.h">
+			<Option target="IB_Client"/>
+		</Unit>
+		<Unit filename="/Users/hanxiao/xtnc/RND/Pipeline/IBJts/source/CppClient/client/TagValue.h">
+			<Option target="IB_Client"/>
+		</Unit>
+		<Unit filename="/Users/hanxiao/xtnc/RND/Pipeline/IBJts/source/CppClient/client/TimeCondition.cpp">
+			<Option target="IB_Client"/>
+		</Unit>
+		<Unit filename="/Users/hanxiao/xtnc/RND/Pipeline/IBJts/source/CppClient/client/TimeCondition.h">
+			<Option target="IB_Client"/>
+		</Unit>
+		<Unit filename="/Users/hanxiao/xtnc/RND/Pipeline/IBJts/source/CppClient/client/TwsSocketClientErrors.h">
+			<Option target="IB_Client"/>
+		</Unit>
+		<Unit filename="/Users/hanxiao/xtnc/RND/Pipeline/IBJts/source/CppClient/client/VolumeCondition.cpp">
+			<Option target="IB_Client"/>
+		</Unit>
+		<Unit filename="/Users/hanxiao/xtnc/RND/Pipeline/IBJts/source/CppClient/client/VolumeCondition.h">
+			<Option target="IB_Client"/>
+		</Unit>
+		<Unit filename="/Users/hanxiao/xtnc/RND/Pipeline/IBJts/source/CppClient/client/executioncondition.cpp">
+			<Option target="IB_Client"/>
+		</Unit>
+		<Unit filename="/Users/hanxiao/xtnc/RND/Pipeline/IBJts/source/CppClient/client/executioncondition.h">
+			<Option target="IB_Client"/>
+		</Unit>
+		<Unit filename="/Users/hanxiao/xtnc/RND/Pipeline/IBJts/source/CppClient/client/shared_ptr.h">
+			<Option target="IB_Client"/>
+		</Unit>
+		<Unit filename="/Users/hanxiao/xtnc/RND/Pipeline/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\"/>
+		</Unit>
+		<Unit filename="/Users/hanxiao/xtnc/RND/Pipeline/IBJts/source/CppClient/client/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\IBJts\source\CppClient\client\"/>
+		</Unit>
+		<Unit filename="/Users/hanxiao/xtnc/RND/Pipeline/IBJts/source/CppClient/client/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\IBJts\source\CppClient\client\"/>
+		</Unit>
+	</Project>
+</CodeBlocks_project_file>

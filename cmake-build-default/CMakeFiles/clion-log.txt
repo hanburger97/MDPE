@@ -1,0 +1,4 @@
+/Applications/CLion.app/Contents/bin/cmake/bin/cmake -DCMAKE_BUILD_TYPE= -G "CodeBlocks - Unix Makefiles" /Users/hanxiao/xtnc/RND/Pipeline
+-- Configuring done
+-- Generating done
+-- Build files have been written to: /Users/hanxiao/xtnc/RND/Pipeline/cmake-build-default
