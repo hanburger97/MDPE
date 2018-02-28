@@ -14,6 +14,7 @@
 #include <stdlib.h>
 
 #include "TestCppClient.h"
+#include "IB.h"
 
 const unsigned MAX_ATTEMPTS = 50;
 const unsigned SLEEP_TIME = 10;
@@ -66,13 +67,15 @@ void demoRun(int argc, char* argv[]){
 
 void foolingAround(int argc, char* argv[]){
 
-    TestCppClient* client = new TestCppClient();
-    client->connect("127.0.0.1", 7497, 0);
+
+
+    IB_Client * ibclient = new IB_Client();
+    ibclient->connect("127.0.0.1", 7497);
 
 
 
+    delete ibclient;
 
-    delete client;
 }
 
 

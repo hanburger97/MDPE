@@ -26,17 +26,22 @@ public:
 
     void disconnect() const;
 
-    bool subscribeFutureOptions(
-        std::string symbol,
-        std::string	expiration,
-        double		strike,
-        std::string	multiplier,
-        std::string	exchange,
-        std::string	currency,
-        std::string	localSymbol,
-        std::string	tradingClass,
-        std::string	secIdType,		// CUSIP;SEDOL;ISIN;RIC
-        std::string	secId
+    int subscribeFutureOptions(
+            int id,
+            double strike,
+            char * const type,
+            std::string symbol,
+            std::string expiration,
+            std::string exchange,
+            std::string multiplier,
+            std::string currency
+    );
+
+    int subscribeWholeFutureOptions(
+            int id,
+            std::string symbol,
+            std::string exchange,
+            std::string currency
     );
 
     void tickDataOperation();

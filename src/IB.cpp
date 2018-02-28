@@ -70,31 +70,57 @@ void IB_Client::disconnect() const {
     std::cout<<"Connection [ DISCONNECTED ]"<<std::endl;
 }
 
-bool IB_Client::subscribeFutureOptions(
+int IB_Client::subscribeFutureOptions(
+                                 int id,
+                                 double strike,
+                                 char * const type,
                                  std::string symbol,
                                  std::string expiration,
-                                 double strike,
                                  std::string exchange,
                                  std::string multiplier,
-                                 std::string currency,
-                                 std::string localSymbol,
-                                 std::string tradingClass,
-                                 std::string secIdType,		// CUSIP;SEDOL;ISIN;RIC
-                                 std::string secId
+                                 std::string currency
                                  )
 {
 
+    id = (id && id >= 0) ? id : 1000;
     // Initializing Contract Instance
     Contract contract;
-
-
     contract.symbol = symbol;
     contract.secType = "FOP";
     contract.exchange = exchange;
-    contract.currency = "USD";
+    contract.currency = currency;
     contract.strike = strike;
+    contract.right = std::string(type);
+    contract.multiplier = multiplier;
 
+    try{
+        cli->reqContractDetails(id, contract);
+        return id;
+    }
+    catch (int e){
+        std::cerr << "Error "<< e << std::endl;
+    }
 
+}
+
+int IB_Client::subscribeWholeFutureOptions(
+        int id,
+        std::string symbol,
+        std::string exchange,
+        std::string currency
+){
+        Contract contract;
+        contract.symbol = symbol;
+        contract.primaryExchange = exchange;
+        contract.currency = currency;
+    
+        try{
+            cli->reqContractDetails(id, contract);
+            return id;
+        }
+        catch (int e){
+            std::cerr << e << std::endl;
+        }
 }
 
 // BUilding binding for Kafka streaming on EReader and EWrapper
