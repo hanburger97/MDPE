@@ -3,13 +3,13 @@
 #include "StdAfx.h"
 
 #include "OrderSamples.h"
-#include "Order.h"
-#include "PriceCondition.h"
-#include "executioncondition.h"
-#include "MarginCondition.h"
-#include "PercentChangeCondition.h"
-#include "TimeCondition.h"
-#include "VolumeCondition.h"
+#include "includes/Order.h"
+#include "includes/PriceCondition.h"
+#include "includes/executioncondition.h"
+#include "includes/MarginCondition.h"
+#include "includes/PercentChangeCondition.h"
+#include "includes/TimeCondition.h"
+#include "includes/VolumeCondition.h"
 
 	/// <summary>
     /// Make sure to test using only your paper trading account when applicable. A good way of finding out if an order type/exchange combination

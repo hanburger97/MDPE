@@ -561,6 +561,102 @@ IBJts/source/CppClient/client/CMakeFiles/IB_Client.dir/executioncondition.cpp.o.
 IBJts/source/CppClient/client/CMakeFiles/IB_Client.dir/executioncondition.cpp.o.provides.build: IBJts/source/CppClient/client/CMakeFiles/IB_Client.dir/executioncondition.cpp.o
 
 
+IBJts/source/CppClient/client/CMakeFiles/IB_Client.dir/__/ssl/EClientSocketSSL.cpp.o: IBJts/source/CppClient/client/CMakeFiles/IB_Client.dir/flags.make
+IBJts/source/CppClient/client/CMakeFiles/IB_Client.dir/__/ssl/EClientSocketSSL.cpp.o: ../IBJts/source/CppClient/ssl/EClientSocketSSL.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/hanxiao/xtnc/RND/Pipeline/cmake-build-default/CMakeFiles --progress-num=$(CMAKE_PROGRESS_22) "Building CXX object IBJts/source/CppClient/client/CMakeFiles/IB_Client.dir/__/ssl/EClientSocketSSL.cpp.o"
+	cd /Users/hanxiao/xtnc/RND/Pipeline/cmake-build-default/IBJts/source/CppClient/client && /Library/Developer/CommandLineTools/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/IB_Client.dir/__/ssl/EClientSocketSSL.cpp.o -c /Users/hanxiao/xtnc/RND/Pipeline/IBJts/source/CppClient/ssl/EClientSocketSSL.cpp
+
+IBJts/source/CppClient/client/CMakeFiles/IB_Client.dir/__/ssl/EClientSocketSSL.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/IB_Client.dir/__/ssl/EClientSocketSSL.cpp.i"
+	cd /Users/hanxiao/xtnc/RND/Pipeline/cmake-build-default/IBJts/source/CppClient/client && /Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/hanxiao/xtnc/RND/Pipeline/IBJts/source/CppClient/ssl/EClientSocketSSL.cpp > CMakeFiles/IB_Client.dir/__/ssl/EClientSocketSSL.cpp.i
+
+IBJts/source/CppClient/client/CMakeFiles/IB_Client.dir/__/ssl/EClientSocketSSL.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/IB_Client.dir/__/ssl/EClientSocketSSL.cpp.s"
+	cd /Users/hanxiao/xtnc/RND/Pipeline/cmake-build-default/IBJts/source/CppClient/client && /Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/hanxiao/xtnc/RND/Pipeline/IBJts/source/CppClient/ssl/EClientSocketSSL.cpp -o CMakeFiles/IB_Client.dir/__/ssl/EClientSocketSSL.cpp.s
+
+IBJts/source/CppClient/client/CMakeFiles/IB_Client.dir/__/ssl/EClientSocketSSL.cpp.o.requires:
+
+.PHONY : IBJts/source/CppClient/client/CMakeFiles/IB_Client.dir/__/ssl/EClientSocketSSL.cpp.o.requires
+
+IBJts/source/CppClient/client/CMakeFiles/IB_Client.dir/__/ssl/EClientSocketSSL.cpp.o.provides: IBJts/source/CppClient/client/CMakeFiles/IB_Client.dir/__/ssl/EClientSocketSSL.cpp.o.requires
+	$(MAKE) -f IBJts/source/CppClient/client/CMakeFiles/IB_Client.dir/build.make IBJts/source/CppClient/client/CMakeFiles/IB_Client.dir/__/ssl/EClientSocketSSL.cpp.o.provides.build
+.PHONY : IBJts/source/CppClient/client/CMakeFiles/IB_Client.dir/__/ssl/EClientSocketSSL.cpp.o.provides
+
+IBJts/source/CppClient/client/CMakeFiles/IB_Client.dir/__/ssl/EClientSocketSSL.cpp.o.provides.build: IBJts/source/CppClient/client/CMakeFiles/IB_Client.dir/__/ssl/EClientSocketSSL.cpp.o
+
+
+IBJts/source/CppClient/client/CMakeFiles/IB_Client.dir/__/ssl/EReaderSSL.cpp.o: IBJts/source/CppClient/client/CMakeFiles/IB_Client.dir/flags.make
+IBJts/source/CppClient/client/CMakeFiles/IB_Client.dir/__/ssl/EReaderSSL.cpp.o: ../IBJts/source/CppClient/ssl/EReaderSSL.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/hanxiao/xtnc/RND/Pipeline/cmake-build-default/CMakeFiles --progress-num=$(CMAKE_PROGRESS_23) "Building CXX object IBJts/source/CppClient/client/CMakeFiles/IB_Client.dir/__/ssl/EReaderSSL.cpp.o"
+	cd /Users/hanxiao/xtnc/RND/Pipeline/cmake-build-default/IBJts/source/CppClient/client && /Library/Developer/CommandLineTools/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/IB_Client.dir/__/ssl/EReaderSSL.cpp.o -c /Users/hanxiao/xtnc/RND/Pipeline/IBJts/source/CppClient/ssl/EReaderSSL.cpp
+
+IBJts/source/CppClient/client/CMakeFiles/IB_Client.dir/__/ssl/EReaderSSL.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/IB_Client.dir/__/ssl/EReaderSSL.cpp.i"
+	cd /Users/hanxiao/xtnc/RND/Pipeline/cmake-build-default/IBJts/source/CppClient/client && /Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/hanxiao/xtnc/RND/Pipeline/IBJts/source/CppClient/ssl/EReaderSSL.cpp > CMakeFiles/IB_Client.dir/__/ssl/EReaderSSL.cpp.i
+
+IBJts/source/CppClient/client/CMakeFiles/IB_Client.dir/__/ssl/EReaderSSL.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/IB_Client.dir/__/ssl/EReaderSSL.cpp.s"
+	cd /Users/hanxiao/xtnc/RND/Pipeline/cmake-build-default/IBJts/source/CppClient/client && /Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/hanxiao/xtnc/RND/Pipeline/IBJts/source/CppClient/ssl/EReaderSSL.cpp -o CMakeFiles/IB_Client.dir/__/ssl/EReaderSSL.cpp.s
+
+IBJts/source/CppClient/client/CMakeFiles/IB_Client.dir/__/ssl/EReaderSSL.cpp.o.requires:
+
+.PHONY : IBJts/source/CppClient/client/CMakeFiles/IB_Client.dir/__/ssl/EReaderSSL.cpp.o.requires
+
+IBJts/source/CppClient/client/CMakeFiles/IB_Client.dir/__/ssl/EReaderSSL.cpp.o.provides: IBJts/source/CppClient/client/CMakeFiles/IB_Client.dir/__/ssl/EReaderSSL.cpp.o.requires
+	$(MAKE) -f IBJts/source/CppClient/client/CMakeFiles/IB_Client.dir/build.make IBJts/source/CppClient/client/CMakeFiles/IB_Client.dir/__/ssl/EReaderSSL.cpp.o.provides.build
+.PHONY : IBJts/source/CppClient/client/CMakeFiles/IB_Client.dir/__/ssl/EReaderSSL.cpp.o.provides
+
+IBJts/source/CppClient/client/CMakeFiles/IB_Client.dir/__/ssl/EReaderSSL.cpp.o.provides.build: IBJts/source/CppClient/client/CMakeFiles/IB_Client.dir/__/ssl/EReaderSSL.cpp.o
+
+
+IBJts/source/CppClient/client/CMakeFiles/IB_Client.dir/__/ssl/ESocketSSL.cpp.o: IBJts/source/CppClient/client/CMakeFiles/IB_Client.dir/flags.make
+IBJts/source/CppClient/client/CMakeFiles/IB_Client.dir/__/ssl/ESocketSSL.cpp.o: ../IBJts/source/CppClient/ssl/ESocketSSL.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/hanxiao/xtnc/RND/Pipeline/cmake-build-default/CMakeFiles --progress-num=$(CMAKE_PROGRESS_24) "Building CXX object IBJts/source/CppClient/client/CMakeFiles/IB_Client.dir/__/ssl/ESocketSSL.cpp.o"
+	cd /Users/hanxiao/xtnc/RND/Pipeline/cmake-build-default/IBJts/source/CppClient/client && /Library/Developer/CommandLineTools/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/IB_Client.dir/__/ssl/ESocketSSL.cpp.o -c /Users/hanxiao/xtnc/RND/Pipeline/IBJts/source/CppClient/ssl/ESocketSSL.cpp
+
+IBJts/source/CppClient/client/CMakeFiles/IB_Client.dir/__/ssl/ESocketSSL.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/IB_Client.dir/__/ssl/ESocketSSL.cpp.i"
+	cd /Users/hanxiao/xtnc/RND/Pipeline/cmake-build-default/IBJts/source/CppClient/client && /Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/hanxiao/xtnc/RND/Pipeline/IBJts/source/CppClient/ssl/ESocketSSL.cpp > CMakeFiles/IB_Client.dir/__/ssl/ESocketSSL.cpp.i
+
+IBJts/source/CppClient/client/CMakeFiles/IB_Client.dir/__/ssl/ESocketSSL.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/IB_Client.dir/__/ssl/ESocketSSL.cpp.s"
+	cd /Users/hanxiao/xtnc/RND/Pipeline/cmake-build-default/IBJts/source/CppClient/client && /Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/hanxiao/xtnc/RND/Pipeline/IBJts/source/CppClient/ssl/ESocketSSL.cpp -o CMakeFiles/IB_Client.dir/__/ssl/ESocketSSL.cpp.s
+
+IBJts/source/CppClient/client/CMakeFiles/IB_Client.dir/__/ssl/ESocketSSL.cpp.o.requires:
+
+.PHONY : IBJts/source/CppClient/client/CMakeFiles/IB_Client.dir/__/ssl/ESocketSSL.cpp.o.requires
+
+IBJts/source/CppClient/client/CMakeFiles/IB_Client.dir/__/ssl/ESocketSSL.cpp.o.provides: IBJts/source/CppClient/client/CMakeFiles/IB_Client.dir/__/ssl/ESocketSSL.cpp.o.requires
+	$(MAKE) -f IBJts/source/CppClient/client/CMakeFiles/IB_Client.dir/build.make IBJts/source/CppClient/client/CMakeFiles/IB_Client.dir/__/ssl/ESocketSSL.cpp.o.provides.build
+.PHONY : IBJts/source/CppClient/client/CMakeFiles/IB_Client.dir/__/ssl/ESocketSSL.cpp.o.provides
+
+IBJts/source/CppClient/client/CMakeFiles/IB_Client.dir/__/ssl/ESocketSSL.cpp.o.provides.build: IBJts/source/CppClient/client/CMakeFiles/IB_Client.dir/__/ssl/ESocketSSL.cpp.o
+
+
+IBJts/source/CppClient/client/CMakeFiles/IB_Client.dir/__/ssl/StdAfx.cpp.o: IBJts/source/CppClient/client/CMakeFiles/IB_Client.dir/flags.make
+IBJts/source/CppClient/client/CMakeFiles/IB_Client.dir/__/ssl/StdAfx.cpp.o: ../IBJts/source/CppClient/ssl/StdAfx.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/hanxiao/xtnc/RND/Pipeline/cmake-build-default/CMakeFiles --progress-num=$(CMAKE_PROGRESS_25) "Building CXX object IBJts/source/CppClient/client/CMakeFiles/IB_Client.dir/__/ssl/StdAfx.cpp.o"
+	cd /Users/hanxiao/xtnc/RND/Pipeline/cmake-build-default/IBJts/source/CppClient/client && /Library/Developer/CommandLineTools/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/IB_Client.dir/__/ssl/StdAfx.cpp.o -c /Users/hanxiao/xtnc/RND/Pipeline/IBJts/source/CppClient/ssl/StdAfx.cpp
+
+IBJts/source/CppClient/client/CMakeFiles/IB_Client.dir/__/ssl/StdAfx.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/IB_Client.dir/__/ssl/StdAfx.cpp.i"
+	cd /Users/hanxiao/xtnc/RND/Pipeline/cmake-build-default/IBJts/source/CppClient/client && /Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/hanxiao/xtnc/RND/Pipeline/IBJts/source/CppClient/ssl/StdAfx.cpp > CMakeFiles/IB_Client.dir/__/ssl/StdAfx.cpp.i
+
+IBJts/source/CppClient/client/CMakeFiles/IB_Client.dir/__/ssl/StdAfx.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/IB_Client.dir/__/ssl/StdAfx.cpp.s"
+	cd /Users/hanxiao/xtnc/RND/Pipeline/cmake-build-default/IBJts/source/CppClient/client && /Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/hanxiao/xtnc/RND/Pipeline/IBJts/source/CppClient/ssl/StdAfx.cpp -o CMakeFiles/IB_Client.dir/__/ssl/StdAfx.cpp.s
+
+IBJts/source/CppClient/client/CMakeFiles/IB_Client.dir/__/ssl/StdAfx.cpp.o.requires:
+
+.PHONY : IBJts/source/CppClient/client/CMakeFiles/IB_Client.dir/__/ssl/StdAfx.cpp.o.requires
+
+IBJts/source/CppClient/client/CMakeFiles/IB_Client.dir/__/ssl/StdAfx.cpp.o.provides: IBJts/source/CppClient/client/CMakeFiles/IB_Client.dir/__/ssl/StdAfx.cpp.o.requires
+	$(MAKE) -f IBJts/source/CppClient/client/CMakeFiles/IB_Client.dir/build.make IBJts/source/CppClient/client/CMakeFiles/IB_Client.dir/__/ssl/StdAfx.cpp.o.provides.build
+.PHONY : IBJts/source/CppClient/client/CMakeFiles/IB_Client.dir/__/ssl/StdAfx.cpp.o.provides
+
+IBJts/source/CppClient/client/CMakeFiles/IB_Client.dir/__/ssl/StdAfx.cpp.o.provides.build: IBJts/source/CppClient/client/CMakeFiles/IB_Client.dir/__/ssl/StdAfx.cpp.o
+
+
 # Object files for target IB_Client
 IB_Client_OBJECTS = \
 "CMakeFiles/IB_Client.dir/ContractCondition.cpp.o" \
@@ -583,7 +679,11 @@ IB_Client_OBJECTS = \
 "CMakeFiles/IB_Client.dir/StdAfx.cpp.o" \
 "CMakeFiles/IB_Client.dir/TimeCondition.cpp.o" \
 "CMakeFiles/IB_Client.dir/VolumeCondition.cpp.o" \
-"CMakeFiles/IB_Client.dir/executioncondition.cpp.o"
+"CMakeFiles/IB_Client.dir/executioncondition.cpp.o" \
+"CMakeFiles/IB_Client.dir/__/ssl/EClientSocketSSL.cpp.o" \
+"CMakeFiles/IB_Client.dir/__/ssl/EReaderSSL.cpp.o" \
+"CMakeFiles/IB_Client.dir/__/ssl/ESocketSSL.cpp.o" \
+"CMakeFiles/IB_Client.dir/__/ssl/StdAfx.cpp.o"
 
 # External object files for target IB_Client
 IB_Client_EXTERNAL_OBJECTS =
@@ -609,9 +709,13 @@ IBJts/source/CppClient/client/libIB_Client.a: IBJts/source/CppClient/client/CMak
 IBJts/source/CppClient/client/libIB_Client.a: IBJts/source/CppClient/client/CMakeFiles/IB_Client.dir/TimeCondition.cpp.o
 IBJts/source/CppClient/client/libIB_Client.a: IBJts/source/CppClient/client/CMakeFiles/IB_Client.dir/VolumeCondition.cpp.o
 IBJts/source/CppClient/client/libIB_Client.a: IBJts/source/CppClient/client/CMakeFiles/IB_Client.dir/executioncondition.cpp.o
+IBJts/source/CppClient/client/libIB_Client.a: IBJts/source/CppClient/client/CMakeFiles/IB_Client.dir/__/ssl/EClientSocketSSL.cpp.o
+IBJts/source/CppClient/client/libIB_Client.a: IBJts/source/CppClient/client/CMakeFiles/IB_Client.dir/__/ssl/EReaderSSL.cpp.o
+IBJts/source/CppClient/client/libIB_Client.a: IBJts/source/CppClient/client/CMakeFiles/IB_Client.dir/__/ssl/ESocketSSL.cpp.o
+IBJts/source/CppClient/client/libIB_Client.a: IBJts/source/CppClient/client/CMakeFiles/IB_Client.dir/__/ssl/StdAfx.cpp.o
 IBJts/source/CppClient/client/libIB_Client.a: IBJts/source/CppClient/client/CMakeFiles/IB_Client.dir/build.make
 IBJts/source/CppClient/client/libIB_Client.a: IBJts/source/CppClient/client/CMakeFiles/IB_Client.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/Users/hanxiao/xtnc/RND/Pipeline/cmake-build-default/CMakeFiles --progress-num=$(CMAKE_PROGRESS_22) "Linking CXX static library libIB_Client.a"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/Users/hanxiao/xtnc/RND/Pipeline/cmake-build-default/CMakeFiles --progress-num=$(CMAKE_PROGRESS_26) "Linking CXX static library libIB_Client.a"
 	cd /Users/hanxiao/xtnc/RND/Pipeline/cmake-build-default/IBJts/source/CppClient/client && $(CMAKE_COMMAND) -P CMakeFiles/IB_Client.dir/cmake_clean_target.cmake
 	cd /Users/hanxiao/xtnc/RND/Pipeline/cmake-build-default/IBJts/source/CppClient/client && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/IB_Client.dir/link.txt --verbose=$(VERBOSE)
 
@@ -641,6 +745,10 @@ IBJts/source/CppClient/client/CMakeFiles/IB_Client.dir/requires: IBJts/source/Cp
 IBJts/source/CppClient/client/CMakeFiles/IB_Client.dir/requires: IBJts/source/CppClient/client/CMakeFiles/IB_Client.dir/TimeCondition.cpp.o.requires
 IBJts/source/CppClient/client/CMakeFiles/IB_Client.dir/requires: IBJts/source/CppClient/client/CMakeFiles/IB_Client.dir/VolumeCondition.cpp.o.requires
 IBJts/source/CppClient/client/CMakeFiles/IB_Client.dir/requires: IBJts/source/CppClient/client/CMakeFiles/IB_Client.dir/executioncondition.cpp.o.requires
+IBJts/source/CppClient/client/CMakeFiles/IB_Client.dir/requires: IBJts/source/CppClient/client/CMakeFiles/IB_Client.dir/__/ssl/EClientSocketSSL.cpp.o.requires
+IBJts/source/CppClient/client/CMakeFiles/IB_Client.dir/requires: IBJts/source/CppClient/client/CMakeFiles/IB_Client.dir/__/ssl/EReaderSSL.cpp.o.requires
+IBJts/source/CppClient/client/CMakeFiles/IB_Client.dir/requires: IBJts/source/CppClient/client/CMakeFiles/IB_Client.dir/__/ssl/ESocketSSL.cpp.o.requires
+IBJts/source/CppClient/client/CMakeFiles/IB_Client.dir/requires: IBJts/source/CppClient/client/CMakeFiles/IB_Client.dir/__/ssl/StdAfx.cpp.o.requires
 
 .PHONY : IBJts/source/CppClient/client/CMakeFiles/IB_Client.dir/requires
 

@@ -20,6 +20,10 @@ file(REMOVE_RECURSE
   "CMakeFiles/IB_Client.dir/TimeCondition.cpp.o"
   "CMakeFiles/IB_Client.dir/VolumeCondition.cpp.o"
   "CMakeFiles/IB_Client.dir/executioncondition.cpp.o"
+  "CMakeFiles/IB_Client.dir/__/ssl/EClientSocketSSL.cpp.o"
+  "CMakeFiles/IB_Client.dir/__/ssl/EReaderSSL.cpp.o"
+  "CMakeFiles/IB_Client.dir/__/ssl/ESocketSSL.cpp.o"
+  "CMakeFiles/IB_Client.dir/__/ssl/StdAfx.cpp.o"
   "libIB_Client.pdb"
   "libIB_Client.a"
 )

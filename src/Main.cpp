@@ -1,7 +1,7 @@
 /* Copyright (C) 2013 Interactive Brokers LLC. All rights reserved. This code is subject to the terms
  * and conditions of the IB API Non-Commercial License or the IB API Commercial License, as applicable. */
 
-#include "StdAfx.h"
+#include "includes/StdAfx.h"
 
 #ifdef _WIN32
 # include <Windows.h>
@@ -13,8 +13,8 @@
 #include <stdio.h>
 #include <stdlib.h>
 
-#include "TestCppClient.h"
-#include "IB.h"
+#include "includes/TestCppClient.h"
+#include "includes/IB.h"
 
 const unsigned MAX_ATTEMPTS = 50;
 const unsigned SLEEP_TIME = 10;
@@ -65,7 +65,7 @@ void demoRun(int argc, char* argv[]){
 }
 
 
-void foolingAround(int argc, char* argv[]){
+void foolingAround(){
 
 
 
@@ -84,6 +84,7 @@ void foolingAround(int argc, char* argv[]){
 int main(int argc, char** argv)
 {
    // demoRun(argc, argv);
+    foolingAround();
 
 }
 

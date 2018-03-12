@@ -379,6 +379,33 @@ src/TestCppClient.cpp.s:
 	$(MAKE) -f CMakeFiles/Pipeline.dir/build.make CMakeFiles/Pipeline.dir/src/TestCppClient.cpp.s
 .PHONY : src/TestCppClient.cpp.s
 
+src/devTestRun.o: src/devTestRun.cpp.o
+
+.PHONY : src/devTestRun.o
+
+# target to build an object file
+src/devTestRun.cpp.o:
+	$(MAKE) -f CMakeFiles/Pipeline.dir/build.make CMakeFiles/Pipeline.dir/src/devTestRun.cpp.o
+.PHONY : src/devTestRun.cpp.o
+
+src/devTestRun.i: src/devTestRun.cpp.i
+
+.PHONY : src/devTestRun.i
+
+# target to preprocess a source file
+src/devTestRun.cpp.i:
+	$(MAKE) -f CMakeFiles/Pipeline.dir/build.make CMakeFiles/Pipeline.dir/src/devTestRun.cpp.i
+.PHONY : src/devTestRun.cpp.i
+
+src/devTestRun.s: src/devTestRun.cpp.s
+
+.PHONY : src/devTestRun.s
+
+# target to generate assembly for a file
+src/devTestRun.cpp.s:
+	$(MAKE) -f CMakeFiles/Pipeline.dir/build.make CMakeFiles/Pipeline.dir/src/devTestRun.cpp.s
+.PHONY : src/devTestRun.cpp.s
+
 # Help Target
 help:
 	@echo "The following are some of the valid targets for this Makefile:"
@@ -416,6 +443,9 @@ help:
 	@echo "... src/TestCppClient.o"
 	@echo "... src/TestCppClient.i"
 	@echo "... src/TestCppClient.s"
+	@echo "... src/devTestRun.o"
+	@echo "... src/devTestRun.i"
+	@echo "... src/devTestRun.s"
 .PHONY : help
 
 

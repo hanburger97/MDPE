@@ -13,6 +13,7 @@ set(CMAKE_DEPENDS_CHECK_CXX
   "/Users/hanxiao/xtnc/RND/Pipeline/src/ScannerSubscriptionSamples.cpp" "/Users/hanxiao/xtnc/RND/Pipeline/cmake-build-default/CMakeFiles/Pipeline.dir/src/ScannerSubscriptionSamples.cpp.o"
   "/Users/hanxiao/xtnc/RND/Pipeline/src/StdAfx.cpp" "/Users/hanxiao/xtnc/RND/Pipeline/cmake-build-default/CMakeFiles/Pipeline.dir/src/StdAfx.cpp.o"
   "/Users/hanxiao/xtnc/RND/Pipeline/src/TestCppClient.cpp" "/Users/hanxiao/xtnc/RND/Pipeline/cmake-build-default/CMakeFiles/Pipeline.dir/src/TestCppClient.cpp.o"
+  "/Users/hanxiao/xtnc/RND/Pipeline/src/devTestRun.cpp" "/Users/hanxiao/xtnc/RND/Pipeline/cmake-build-default/CMakeFiles/Pipeline.dir/src/devTestRun.cpp.o"
   )
 set(CMAKE_CXX_COMPILER_ID "AppleClang")
 
@@ -20,6 +21,7 @@ set(CMAKE_CXX_COMPILER_ID "AppleClang")
 set(CMAKE_CXX_TARGET_INCLUDE_PATH
   "../IBJts/source/CppClient/client"
   "../src"
+  ".././src/includes"
   )
 
 # Targets to which this target links.

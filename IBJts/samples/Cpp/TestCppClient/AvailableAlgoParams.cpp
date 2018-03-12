@@ -3,7 +3,7 @@
 #include "StdAfx.h"
 
 #include "AvailableAlgoParams.h"
-#include "Order.h"
+#include "includes/Order.h"
 
 //! [arrivalpx_params]
 void AvailableAlgoParams::FillArrivalPriceParams(Order& baseOrder, double maxPctVol, std::string riskAversion, std::string startTime, std::string endTime, 

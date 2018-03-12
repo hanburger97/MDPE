@@ -1,15 +1,15 @@
 /* Copyright (C) 2013 Interactive Brokers LLC. All rights reserved.  This code is subject to the terms
  * and conditions of the IB API Non-Commercial License or the IB API Commercial License, as applicable. */
-#include "StdAfx.h"
+#include "includes/StdAfx.h"
 
-#include "OrderSamples.h"
-#include "Order.h"
-#include "PriceCondition.h"
-#include "executioncondition.h"
-#include "MarginCondition.h"
-#include "PercentChangeCondition.h"
-#include "TimeCondition.h"
-#include "VolumeCondition.h"
+#include "includes/OrderSamples.h"
+#include "includes/Order.h"
+#include "includes/PriceCondition.h"
+#include "includes/executioncondition.h"
+#include "includes/MarginCondition.h"
+#include "includes/PercentChangeCondition.h"
+#include "includes/TimeCondition.h"
+#include "includes/VolumeCondition.h"
 
 	/// <summary>
     /// Make sure to test using only your paper trading account when applicable. A good way of finding out if an order type/exchange combination

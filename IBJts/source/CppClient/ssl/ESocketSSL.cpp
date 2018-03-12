@@ -1,5 +1,5 @@
 ﻿#include "StdAfx.h"
-#include "../client/EMessage.h"
+#include "EMessage.h"
 #include "ESocketSSL.h"
 
 #include <assert.h>

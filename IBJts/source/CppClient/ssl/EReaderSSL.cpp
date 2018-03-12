@@ -2,16 +2,16 @@
  * and conditions of the IB API Non-Commercial License or the IB API Commercial License, as applicable. */
 
 #include "StdAfx.h"
-#include "../client/shared_ptr.h"
-#include "../client/Contract.h"
-#include "../client/EDecoder.h"
-#include "../client/EMutex.h"
+#include "shared_ptr.h"
+#include "Contract.h"
+#include "EDecoder.h"
+#include "EMutex.h"
 #include "EReaderSSL.h"
 #include "EClientSocketSSL.h"
-#include "../client/EPosixClientSocketPlatform.h"
-#include "../client/EReaderSignal.h"
-#include "../client/EMessage.h"
-#include "../client/DefaultEWrapper.h"
+#include "EPosixClientSocketPlatform.h"
+#include "EReaderSignal.h"
+#include "EMessage.h"
+#include "DefaultEWrapper.h"
 
 #define IN_BUF_SIZE_DEFAULT 8192
 

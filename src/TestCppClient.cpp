@@ -1,7 +1,7 @@
 /* Copyright (C) 2013 Interactive Brokers LLC. All rights reserved. This code is subject to the terms
  * and conditions of the IB API Non-Commercial License or the IB API Commercial License, as applicable. */
 
-#include "StdAfx.h"
+#include "includes/StdAfx.h"
 
 #ifdef _WIN32
 # include <Windows.h>
@@ -10,30 +10,30 @@
 # include <unistd.h>
 #endif
 
-#include "TestCppClient.h"
+#include "includes/TestCppClient.h"
 
-#include "EClientSocket.h"
-#include "EPosixClientSocketPlatform.h"
+#include "includes/EClientSocket.h"
+#include "includes/EPosixClientSocketPlatform.h"
 
-#include "Contract.h"
-#include "Order.h"
-#include "OrderState.h"
-#include "Execution.h"
-#include "CommissionReport.h"
-#include "ContractSamples.h"
-#include "OrderSamples.h"
-#include "ScannerSubscription.h"
-#include "ScannerSubscriptionSamples.h"
-#include "executioncondition.h"
-#include "PriceCondition.h"
-#include "MarginCondition.h"
-#include "PercentChangeCondition.h"
-#include "TimeCondition.h"
-#include "VolumeCondition.h"
-#include "AvailableAlgoParams.h"
-#include "FAMethodSamples.h"
-#include "CommonDefs.h"
-#include "AccountSummaryTags.h"
+#include "includes/Contract.h"
+#include "includes/Order.h"
+#include "includes/OrderState.h"
+#include "includes/Execution.h"
+#include "includes/CommissionReport.h"
+#include "includes/ContractSamples.h"
+#include "includes/OrderSamples.h"
+#include "includes/ScannerSubscription.h"
+#include "includes/ScannerSubscriptionSamples.h"
+#include "includes/executioncondition.h"
+#include "includes/PriceCondition.h"
+#include "includes/MarginCondition.h"
+#include "includes/PercentChangeCondition.h"
+#include "includes/TimeCondition.h"
+#include "includes/VolumeCondition.h"
+#include "includes/AvailableAlgoParams.h"
+#include "includes/FAMethodSamples.h"
+#include "includes/CommonDefs.h"
+#include "includes/AccountSummaryTags.h"
 
 #include <stdio.h>
 #include <iostream>

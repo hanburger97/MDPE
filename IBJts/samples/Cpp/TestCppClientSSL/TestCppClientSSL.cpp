@@ -6,10 +6,10 @@
 #include "TestCppClientSSL.h"
 
 #include "../ssl/EClientSocketSSL.h"
-#include "EPosixClientSocketPlatform.h"
+#include "includes/EPosixClientSocketPlatform.h"
 
-#include "Contract.h"
-#include "Order.h"
+#include "includes/Contract.h"
+#include "includes/Order.h"
 
 #include <stdio.h>
 

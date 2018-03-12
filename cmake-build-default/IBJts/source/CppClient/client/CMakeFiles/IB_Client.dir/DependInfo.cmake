@@ -24,6 +24,10 @@ set(CMAKE_DEPENDS_CHECK_CXX
   "/Users/hanxiao/xtnc/RND/Pipeline/IBJts/source/CppClient/client/StdAfx.cpp" "/Users/hanxiao/xtnc/RND/Pipeline/cmake-build-default/IBJts/source/CppClient/client/CMakeFiles/IB_Client.dir/StdAfx.cpp.o"
   "/Users/hanxiao/xtnc/RND/Pipeline/IBJts/source/CppClient/client/TimeCondition.cpp" "/Users/hanxiao/xtnc/RND/Pipeline/cmake-build-default/IBJts/source/CppClient/client/CMakeFiles/IB_Client.dir/TimeCondition.cpp.o"
   "/Users/hanxiao/xtnc/RND/Pipeline/IBJts/source/CppClient/client/VolumeCondition.cpp" "/Users/hanxiao/xtnc/RND/Pipeline/cmake-build-default/IBJts/source/CppClient/client/CMakeFiles/IB_Client.dir/VolumeCondition.cpp.o"
+  "/Users/hanxiao/xtnc/RND/Pipeline/IBJts/source/CppClient/ssl/EClientSocketSSL.cpp" "/Users/hanxiao/xtnc/RND/Pipeline/cmake-build-default/IBJts/source/CppClient/client/CMakeFiles/IB_Client.dir/__/ssl/EClientSocketSSL.cpp.o"
+  "/Users/hanxiao/xtnc/RND/Pipeline/IBJts/source/CppClient/ssl/EReaderSSL.cpp" "/Users/hanxiao/xtnc/RND/Pipeline/cmake-build-default/IBJts/source/CppClient/client/CMakeFiles/IB_Client.dir/__/ssl/EReaderSSL.cpp.o"
+  "/Users/hanxiao/xtnc/RND/Pipeline/IBJts/source/CppClient/ssl/ESocketSSL.cpp" "/Users/hanxiao/xtnc/RND/Pipeline/cmake-build-default/IBJts/source/CppClient/client/CMakeFiles/IB_Client.dir/__/ssl/ESocketSSL.cpp.o"
+  "/Users/hanxiao/xtnc/RND/Pipeline/IBJts/source/CppClient/ssl/StdAfx.cpp" "/Users/hanxiao/xtnc/RND/Pipeline/cmake-build-default/IBJts/source/CppClient/client/CMakeFiles/IB_Client.dir/__/ssl/StdAfx.cpp.o"
   "/Users/hanxiao/xtnc/RND/Pipeline/IBJts/source/CppClient/client/executioncondition.cpp" "/Users/hanxiao/xtnc/RND/Pipeline/cmake-build-default/IBJts/source/CppClient/client/CMakeFiles/IB_Client.dir/executioncondition.cpp.o"
   )
 set(CMAKE_CXX_COMPILER_ID "AppleClang")
@@ -32,6 +36,9 @@ set(CMAKE_CXX_COMPILER_ID "AppleClang")
 set(CMAKE_CXX_TARGET_INCLUDE_PATH
   "../IBJts/source/CppClient/client"
   "../src"
+  ".././src/includes"
+  "../IBJts/source/CppClient/client/./includes"
+  "/usr/local/opt/openssl/include"
   )
 
 # Targets to which this target links.

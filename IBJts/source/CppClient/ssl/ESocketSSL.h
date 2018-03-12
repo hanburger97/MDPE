@@ -1,5 +1,5 @@
 ﻿#pragma once
-#include "../client/ETransport.h"
+#include "ETransport.h"
 
 class ESocketSSL :
     public ETransport

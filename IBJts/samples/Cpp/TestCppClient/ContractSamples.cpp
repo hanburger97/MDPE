@@ -4,7 +4,7 @@
 
 #include "ContractSamples.h"
 
-#include "Contract.h"
+#include "includes/Contract.h"
 
 	/*
      * Contracts can be defined in multiple ways. The TWS/IB Gateway will always perform a query on the available contracts

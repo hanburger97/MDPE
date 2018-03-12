@@ -4,9 +4,9 @@
 #pragma once
 
 #include "StdAfx.h"
-#include "../client/EDecoder.h"
-#include "../client/EMutex.h"
-#include "../client/EReaderOSSignal.h"
+#include "EDecoder.h"
+#include "EMutex.h"
+#include "EReaderOSSignal.h"
 
 class EClientSocketSSL;
 class EReaderSignal;

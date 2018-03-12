@@ -1,6 +1,6 @@
-#include "StdAfx.h"
+#include "includes/StdAfx.h"
 
-#include "AccountSummaryTags.h"
+#include "includes/AccountSummaryTags.h"
 
 std::string AccountSummaryTags::AccountType = "AccountType";
 std::string AccountSummaryTags::NetLiquidation = "NetLiquidation";

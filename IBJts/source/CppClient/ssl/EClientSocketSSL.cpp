@@ -4,15 +4,15 @@
 #include "StdAfx.h"
 
 
-#include "../client/EPosixClientSocketPlatform.h"
+#include "EPosixClientSocketPlatform.h"
 #include "EClientSocketSSL.h"
 
-#include "../client/TwsSocketClientErrors.h"
-#include "../client/EWrapper.h"
-#include "../client/EDecoder.h"
-#include "../client/EReaderSignal.h"
+#include "TwsSocketClientErrors.h"
+#include "EWrapper.h"
+#include "EDecoder.h"
+#include "EReaderSignal.h"
 #include "EReaderSSL.h"
-#include "../client/EMessage.h"
+#include "EMessage.h"
 
 #include <string.h>
 #include <assert.h>

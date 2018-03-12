@@ -1,9 +1,9 @@
 /* Copyright (C) 2013 Interactive Brokers LLC. All rights reserved.  This code is subject to the terms
  * and conditions of the IB API Non-Commercial License or the IB API Commercial License, as applicable. */
-#include "StdAfx.h"
+#include "includes/StdAfx.h"
 
-#include "AvailableAlgoParams.h"
-#include "Order.h"
+#include "includes/AvailableAlgoParams.h"
+#include "includes/Order.h"
 
 //! [arrivalpx_params]
 void AvailableAlgoParams::FillArrivalPriceParams(Order& baseOrder, double maxPctVol, std::string riskAversion, std::string startTime, std::string endTime, 

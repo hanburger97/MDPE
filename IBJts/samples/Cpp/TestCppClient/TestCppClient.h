@@ -5,9 +5,9 @@
 #ifndef testcppclient_h__INCLUDED
 #define testcppclient_h__INCLUDED
 
-#include "EWrapper.h"
-#include "EReaderOSSignal.h"
-#include "EReader.h"
+#include "includes/EWrapper.h"
+#include "includes/EReaderOSSignal.h"
+#include "includes/EReader.h"
 
 #include <memory>
 #include <vector>

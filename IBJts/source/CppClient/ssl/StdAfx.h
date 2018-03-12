@@ -36,6 +36,7 @@
 #include <openssl/ssl.h>
 #include <openssl/err.h>
 
+/**/
 #ifndef TWSAPISSLDLLEXP
 #define TWSAPISSLDLLEXP
 #endif

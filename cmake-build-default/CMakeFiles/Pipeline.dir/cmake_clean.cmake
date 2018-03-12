@@ -8,6 +8,7 @@ file(REMOVE_RECURSE
   "CMakeFiles/Pipeline.dir/src/ScannerSubscriptionSamples.cpp.o"
   "CMakeFiles/Pipeline.dir/src/StdAfx.cpp.o"
   "CMakeFiles/Pipeline.dir/src/TestCppClient.cpp.o"
+  "CMakeFiles/Pipeline.dir/src/devTestRun.cpp.o"
   "Pipeline.pdb"
   "Pipeline"
 )

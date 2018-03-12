@@ -5,10 +5,10 @@
 #ifndef eposixclientsocket_def
 #define eposixclientsocket_def
 
-#include "../client/EClient.h"
-#include "../client/EClientMsgSink.h"
+#include "EClient.h"
+#include "EClientMsgSink.h"
 #include "ESocketSSL.h"
-#include "../client/EMutex.h"
+#include "EMutex.h"
 
 class EWrapper;
 class EReaderSignal;

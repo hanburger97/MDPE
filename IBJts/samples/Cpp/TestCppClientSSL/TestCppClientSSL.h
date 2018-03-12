@@ -5,8 +5,8 @@
 #ifndef testcppclient_h__INCLUDED
 #define testcppclient_h__INCLUDED
 
-#include "EWrapper.h"
-#include "EReaderOSSignal.h"
+#include "includes/EWrapper.h"
+#include "includes/EReaderOSSignal.h"
 #include "../ssl/EReaderSSL.h"
 
 #include <memory>
