@@ -1,4 +1,4 @@
-# Install script for directory: /Users/hanxiao/xtnc/RND/Pipeline
+# Install script for directory: /Users/hanxiao/xtnc/rnd/mdpe
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
@@ -29,7 +29,7 @@ endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for each subdirectory.
-  include("/Users/hanxiao/xtnc/RND/Pipeline/cmake-build-default/IBJts/source/CppClient/client/cmake_install.cmake")
+  include("/Users/hanxiao/xtnc/rnd/mdpe/cmake-build-default/IBJts/source/CppClient/client/cmake_install.cmake")
 
 endif()
 
@@ -41,5 +41,5 @@ endif()
 
 string(REPLACE ";" "\n" CMAKE_INSTALL_MANIFEST_CONTENT
        "${CMAKE_INSTALL_MANIFEST_FILES}")
-file(WRITE "/Users/hanxiao/xtnc/RND/Pipeline/cmake-build-default/${CMAKE_INSTALL_MANIFEST}"
+file(WRITE "/Users/hanxiao/xtnc/rnd/mdpe/cmake-build-default/${CMAKE_INSTALL_MANIFEST}"
      "${CMAKE_INSTALL_MANIFEST_CONTENT}")

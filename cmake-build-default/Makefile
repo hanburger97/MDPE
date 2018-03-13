@@ -48,10 +48,10 @@ RM = /Applications/CLion.app/Contents/bin/cmake/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /Users/hanxiao/xtnc/RND/Pipeline
+CMAKE_SOURCE_DIR = /Users/hanxiao/xtnc/rnd/mdpe
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /Users/hanxiao/xtnc/RND/Pipeline/cmake-build-default
+CMAKE_BINARY_DIR = /Users/hanxiao/xtnc/rnd/mdpe/cmake-build-default
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -80,9 +80,9 @@ edit_cache/fast: edit_cache
 
 # The main all target
 all: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /Users/hanxiao/xtnc/RND/Pipeline/cmake-build-default/CMakeFiles /Users/hanxiao/xtnc/RND/Pipeline/cmake-build-default/CMakeFiles/progress.marks
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/hanxiao/xtnc/rnd/mdpe/cmake-build-default/CMakeFiles /Users/hanxiao/xtnc/rnd/mdpe/cmake-build-default/CMakeFiles/progress.marks
 	$(MAKE) -f CMakeFiles/Makefile2 all
-	$(CMAKE_COMMAND) -E cmake_progress_start /Users/hanxiao/xtnc/RND/Pipeline/cmake-build-default/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/hanxiao/xtnc/rnd/mdpe/cmake-build-default/CMakeFiles 0
 .PHONY : all
 
 # The main clean target
@@ -111,17 +111,17 @@ depend:
 .PHONY : depend
 
 #=============================================================================
-# Target rules for targets named Pipeline
+# Target rules for targets named mdpe
 
 # Build rule for target.
-Pipeline: cmake_check_build_system
-	$(MAKE) -f CMakeFiles/Makefile2 Pipeline
-.PHONY : Pipeline
+mdpe: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 mdpe
+.PHONY : mdpe
 
 # fast build rule for target.
-Pipeline/fast:
-	$(MAKE) -f CMakeFiles/Pipeline.dir/build.make CMakeFiles/Pipeline.dir/build
-.PHONY : Pipeline/fast
+mdpe/fast:
+	$(MAKE) -f CMakeFiles/mdpe.dir/build.make CMakeFiles/mdpe.dir/build
+.PHONY : mdpe/fast
 
 #=============================================================================
 # Target rules for targets named IB_Client
@@ -142,7 +142,7 @@ src/AccountSummaryTags.o: src/AccountSummaryTags.cpp.o
 
 # target to build an object file
 src/AccountSummaryTags.cpp.o:
-	$(MAKE) -f CMakeFiles/Pipeline.dir/build.make CMakeFiles/Pipeline.dir/src/AccountSummaryTags.cpp.o
+	$(MAKE) -f CMakeFiles/mdpe.dir/build.make CMakeFiles/mdpe.dir/src/AccountSummaryTags.cpp.o
 .PHONY : src/AccountSummaryTags.cpp.o
 
 src/AccountSummaryTags.i: src/AccountSummaryTags.cpp.i
@@ -151,7 +151,7 @@ src/AccountSummaryTags.i: src/AccountSummaryTags.cpp.i
 
 # target to preprocess a source file
 src/AccountSummaryTags.cpp.i:
-	$(MAKE) -f CMakeFiles/Pipeline.dir/build.make CMakeFiles/Pipeline.dir/src/AccountSummaryTags.cpp.i
+	$(MAKE) -f CMakeFiles/mdpe.dir/build.make CMakeFiles/mdpe.dir/src/AccountSummaryTags.cpp.i
 .PHONY : src/AccountSummaryTags.cpp.i
 
 src/AccountSummaryTags.s: src/AccountSummaryTags.cpp.s
@@ -160,7 +160,7 @@ src/AccountSummaryTags.s: src/AccountSummaryTags.cpp.s
 
 # target to generate assembly for a file
 src/AccountSummaryTags.cpp.s:
-	$(MAKE) -f CMakeFiles/Pipeline.dir/build.make CMakeFiles/Pipeline.dir/src/AccountSummaryTags.cpp.s
+	$(MAKE) -f CMakeFiles/mdpe.dir/build.make CMakeFiles/mdpe.dir/src/AccountSummaryTags.cpp.s
 .PHONY : src/AccountSummaryTags.cpp.s
 
 src/AvailableAlgoParams.o: src/AvailableAlgoParams.cpp.o
@@ -169,7 +169,7 @@ src/AvailableAlgoParams.o: src/AvailableAlgoParams.cpp.o
 
 # target to build an object file
 src/AvailableAlgoParams.cpp.o:
-	$(MAKE) -f CMakeFiles/Pipeline.dir/build.make CMakeFiles/Pipeline.dir/src/AvailableAlgoParams.cpp.o
+	$(MAKE) -f CMakeFiles/mdpe.dir/build.make CMakeFiles/mdpe.dir/src/AvailableAlgoParams.cpp.o
 .PHONY : src/AvailableAlgoParams.cpp.o
 
 src/AvailableAlgoParams.i: src/AvailableAlgoParams.cpp.i
@@ -178,7 +178,7 @@ src/AvailableAlgoParams.i: src/AvailableAlgoParams.cpp.i
 
 # target to preprocess a source file
 src/AvailableAlgoParams.cpp.i:
-	$(MAKE) -f CMakeFiles/Pipeline.dir/build.make CMakeFiles/Pipeline.dir/src/AvailableAlgoParams.cpp.i
+	$(MAKE) -f CMakeFiles/mdpe.dir/build.make CMakeFiles/mdpe.dir/src/AvailableAlgoParams.cpp.i
 .PHONY : src/AvailableAlgoParams.cpp.i
 
 src/AvailableAlgoParams.s: src/AvailableAlgoParams.cpp.s
@@ -187,7 +187,7 @@ src/AvailableAlgoParams.s: src/AvailableAlgoParams.cpp.s
 
 # target to generate assembly for a file
 src/AvailableAlgoParams.cpp.s:
-	$(MAKE) -f CMakeFiles/Pipeline.dir/build.make CMakeFiles/Pipeline.dir/src/AvailableAlgoParams.cpp.s
+	$(MAKE) -f CMakeFiles/mdpe.dir/build.make CMakeFiles/mdpe.dir/src/AvailableAlgoParams.cpp.s
 .PHONY : src/AvailableAlgoParams.cpp.s
 
 src/ContractSamples.o: src/ContractSamples.cpp.o
@@ -196,7 +196,7 @@ src/ContractSamples.o: src/ContractSamples.cpp.o
 
 # target to build an object file
 src/ContractSamples.cpp.o:
-	$(MAKE) -f CMakeFiles/Pipeline.dir/build.make CMakeFiles/Pipeline.dir/src/ContractSamples.cpp.o
+	$(MAKE) -f CMakeFiles/mdpe.dir/build.make CMakeFiles/mdpe.dir/src/ContractSamples.cpp.o
 .PHONY : src/ContractSamples.cpp.o
 
 src/ContractSamples.i: src/ContractSamples.cpp.i
@@ -205,7 +205,7 @@ src/ContractSamples.i: src/ContractSamples.cpp.i
 
 # target to preprocess a source file
 src/ContractSamples.cpp.i:
-	$(MAKE) -f CMakeFiles/Pipeline.dir/build.make CMakeFiles/Pipeline.dir/src/ContractSamples.cpp.i
+	$(MAKE) -f CMakeFiles/mdpe.dir/build.make CMakeFiles/mdpe.dir/src/ContractSamples.cpp.i
 .PHONY : src/ContractSamples.cpp.i
 
 src/ContractSamples.s: src/ContractSamples.cpp.s
@@ -214,7 +214,7 @@ src/ContractSamples.s: src/ContractSamples.cpp.s
 
 # target to generate assembly for a file
 src/ContractSamples.cpp.s:
-	$(MAKE) -f CMakeFiles/Pipeline.dir/build.make CMakeFiles/Pipeline.dir/src/ContractSamples.cpp.s
+	$(MAKE) -f CMakeFiles/mdpe.dir/build.make CMakeFiles/mdpe.dir/src/ContractSamples.cpp.s
 .PHONY : src/ContractSamples.cpp.s
 
 src/IB.o: src/IB.cpp.o
@@ -223,7 +223,7 @@ src/IB.o: src/IB.cpp.o
 
 # target to build an object file
 src/IB.cpp.o:
-	$(MAKE) -f CMakeFiles/Pipeline.dir/build.make CMakeFiles/Pipeline.dir/src/IB.cpp.o
+	$(MAKE) -f CMakeFiles/mdpe.dir/build.make CMakeFiles/mdpe.dir/src/IB.cpp.o
 .PHONY : src/IB.cpp.o
 
 src/IB.i: src/IB.cpp.i
@@ -232,7 +232,7 @@ src/IB.i: src/IB.cpp.i
 
 # target to preprocess a source file
 src/IB.cpp.i:
-	$(MAKE) -f CMakeFiles/Pipeline.dir/build.make CMakeFiles/Pipeline.dir/src/IB.cpp.i
+	$(MAKE) -f CMakeFiles/mdpe.dir/build.make CMakeFiles/mdpe.dir/src/IB.cpp.i
 .PHONY : src/IB.cpp.i
 
 src/IB.s: src/IB.cpp.s
@@ -241,7 +241,7 @@ src/IB.s: src/IB.cpp.s
 
 # target to generate assembly for a file
 src/IB.cpp.s:
-	$(MAKE) -f CMakeFiles/Pipeline.dir/build.make CMakeFiles/Pipeline.dir/src/IB.cpp.s
+	$(MAKE) -f CMakeFiles/mdpe.dir/build.make CMakeFiles/mdpe.dir/src/IB.cpp.s
 .PHONY : src/IB.cpp.s
 
 src/Main.o: src/Main.cpp.o
@@ -250,7 +250,7 @@ src/Main.o: src/Main.cpp.o
 
 # target to build an object file
 src/Main.cpp.o:
-	$(MAKE) -f CMakeFiles/Pipeline.dir/build.make CMakeFiles/Pipeline.dir/src/Main.cpp.o
+	$(MAKE) -f CMakeFiles/mdpe.dir/build.make CMakeFiles/mdpe.dir/src/Main.cpp.o
 .PHONY : src/Main.cpp.o
 
 src/Main.i: src/Main.cpp.i
@@ -259,7 +259,7 @@ src/Main.i: src/Main.cpp.i
 
 # target to preprocess a source file
 src/Main.cpp.i:
-	$(MAKE) -f CMakeFiles/Pipeline.dir/build.make CMakeFiles/Pipeline.dir/src/Main.cpp.i
+	$(MAKE) -f CMakeFiles/mdpe.dir/build.make CMakeFiles/mdpe.dir/src/Main.cpp.i
 .PHONY : src/Main.cpp.i
 
 src/Main.s: src/Main.cpp.s
@@ -268,7 +268,7 @@ src/Main.s: src/Main.cpp.s
 
 # target to generate assembly for a file
 src/Main.cpp.s:
-	$(MAKE) -f CMakeFiles/Pipeline.dir/build.make CMakeFiles/Pipeline.dir/src/Main.cpp.s
+	$(MAKE) -f CMakeFiles/mdpe.dir/build.make CMakeFiles/mdpe.dir/src/Main.cpp.s
 .PHONY : src/Main.cpp.s
 
 src/OrderSamples.o: src/OrderSamples.cpp.o
@@ -277,7 +277,7 @@ src/OrderSamples.o: src/OrderSamples.cpp.o
 
 # target to build an object file
 src/OrderSamples.cpp.o:
-	$(MAKE) -f CMakeFiles/Pipeline.dir/build.make CMakeFiles/Pipeline.dir/src/OrderSamples.cpp.o
+	$(MAKE) -f CMakeFiles/mdpe.dir/build.make CMakeFiles/mdpe.dir/src/OrderSamples.cpp.o
 .PHONY : src/OrderSamples.cpp.o
 
 src/OrderSamples.i: src/OrderSamples.cpp.i
@@ -286,7 +286,7 @@ src/OrderSamples.i: src/OrderSamples.cpp.i
 
 # target to preprocess a source file
 src/OrderSamples.cpp.i:
-	$(MAKE) -f CMakeFiles/Pipeline.dir/build.make CMakeFiles/Pipeline.dir/src/OrderSamples.cpp.i
+	$(MAKE) -f CMakeFiles/mdpe.dir/build.make CMakeFiles/mdpe.dir/src/OrderSamples.cpp.i
 .PHONY : src/OrderSamples.cpp.i
 
 src/OrderSamples.s: src/OrderSamples.cpp.s
@@ -295,7 +295,7 @@ src/OrderSamples.s: src/OrderSamples.cpp.s
 
 # target to generate assembly for a file
 src/OrderSamples.cpp.s:
-	$(MAKE) -f CMakeFiles/Pipeline.dir/build.make CMakeFiles/Pipeline.dir/src/OrderSamples.cpp.s
+	$(MAKE) -f CMakeFiles/mdpe.dir/build.make CMakeFiles/mdpe.dir/src/OrderSamples.cpp.s
 .PHONY : src/OrderSamples.cpp.s
 
 src/ScannerSubscriptionSamples.o: src/ScannerSubscriptionSamples.cpp.o
@@ -304,7 +304,7 @@ src/ScannerSubscriptionSamples.o: src/ScannerSubscriptionSamples.cpp.o
 
 # target to build an object file
 src/ScannerSubscriptionSamples.cpp.o:
-	$(MAKE) -f CMakeFiles/Pipeline.dir/build.make CMakeFiles/Pipeline.dir/src/ScannerSubscriptionSamples.cpp.o
+	$(MAKE) -f CMakeFiles/mdpe.dir/build.make CMakeFiles/mdpe.dir/src/ScannerSubscriptionSamples.cpp.o
 .PHONY : src/ScannerSubscriptionSamples.cpp.o
 
 src/ScannerSubscriptionSamples.i: src/ScannerSubscriptionSamples.cpp.i
@@ -313,7 +313,7 @@ src/ScannerSubscriptionSamples.i: src/ScannerSubscriptionSamples.cpp.i
 
 # target to preprocess a source file
 src/ScannerSubscriptionSamples.cpp.i:
-	$(MAKE) -f CMakeFiles/Pipeline.dir/build.make CMakeFiles/Pipeline.dir/src/ScannerSubscriptionSamples.cpp.i
+	$(MAKE) -f CMakeFiles/mdpe.dir/build.make CMakeFiles/mdpe.dir/src/ScannerSubscriptionSamples.cpp.i
 .PHONY : src/ScannerSubscriptionSamples.cpp.i
 
 src/ScannerSubscriptionSamples.s: src/ScannerSubscriptionSamples.cpp.s
@@ -322,7 +322,7 @@ src/ScannerSubscriptionSamples.s: src/ScannerSubscriptionSamples.cpp.s
 
 # target to generate assembly for a file
 src/ScannerSubscriptionSamples.cpp.s:
-	$(MAKE) -f CMakeFiles/Pipeline.dir/build.make CMakeFiles/Pipeline.dir/src/ScannerSubscriptionSamples.cpp.s
+	$(MAKE) -f CMakeFiles/mdpe.dir/build.make CMakeFiles/mdpe.dir/src/ScannerSubscriptionSamples.cpp.s
 .PHONY : src/ScannerSubscriptionSamples.cpp.s
 
 src/StdAfx.o: src/StdAfx.cpp.o
@@ -331,7 +331,7 @@ src/StdAfx.o: src/StdAfx.cpp.o
 
 # target to build an object file
 src/StdAfx.cpp.o:
-	$(MAKE) -f CMakeFiles/Pipeline.dir/build.make CMakeFiles/Pipeline.dir/src/StdAfx.cpp.o
+	$(MAKE) -f CMakeFiles/mdpe.dir/build.make CMakeFiles/mdpe.dir/src/StdAfx.cpp.o
 .PHONY : src/StdAfx.cpp.o
 
 src/StdAfx.i: src/StdAfx.cpp.i
@@ -340,7 +340,7 @@ src/StdAfx.i: src/StdAfx.cpp.i
 
 # target to preprocess a source file
 src/StdAfx.cpp.i:
-	$(MAKE) -f CMakeFiles/Pipeline.dir/build.make CMakeFiles/Pipeline.dir/src/StdAfx.cpp.i
+	$(MAKE) -f CMakeFiles/mdpe.dir/build.make CMakeFiles/mdpe.dir/src/StdAfx.cpp.i
 .PHONY : src/StdAfx.cpp.i
 
 src/StdAfx.s: src/StdAfx.cpp.s
@@ -349,7 +349,7 @@ src/StdAfx.s: src/StdAfx.cpp.s
 
 # target to generate assembly for a file
 src/StdAfx.cpp.s:
-	$(MAKE) -f CMakeFiles/Pipeline.dir/build.make CMakeFiles/Pipeline.dir/src/StdAfx.cpp.s
+	$(MAKE) -f CMakeFiles/mdpe.dir/build.make CMakeFiles/mdpe.dir/src/StdAfx.cpp.s
 .PHONY : src/StdAfx.cpp.s
 
 src/TestCppClient.o: src/TestCppClient.cpp.o
@@ -358,7 +358,7 @@ src/TestCppClient.o: src/TestCppClient.cpp.o
 
 # target to build an object file
 src/TestCppClient.cpp.o:
-	$(MAKE) -f CMakeFiles/Pipeline.dir/build.make CMakeFiles/Pipeline.dir/src/TestCppClient.cpp.o
+	$(MAKE) -f CMakeFiles/mdpe.dir/build.make CMakeFiles/mdpe.dir/src/TestCppClient.cpp.o
 .PHONY : src/TestCppClient.cpp.o
 
 src/TestCppClient.i: src/TestCppClient.cpp.i
@@ -367,7 +367,7 @@ src/TestCppClient.i: src/TestCppClient.cpp.i
 
 # target to preprocess a source file
 src/TestCppClient.cpp.i:
-	$(MAKE) -f CMakeFiles/Pipeline.dir/build.make CMakeFiles/Pipeline.dir/src/TestCppClient.cpp.i
+	$(MAKE) -f CMakeFiles/mdpe.dir/build.make CMakeFiles/mdpe.dir/src/TestCppClient.cpp.i
 .PHONY : src/TestCppClient.cpp.i
 
 src/TestCppClient.s: src/TestCppClient.cpp.s
@@ -376,7 +376,7 @@ src/TestCppClient.s: src/TestCppClient.cpp.s
 
 # target to generate assembly for a file
 src/TestCppClient.cpp.s:
-	$(MAKE) -f CMakeFiles/Pipeline.dir/build.make CMakeFiles/Pipeline.dir/src/TestCppClient.cpp.s
+	$(MAKE) -f CMakeFiles/mdpe.dir/build.make CMakeFiles/mdpe.dir/src/TestCppClient.cpp.s
 .PHONY : src/TestCppClient.cpp.s
 
 src/devTestRun.o: src/devTestRun.cpp.o
@@ -385,7 +385,7 @@ src/devTestRun.o: src/devTestRun.cpp.o
 
 # target to build an object file
 src/devTestRun.cpp.o:
-	$(MAKE) -f CMakeFiles/Pipeline.dir/build.make CMakeFiles/Pipeline.dir/src/devTestRun.cpp.o
+	$(MAKE) -f CMakeFiles/mdpe.dir/build.make CMakeFiles/mdpe.dir/src/devTestRun.cpp.o
 .PHONY : src/devTestRun.cpp.o
 
 src/devTestRun.i: src/devTestRun.cpp.i
@@ -394,7 +394,7 @@ src/devTestRun.i: src/devTestRun.cpp.i
 
 # target to preprocess a source file
 src/devTestRun.cpp.i:
-	$(MAKE) -f CMakeFiles/Pipeline.dir/build.make CMakeFiles/Pipeline.dir/src/devTestRun.cpp.i
+	$(MAKE) -f CMakeFiles/mdpe.dir/build.make CMakeFiles/mdpe.dir/src/devTestRun.cpp.i
 .PHONY : src/devTestRun.cpp.i
 
 src/devTestRun.s: src/devTestRun.cpp.s
@@ -403,7 +403,7 @@ src/devTestRun.s: src/devTestRun.cpp.s
 
 # target to generate assembly for a file
 src/devTestRun.cpp.s:
-	$(MAKE) -f CMakeFiles/Pipeline.dir/build.make CMakeFiles/Pipeline.dir/src/devTestRun.cpp.s
+	$(MAKE) -f CMakeFiles/mdpe.dir/build.make CMakeFiles/mdpe.dir/src/devTestRun.cpp.s
 .PHONY : src/devTestRun.cpp.s
 
 # Help Target
@@ -414,7 +414,7 @@ help:
 	@echo "... depend"
 	@echo "... rebuild_cache"
 	@echo "... edit_cache"
-	@echo "... Pipeline"
+	@echo "... mdpe"
 	@echo "... IB_Client"
 	@echo "... src/AccountSummaryTags.o"
 	@echo "... src/AccountSummaryTags.i"

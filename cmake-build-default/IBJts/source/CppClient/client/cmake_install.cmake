@@ -1,4 +1,4 @@
-# Install script for directory: /Users/hanxiao/xtnc/RND/Pipeline/IBJts/source/CppClient/client
+# Install script for directory: /Users/hanxiao/xtnc/rnd/mdpe/IBJts/source/CppClient/client
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)

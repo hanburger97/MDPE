@@ -1,4 +1,4 @@
-/Applications/CLion.app/Contents/bin/cmake/bin/cmake -DCMAKE_BUILD_TYPE= -G "CodeBlocks - Unix Makefiles" /Users/hanxiao/xtnc/RND/Pipeline
+/Applications/CLion.app/Contents/bin/cmake/bin/cmake -DCMAKE_BUILD_TYPE= -G "CodeBlocks - Unix Makefiles" /Users/hanxiao/xtnc/rnd/mdpe
 CMake Warning (dev) at IBJts/source/CppClient/client/CMakeLists.txt:13:
   Syntax Warning in cmake code at column 16
 
@@ -7,4 +7,4 @@ This warning is for project developers.  Use -Wno-dev to suppress it.
 
 -- Configuring done
 -- Generating done
--- Build files have been written to: /Users/hanxiao/xtnc/RND/Pipeline/cmake-build-default
+-- Build files have been written to: /Users/hanxiao/xtnc/rnd/mdpe/cmake-build-default
