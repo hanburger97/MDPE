@@ -2,6 +2,19 @@
 // Created by Han Xiao on 2018-02-23.
 //
 
+#ifndef MARKET_DATA_TYPE_ENUM
+#define MARKET_DATA_TYPE_ENUM
+enum MarketDataType {
+    REALTIME = 1,
+    FROZEN = 2,
+    DELAYED = 3,
+    DELAYED_FROZEN = 4
+};
+#endif
+
+
+
+
 #pragma once
 #ifndef PIPELINE_IB_H
 #define PIPELINE_IB_H
@@ -9,14 +22,36 @@
 #include "includes/EWrapper.h"
 #include "includes/EReaderOSSignal.h"
 #include "includes/EReader.h"
-
+#include <atomic>
 #include <memory>
 #include <vector>
 
+
+
+
+
+
 class EClientSocket;
 
-
 class IB_Client : EWrapper{
+
+
+private:
+
+    static std::atomic<long> NEXTID;
+
+    EReaderOSSignal sig;
+    EClientSocket * const cli;
+    EReader * reader;
+
+
+    // Own Methods
+
+
+    long getTickerId(){
+        return NEXTID ++;
+    }
+
 
 public:
     IB_Client();
@@ -26,44 +61,21 @@ public:
 
     void disconnect() const;
 
-    int subscribeFutureOptions(
-            int id,
-            double strike,
-            char * const type,
-            std::string symbol,
-            std::string expiration,
-            std::string exchange,
-            std::string multiplier,
-            std::string currency
-    );
 
-    int subscribeWholeFutureOptions(
-            int id,
-            std::string symbol,
-            std::string exchange,
-            std::string currency
-    );
+    //================== Client Methods ==================
 
-    void tickDataOperation(){};
-    void marketDepthOperations(){};
-    void realTimeBars(){};
-    void marketDataType(){};
-    void historicalDataRequests(){};
-    void optionsOperations(){};
-    void accountOperations(){};
-    void orderOperations(){};
-    void ocaSamples(){};
-    void conditionSamples(){};
-    void bracketSample(){};
-    void hedgeSample(){};
-    void contractOperations(){};
-    void marketScanners(){};
-    void reutersFundamentals(){};
-    void bulletins(){};
-    void financialAdvisorOrderSamples(){};
-    void financialAdvisorOperations(){};
-    void testDisplayGroups(){};
-    void miscelaneous(){};
+    long subscribe(Contract& contract);
+
+    long subscribeOption(Contract& contract);
+
+    bool selectMktDataType(MarketDataType type);
+
+    bool cancelSubscription(int reqId);
+
+    // ================= Virtuals from EWrapper ===========
+    void tickPrice( TickerId tickerId, TickType field, double price, int canAutoExecute);
+
+
 
     void openOrderEnd(){};
     void connectionClosed(){};
@@ -73,10 +85,7 @@ public:
     void connectAck(){};
     void positionMultiEnd( int reqId){};
     void accountUpdateMultiEnd( int reqId) {};
-
     void reqCurrentTime(){};
-
-    void tickPrice( TickerId tickerId, TickType field, double price, int canAutoExecute) {};
     void tickSize( TickerId tickerId, TickType field, int size) {};
     void tickOptionComputation( TickerId tickerId, TickType tickType, double impliedVol, double delta,
                                         double optPrice, double pvDividend, double gamma, double vega, double theta, double undPrice) {};
@@ -141,21 +150,9 @@ public:
 
 
 
-private:
-
-    EReaderOSSignal sig;
-    EClientSocket * const cli;
-
-    EReader * reader;
-
-
-
-
 };
 
-#endif //PIPELINE_IB_H
-
-
+#endif
 
 
 

@@ -6,6 +6,7 @@
 #define common_defs_h_INCLUDED
 
 typedef long TickerId;
+
 typedef long OrderId;
 
 enum faDataType { GROUPS=1, PROFILES, ALIASES } ;
@@ -22,12 +23,14 @@ inline const char* faDataTypeStr ( faDataType pFaDataType )
 	}
 	return 0 ;
 }
-
+#ifndef MARKET_DATA_TYPE_ENUM
+#define MARKET_DATA_TYPE_ENUM
 enum MarketDataType { 
 	REALTIME = 1, 
 	FROZEN = 2,
 	DELAYED = 3,
 	DELAYED_FROZEN = 4
 };
+#endif
 
 #endif /* common_defs_h_INCLUDED */

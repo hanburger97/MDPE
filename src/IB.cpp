@@ -3,6 +3,7 @@
 #include <iostream>
 #include <thread>
 #include <ctime>
+#include <atomic>
 
 #include "includes/IB.h"
 #include "includes/StdAfx.h"
@@ -30,24 +31,25 @@
 #include "includes/FAMethodSamples.h"
 #include "includes/CommonDefs.h"
 #include "includes/AccountSummaryTags.h"
-
 // Importing the rdkafak lib
 
+
+// librdkafka library must be installed prior
 #include <librdkafka/rdkafkacpp.h>
 
-
+// static atomic long initialization
+std::atomic<long> IB_Client::NEXTID(0);
+// Since TickerId is really just a long integer... see IB's typedef in commondef.h
 
 IB_Client::IB_Client():
         sig(2000), // Timeout 2 seconds
-        cli(new EClientSocket(this, &sig))
+        cli(new EClientSocket(this, &sig)),
+        reader(new EReader(cli, &sig))
 {
 }
 
-// Destructor... careful w/ mem management
 IB_Client::~IB_Client() {
-    if (reader){
-        delete reader;
-    }
+    delete reader;
     delete cli;
 }
 
@@ -58,7 +60,8 @@ bool IB_Client::connect(std::string host, int port) {
         if (!connection_success){throw 20;}
         std::cout<< "Connection [ CONNECTED ]"<<std::endl;
 
-        reader = new EReader(cli, &sig);
+        //reader = new EReader(cli, &sig); // THIS IS DONE IN THE CONSTRUCTOR'S INTIIALIZER
+
         reader->start();
         return true;
 
@@ -75,59 +78,81 @@ void IB_Client::disconnect() const {
     std::cout<<"Connection [ DISCONNECTED ]"<<std::endl;
 }
 
-int IB_Client::subscribeFutureOptions(
-                                 int id,
-                                 double strike,
-                                 char * const type,
-                                 std::string symbol,
-                                 std::string expiration,
-                                 std::string exchange,
-                                 std::string multiplier,
-                                 std::string currency
-                                 )
-{
+//=============== Request Operation==========================================================
 
-    id = (id && id >= 0) ? id : 1000;
-    // Initializing Contract Instance
-    Contract contract;
-    contract.symbol = symbol;
-    contract.secType = "FOP";
-    contract.exchange = exchange;
-    contract.currency = currency;
-    contract.strike = strike;
-    contract.right = std::string(type);
-    contract.multiplier = multiplier;
-
+long IB_Client::subscribe(Contract& contract) {
+    /*
+     * Pre: a valid Contract object reference of a reference to a sequence of Contract objects
+     * Post: Subscribed data to Contract from IB, returned a unique reqId integer to keep track of tick
+     *          returns -1 if error
+     * */
+    long reqId = this->getTickerId();
     try{
-        cli->reqContractDetails(id, contract);
-        return id;
+        this->cli->reqMktData(reqId, contract, "", false, TagValueListSPtr());
+        return reqId;
     }
-    catch (int e){
-        std::cerr << "Error "<< e << std::endl;
+    catch (std::exception& e){
+        return -1;
     }
-
 }
 
-int IB_Client::subscribeWholeFutureOptions(
-        int id,
-        std::string symbol,
-        std::string exchange,
-        std::string currency
-){
-        Contract contract;
-        contract.symbol = symbol;
-        contract.primaryExchange = exchange;
-        contract.currency = currency;
-    
-        try{
-            cli->reqContractDetails(id, contract);
-            return id;
-        }
-        catch (int e){
-            std::cerr << e << std::endl;
-        }
+long IB_Client::subscribeOption(Contract& contract) {
+
+    long reqId = this->getTickerId();
+    try{
+        this->cli->reqContractDetails(reqId, contract);
+        return reqId;
+    }
+    catch (std::exception& e){
+        return -1;
+    }
 }
 
-// BUilding binding for Kafka streaming on EReader and EWrapper
+bool IB_Client::selectMktDataType(MarketDataType type) {
+    try{
+        short dataType;
+        switch (type){
+            case REALTIME:
+                dataType=1;
+                break;
+            case FROZEN:
+                dataType=2;
+                break;
+            case DELAYED:
+                dataType=3;
+                break;
+            case DELAYED_FROZEN:
+                dataType=4;
+                break;
+        }
+        this->cli->reqMarketDataType(dataType);
+    }
+    catch (std::exception& e){
+        return false;
+    }
+}
+
+bool IB_Client::cancelSubscription(int reqId) {
+    try{
+        this->cli->cancelMktData(reqId);
+        return true;
+    }
+    catch (std::exception& e){
+        return false;
+    }
+}
+
+//========== Reception Operation===============================================================
+
+//============Override to EWrapper============================================================
 
 
+
+
+void IB_Client::tickPrice( TickerId tickerId, TickType field, double price, int canAutoExecute){
+    // This function will be called upon publication of new subscribed data
+    // Send this information into Kafka streaming... multi inheritance?
+
+
+    // ... Gotta think this through...
+}

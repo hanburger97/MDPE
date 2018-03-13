@@ -233,6 +233,8 @@ thread
 -
 ctime
 -
+atomic
+-
 includes/IB.h
 /Users/hanxiao/xtnc/RND/Pipeline/src/includes/IB.h
 includes/StdAfx.h
@@ -413,6 +415,8 @@ includes/EReaderOSSignal.h
 /Users/hanxiao/xtnc/RND/Pipeline/src/includes/includes/EReaderOSSignal.h
 includes/EReader.h
 /Users/hanxiao/xtnc/RND/Pipeline/src/includes/includes/EReader.h
+atomic
+-
 memory
 -
 vector
