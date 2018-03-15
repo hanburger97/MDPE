@@ -17,6 +17,7 @@ public:
                   int ibport
     );
     ~StreamingNode();
+    void start() const;
 
 private:
     IBInterface * ib;

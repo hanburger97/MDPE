@@ -17,6 +17,10 @@ public:
 
     IBInterface(std::string host, int port);
 
+    int getPort();
+
+
+//==================== Abstract Methods need overriding
     void tickPrice( TickerId tickerId, TickType field, double price, int canAutoExecute){};
     void tickSize( TickerId tickerId, TickType field, int size){};
     void tickOptionComputation( TickerId tickerId, TickType tickType, double impliedVol, double delta,

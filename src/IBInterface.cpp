@@ -10,3 +10,6 @@ host(host),
 port(port)
 {}
 
+int IBInterface::getPort() {
+    return this->port;
+}

@@ -18,3 +18,7 @@ StreamingNode::~StreamingNode() {
 }
 
 
+void StreamingNode::start() const {
+    ib->connect(this->host, ib->getPort());
+
+}

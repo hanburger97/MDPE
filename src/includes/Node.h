@@ -18,6 +18,8 @@ class Node {
 protected:
     Node(std::string host);
     virtual ~Node() = 0;
+    std::string host;
+
 
 public:
     virtual void start() const = 0;
@@ -25,7 +27,6 @@ public:
 
 private:
     STATE currentState;
-    std::string host;
 
     virtual void errorExit() const =0;
     virtual void softExit() const = 0;
