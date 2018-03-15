@@ -1,7 +1,7 @@
 //
 // Created by Han Xiao on 2018-03-15.
 //
-#include "includes/IB.h
+#include "includes/IB.h"
 
 #ifndef MDPE_IBINTERFACE_H
 #define MDPE_IBINTERFACE_H

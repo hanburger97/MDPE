@@ -19,8 +19,10 @@ file(GLOB Main_src
         "./src/*.h"
         "./src/includes/*.h"
         "./src/*.cpp"
+        "./src/Nodes/*.cpp"
         )
 
 add_executable(mdpe ${Main_src})
 
 target_link_libraries(mdpe IB_Client)
+target_link_libraries(mdpe rdkafka)

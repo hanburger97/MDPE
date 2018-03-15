@@ -3,7 +3,7 @@
 //
 
 #include "IBInterface.h"
-
+#include <librdkafka/rdkafkacpp.h>
 
 IBInterface::IBInterface(std::string host, int port) :
 host(host),

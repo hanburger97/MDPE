@@ -10,3 +10,4 @@ host(host),
 currentState(SLEEPING)
 {}
 
+Node::~Node() {}

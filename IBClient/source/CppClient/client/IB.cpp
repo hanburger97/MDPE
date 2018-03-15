@@ -31,7 +31,6 @@
 
 
 // librdkafka library must be installed prior
-#include <librdkafka/rdkafkacpp.h>
 
 // static atomic long initialization
 std::atomic<long> IB_Client::NEXTID(0);
