@@ -68,14 +68,6 @@ void demoRun(int argc, char* argv[]){
 void foolingAround(){
 
 
-
-    IB_Client * ibclient = new IB_Client();
-    ibclient->connect("127.0.0.1", 7497);
-
-
-
-    delete ibclient;
-
 }
 
 

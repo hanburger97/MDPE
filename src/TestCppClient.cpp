@@ -110,7 +110,6 @@ void TestCppClient::processMessages() {
 	tval.tv_sec = 0;
 
 	time_t now = time(NULL);
-
 	/*****************************************************************/
     /* Below are few quick-to-test examples on the IB API functions grouped by functionality. Uncomment the relevant methods. */
     /*****************************************************************/

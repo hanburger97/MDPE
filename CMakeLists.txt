@@ -4,8 +4,7 @@ project(mdpe)
 set (CMAKE_CXX_FLAGS "${CMAKE_CXX_FLAGS} -std=c++11 -pthread -Wall -Wno-switch -std=c++11 -Wfatal-errors")
 
 set (CMAKE_BUILD_TYPE Debug)
-set (IB_DIR "IBJts/source/CppClient/client")
-set (Kafka_DIR "kafka/")
+set (IB_DIR "IBClient/source/CppClient/client")
 
 
 include_directories(${IB_DIR})

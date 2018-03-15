@@ -148,11 +148,3 @@ bool IB_Client::cancelSubscription(int reqId) {
 
 
 
-
-void IB_Client::tickPrice( TickerId tickerId, TickType field, double price, int canAutoExecute){
-    // This function will be called upon publication of new subscribed data
-    // Send this information into Kafka streaming... multi inheritance?
-
-
-    // ... Gotta think this through...
-}
