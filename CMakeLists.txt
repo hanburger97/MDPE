@@ -15,6 +15,7 @@ add_subdirectory(${IB_DIR})
 
 
 file(GLOB Main_src
+        "Main.cpp"
         "./src/*.h"
         "./src/includes/*.h"
         "./src/*.cpp"

@@ -46,8 +46,6 @@ private:
 
 
     // Own Methods
-
-
     long getTickerId(){
         return NEXTID ++;
     }

@@ -17,20 +17,16 @@
 #include "includes/OrderState.h"
 #include "includes/Execution.h"
 #include "includes/CommissionReport.h"
-#include "includes/ContractSamples.h"
-#include "includes/OrderSamples.h"
+
 #include "includes/ScannerSubscription.h"
-#include "includes/ScannerSubscriptionSamples.h"
 #include "includes/executioncondition.h"
 #include "includes/PriceCondition.h"
 #include "includes/MarginCondition.h"
 #include "includes/PercentChangeCondition.h"
 #include "includes/TimeCondition.h"
 #include "includes/VolumeCondition.h"
-#include "includes/AvailableAlgoParams.h"
-#include "includes/FAMethodSamples.h"
+
 #include "includes/CommonDefs.h"
-#include "includes/AccountSummaryTags.h"
 // Importing the rdkafak lib
 
 
