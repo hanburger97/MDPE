@@ -19,17 +19,20 @@ protected:
     Node(std::string host);
     virtual ~Node() = 0;
     std::string host;
+    STATE currentState;
 
 
 public:
     virtual void start() const = 0;
     virtual void shutDown() const = 0;
+    virtual STATE getState() const = 0;
 
 private:
-    STATE currentState;
 
-    virtual void errorExit() const =0;
+    virtual void errorExit() =0;
     virtual void softExit() const = 0;
+    virtual void handleDisconnection() = 0;
+
 };
 
 

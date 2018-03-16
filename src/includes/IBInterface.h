@@ -19,6 +19,8 @@ public:
 
     int getPort();
 
+    void connectIB();
+
 
 //==================== Abstract Methods need overriding
     void tickPrice( TickerId tickerId, TickType field, double price, int canAutoExecute){};

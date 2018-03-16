@@ -13,3 +13,7 @@ port(port)
 int IBInterface::getPort() {
     return this->port;
 }
+
+void IBInterface::connectIB() {
+    this->connect(this->host, this->port);
+}

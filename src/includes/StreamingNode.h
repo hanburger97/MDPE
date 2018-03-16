@@ -3,7 +3,7 @@
 //
 #include "includes/Node.h"
 #include "includes/IBInterface.h"
-
+#include <librdkafka/rdkafkacpp.h>
 
 #ifndef MDPE_STREAMINGNODE_H
 #define MDPE_STREAMINGNODE_H
@@ -16,11 +16,18 @@ public:
                   std::string ibhost,
                   int ibport
     );
-    ~StreamingNode();
-    void start() const;
+    ~StreamingNode() override ;
+    void start();
+
 
 private:
     IBInterface * ib;
+    RdKafka::Conf * conf;
+    RdKafka::Producer * producer;
+
+
+    void configureKafkaNode();
+    void errorExit() override ;
 };
 
 

@@ -11,3 +11,9 @@ currentState(SLEEPING)
 {}
 
 Node::~Node() {}
+
+
+STATE Node::getState() const {
+    return this->currentState;
+}
+
