@@ -3,11 +3,15 @@
 //
 #include "StreamingNode.h"
 
+
 /*
  * A StreamingNode will be a Node that will actively listen to Interactive Broker's
  * call backs and publish it with the
  * */
-
+StreamingNode::StreamingNode():
+Node("127.0.0.1"),
+ib(new IBInterface("127.0.0.1", 9001))
+{}
 
 StreamingNode::StreamingNode(std::string host, std::string ibhost, int ibport):
 Node(host),
@@ -24,7 +28,7 @@ StreamingNode::~StreamingNode() {
 }
 
 
-void StreamingNode::start(){
+void StreamingNode::start() {
 
     try{
         configureKafkaNode();
@@ -61,14 +65,9 @@ void StreamingNode::errorExit() {
 void StreamingNode::configureKafkaNode() {
 
     try{
-        using namespace RdKafka;
-        this->conf = Conf::create(Conf::CONF_GLOBAL);
-        std::string errstr  = "";
 
-        this->producer = Producer::create(this->conf, errstr);
-        if (NULL == producer){
-            throw errstr;
-        }
+        *conf = {{"metadata.broker.list", "127.0.0.2:9092"}};
+
 
     }
     catch (std::string& e){
@@ -77,3 +76,22 @@ void StreamingNode::configureKafkaNode() {
     }
 
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

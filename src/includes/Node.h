@@ -17,13 +17,13 @@ class Node {
 
 protected:
     Node(std::string host);
-    virtual ~Node() = 0;
+    virtual ~Node();
     std::string host;
     STATE currentState;
 
 
 public:
-    virtual void start() const = 0;
+    virtual void start() = 0;
     virtual void shutDown() const = 0;
     virtual STATE getState() const = 0;
 

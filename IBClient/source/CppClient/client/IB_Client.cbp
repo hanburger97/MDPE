@@ -1,0 +1,290 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6"/>
+	<Project>
+		<Option title="IB_Client"/>
+		<Option makefile_is_custom="1"/>
+		<Option compiler="gcc"/>
+		<Option virtualFolders="CMake Files\;CMake Files\IBClient\;CMake Files\IBClient\source\;CMake Files\IBClient\source\CppClient\;CMake Files\IBClient\source\CppClient\client\;"/>
+		<Build>
+			<Target title="all">
+				<Option working_dir="/Users/hanxiao/xtnc/rnd/mdpe/IBClient/source/CppClient/client"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/Users/hanxiao/xtnc/rnd/mdpe/IBClient/source/CppClient/client/Makefile&quot;  VERBOSE=1 all"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/hanxiao/xtnc/rnd/mdpe/IBClient/source/CppClient/client/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/Users/hanxiao/xtnc/rnd/mdpe/IBClient/source/CppClient/client/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/hanxiao/xtnc/rnd/mdpe/IBClient/source/CppClient/client/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="IB_Client">
+				<Option output="/Users/hanxiao/xtnc/rnd/mdpe/IBClient/source/CppClient/client/libIB_Client.so" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/hanxiao/xtnc/rnd/mdpe/IBClient/source/CppClient/client"/>
+				<Option object_output="./"/>
+				<Option type="3"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/Users/hanxiao/xtnc/rnd/mdpe/src"/>
+					<Add directory="/Users/hanxiao/xtnc/rnd/mdpe/./src/includes"/>
+					<Add directory="/Users/hanxiao/xtnc/rnd/mdpe/IBClient/source/CppClient/client/./includes"/>
+					<Add directory="/usr/local/opt/openssl/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/include/c++/v1"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/lib/clang/9.0.0/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/include"/>
+					<Add directory="/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/Users/hanxiao/xtnc/rnd/mdpe/IBClient/source/CppClient/client/Makefile&quot;  VERBOSE=1 IB_Client"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/hanxiao/xtnc/rnd/mdpe/IBClient/source/CppClient/client/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/Users/hanxiao/xtnc/rnd/mdpe/IBClient/source/CppClient/client/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/hanxiao/xtnc/rnd/mdpe/IBClient/source/CppClient/client/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="IB_Client/fast">
+				<Option output="/Users/hanxiao/xtnc/rnd/mdpe/IBClient/source/CppClient/client/libIB_Client.so" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/hanxiao/xtnc/rnd/mdpe/IBClient/source/CppClient/client"/>
+				<Option object_output="./"/>
+				<Option type="3"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/Users/hanxiao/xtnc/rnd/mdpe/src"/>
+					<Add directory="/Users/hanxiao/xtnc/rnd/mdpe/./src/includes"/>
+					<Add directory="/Users/hanxiao/xtnc/rnd/mdpe/IBClient/source/CppClient/client/./includes"/>
+					<Add directory="/usr/local/opt/openssl/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/include/c++/v1"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/lib/clang/9.0.0/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/include"/>
+					<Add directory="/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/Users/hanxiao/xtnc/rnd/mdpe/IBClient/source/CppClient/client/Makefile&quot;  VERBOSE=1 IB_Client/fast"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/hanxiao/xtnc/rnd/mdpe/IBClient/source/CppClient/client/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/Users/hanxiao/xtnc/rnd/mdpe/IBClient/source/CppClient/client/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/hanxiao/xtnc/rnd/mdpe/IBClient/source/CppClient/client/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+		</Build>
+		<Unit filename="/Users/hanxiao/xtnc/rnd/mdpe/IBClient/source/CppClient/client/ContractCondition.cpp">
+			<Option target="IB_Client"/>
+		</Unit>
+		<Unit filename="/Users/hanxiao/xtnc/rnd/mdpe/IBClient/source/CppClient/client/DefaultEWrapper.cpp">
+			<Option target="IB_Client"/>
+		</Unit>
+		<Unit filename="/Users/hanxiao/xtnc/rnd/mdpe/IBClient/source/CppClient/client/EClient.cpp">
+			<Option target="IB_Client"/>
+		</Unit>
+		<Unit filename="/Users/hanxiao/xtnc/rnd/mdpe/IBClient/source/CppClient/client/EClientSocket.cpp">
+			<Option target="IB_Client"/>
+		</Unit>
+		<Unit filename="/Users/hanxiao/xtnc/rnd/mdpe/IBClient/source/CppClient/client/EDecoder.cpp">
+			<Option target="IB_Client"/>
+		</Unit>
+		<Unit filename="/Users/hanxiao/xtnc/rnd/mdpe/IBClient/source/CppClient/client/EMessage.cpp">
+			<Option target="IB_Client"/>
+		</Unit>
+		<Unit filename="/Users/hanxiao/xtnc/rnd/mdpe/IBClient/source/CppClient/client/EMutex.cpp">
+			<Option target="IB_Client"/>
+		</Unit>
+		<Unit filename="/Users/hanxiao/xtnc/rnd/mdpe/IBClient/source/CppClient/client/EReader.cpp">
+			<Option target="IB_Client"/>
+		</Unit>
+		<Unit filename="/Users/hanxiao/xtnc/rnd/mdpe/IBClient/source/CppClient/client/EReaderOSSignal.cpp">
+			<Option target="IB_Client"/>
+		</Unit>
+		<Unit filename="/Users/hanxiao/xtnc/rnd/mdpe/IBClient/source/CppClient/client/EReaderWMSignal.cpp">
+			<Option target="IB_Client"/>
+		</Unit>
+		<Unit filename="/Users/hanxiao/xtnc/rnd/mdpe/IBClient/source/CppClient/client/ESocket.cpp">
+			<Option target="IB_Client"/>
+		</Unit>
+		<Unit filename="/Users/hanxiao/xtnc/rnd/mdpe/IBClient/source/CppClient/client/IB.cpp">
+			<Option target="IB_Client"/>
+		</Unit>
+		<Unit filename="/Users/hanxiao/xtnc/rnd/mdpe/IBClient/source/CppClient/client/MarginCondition.cpp">
+			<Option target="IB_Client"/>
+		</Unit>
+		<Unit filename="/Users/hanxiao/xtnc/rnd/mdpe/IBClient/source/CppClient/client/OperatorCondition.cpp">
+			<Option target="IB_Client"/>
+		</Unit>
+		<Unit filename="/Users/hanxiao/xtnc/rnd/mdpe/IBClient/source/CppClient/client/OrderCondition.cpp">
+			<Option target="IB_Client"/>
+		</Unit>
+		<Unit filename="/Users/hanxiao/xtnc/rnd/mdpe/IBClient/source/CppClient/client/PercentChangeCondition.cpp">
+			<Option target="IB_Client"/>
+		</Unit>
+		<Unit filename="/Users/hanxiao/xtnc/rnd/mdpe/IBClient/source/CppClient/client/PriceCondition.cpp">
+			<Option target="IB_Client"/>
+		</Unit>
+		<Unit filename="/Users/hanxiao/xtnc/rnd/mdpe/IBClient/source/CppClient/client/SoftDollarTier.cpp">
+			<Option target="IB_Client"/>
+		</Unit>
+		<Unit filename="/Users/hanxiao/xtnc/rnd/mdpe/IBClient/source/CppClient/client/StdAfx.cpp">
+			<Option target="IB_Client"/>
+		</Unit>
+		<Unit filename="/Users/hanxiao/xtnc/rnd/mdpe/IBClient/source/CppClient/client/TimeCondition.cpp">
+			<Option target="IB_Client"/>
+		</Unit>
+		<Unit filename="/Users/hanxiao/xtnc/rnd/mdpe/IBClient/source/CppClient/client/VolumeCondition.cpp">
+			<Option target="IB_Client"/>
+		</Unit>
+		<Unit filename="/Users/hanxiao/xtnc/rnd/mdpe/IBClient/source/CppClient/client/executioncondition.cpp">
+			<Option target="IB_Client"/>
+		</Unit>
+		<Unit filename="/Users/hanxiao/xtnc/rnd/mdpe/IBClient/source/CppClient/client/includes/CommissionReport.h">
+			<Option target="IB_Client"/>
+		</Unit>
+		<Unit filename="/Users/hanxiao/xtnc/rnd/mdpe/IBClient/source/CppClient/client/includes/CommonDefs.h">
+			<Option target="IB_Client"/>
+		</Unit>
+		<Unit filename="/Users/hanxiao/xtnc/rnd/mdpe/IBClient/source/CppClient/client/includes/Contract.h">
+			<Option target="IB_Client"/>
+		</Unit>
+		<Unit filename="/Users/hanxiao/xtnc/rnd/mdpe/IBClient/source/CppClient/client/includes/ContractCondition.h">
+			<Option target="IB_Client"/>
+		</Unit>
+		<Unit filename="/Users/hanxiao/xtnc/rnd/mdpe/IBClient/source/CppClient/client/includes/DefaultEWrapper.h">
+			<Option target="IB_Client"/>
+		</Unit>
+		<Unit filename="/Users/hanxiao/xtnc/rnd/mdpe/IBClient/source/CppClient/client/includes/EClient.h">
+			<Option target="IB_Client"/>
+		</Unit>
+		<Unit filename="/Users/hanxiao/xtnc/rnd/mdpe/IBClient/source/CppClient/client/includes/EClientMsgSink.h">
+			<Option target="IB_Client"/>
+		</Unit>
+		<Unit filename="/Users/hanxiao/xtnc/rnd/mdpe/IBClient/source/CppClient/client/includes/EClientSocket.h">
+			<Option target="IB_Client"/>
+		</Unit>
+		<Unit filename="/Users/hanxiao/xtnc/rnd/mdpe/IBClient/source/CppClient/client/includes/EDecoder.h">
+			<Option target="IB_Client"/>
+		</Unit>
+		<Unit filename="/Users/hanxiao/xtnc/rnd/mdpe/IBClient/source/CppClient/client/includes/EMessage.h">
+			<Option target="IB_Client"/>
+		</Unit>
+		<Unit filename="/Users/hanxiao/xtnc/rnd/mdpe/IBClient/source/CppClient/client/includes/EMutex.h">
+			<Option target="IB_Client"/>
+		</Unit>
+		<Unit filename="/Users/hanxiao/xtnc/rnd/mdpe/IBClient/source/CppClient/client/includes/EPosixClientSocketPlatform.h">
+			<Option target="IB_Client"/>
+		</Unit>
+		<Unit filename="/Users/hanxiao/xtnc/rnd/mdpe/IBClient/source/CppClient/client/includes/EReader.h">
+			<Option target="IB_Client"/>
+		</Unit>
+		<Unit filename="/Users/hanxiao/xtnc/rnd/mdpe/IBClient/source/CppClient/client/includes/EReaderOSSignal.h">
+			<Option target="IB_Client"/>
+		</Unit>
+		<Unit filename="/Users/hanxiao/xtnc/rnd/mdpe/IBClient/source/CppClient/client/includes/EReaderSignal.h">
+			<Option target="IB_Client"/>
+		</Unit>
+		<Unit filename="/Users/hanxiao/xtnc/rnd/mdpe/IBClient/source/CppClient/client/includes/EReaderWMSignal.h">
+			<Option target="IB_Client"/>
+		</Unit>
+		<Unit filename="/Users/hanxiao/xtnc/rnd/mdpe/IBClient/source/CppClient/client/includes/ESocket.h">
+			<Option target="IB_Client"/>
+		</Unit>
+		<Unit filename="/Users/hanxiao/xtnc/rnd/mdpe/IBClient/source/CppClient/client/includes/ETransport.h">
+			<Option target="IB_Client"/>
+		</Unit>
+		<Unit filename="/Users/hanxiao/xtnc/rnd/mdpe/IBClient/source/CppClient/client/includes/EWrapper.h">
+			<Option target="IB_Client"/>
+		</Unit>
+		<Unit filename="/Users/hanxiao/xtnc/rnd/mdpe/IBClient/source/CppClient/client/includes/Execution.h">
+			<Option target="IB_Client"/>
+		</Unit>
+		<Unit filename="/Users/hanxiao/xtnc/rnd/mdpe/IBClient/source/CppClient/client/includes/IB.h">
+			<Option target="IB_Client"/>
+		</Unit>
+		<Unit filename="/Users/hanxiao/xtnc/rnd/mdpe/IBClient/source/CppClient/client/includes/IExternalizable.h">
+			<Option target="IB_Client"/>
+		</Unit>
+		<Unit filename="/Users/hanxiao/xtnc/rnd/mdpe/IBClient/source/CppClient/client/includes/MarginCondition.h">
+			<Option target="IB_Client"/>
+		</Unit>
+		<Unit filename="/Users/hanxiao/xtnc/rnd/mdpe/IBClient/source/CppClient/client/includes/OperatorCondition.h">
+			<Option target="IB_Client"/>
+		</Unit>
+		<Unit filename="/Users/hanxiao/xtnc/rnd/mdpe/IBClient/source/CppClient/client/includes/Order.h">
+			<Option target="IB_Client"/>
+		</Unit>
+		<Unit filename="/Users/hanxiao/xtnc/rnd/mdpe/IBClient/source/CppClient/client/includes/OrderCondition.h">
+			<Option target="IB_Client"/>
+		</Unit>
+		<Unit filename="/Users/hanxiao/xtnc/rnd/mdpe/IBClient/source/CppClient/client/includes/OrderState.h">
+			<Option target="IB_Client"/>
+		</Unit>
+		<Unit filename="/Users/hanxiao/xtnc/rnd/mdpe/IBClient/source/CppClient/client/includes/PercentChangeCondition.h">
+			<Option target="IB_Client"/>
+		</Unit>
+		<Unit filename="/Users/hanxiao/xtnc/rnd/mdpe/IBClient/source/CppClient/client/includes/PriceCondition.h">
+			<Option target="IB_Client"/>
+		</Unit>
+		<Unit filename="/Users/hanxiao/xtnc/rnd/mdpe/IBClient/source/CppClient/client/includes/Resource.h">
+			<Option target="IB_Client"/>
+		</Unit>
+		<Unit filename="/Users/hanxiao/xtnc/rnd/mdpe/IBClient/source/CppClient/client/includes/ScannerSubscription.h">
+			<Option target="IB_Client"/>
+		</Unit>
+		<Unit filename="/Users/hanxiao/xtnc/rnd/mdpe/IBClient/source/CppClient/client/includes/SoftDollarTier.h">
+			<Option target="IB_Client"/>
+		</Unit>
+		<Unit filename="/Users/hanxiao/xtnc/rnd/mdpe/IBClient/source/CppClient/client/includes/StdAfx.h">
+			<Option target="IB_Client"/>
+		</Unit>
+		<Unit filename="/Users/hanxiao/xtnc/rnd/mdpe/IBClient/source/CppClient/client/includes/TagValue.h">
+			<Option target="IB_Client"/>
+		</Unit>
+		<Unit filename="/Users/hanxiao/xtnc/rnd/mdpe/IBClient/source/CppClient/client/includes/TimeCondition.h">
+			<Option target="IB_Client"/>
+		</Unit>
+		<Unit filename="/Users/hanxiao/xtnc/rnd/mdpe/IBClient/source/CppClient/client/includes/TwsSocketClientErrors.h">
+			<Option target="IB_Client"/>
+		</Unit>
+		<Unit filename="/Users/hanxiao/xtnc/rnd/mdpe/IBClient/source/CppClient/client/includes/VolumeCondition.h">
+			<Option target="IB_Client"/>
+		</Unit>
+		<Unit filename="/Users/hanxiao/xtnc/rnd/mdpe/IBClient/source/CppClient/client/includes/executioncondition.h">
+			<Option target="IB_Client"/>
+		</Unit>
+		<Unit filename="/Users/hanxiao/xtnc/rnd/mdpe/IBClient/source/CppClient/client/includes/shared_ptr.h">
+			<Option target="IB_Client"/>
+		</Unit>
+		<Unit filename="/Users/hanxiao/xtnc/rnd/mdpe/IBClient/source/CppClient/ssl/EClientSocketSSL.cpp">
+			<Option target="IB_Client"/>
+		</Unit>
+		<Unit filename="/Users/hanxiao/xtnc/rnd/mdpe/IBClient/source/CppClient/ssl/EClientSocketSSL.h">
+			<Option target="IB_Client"/>
+		</Unit>
+		<Unit filename="/Users/hanxiao/xtnc/rnd/mdpe/IBClient/source/CppClient/ssl/EReaderSSL.cpp">
+			<Option target="IB_Client"/>
+		</Unit>
+		<Unit filename="/Users/hanxiao/xtnc/rnd/mdpe/IBClient/source/CppClient/ssl/EReaderSSL.h">
+			<Option target="IB_Client"/>
+		</Unit>
+		<Unit filename="/Users/hanxiao/xtnc/rnd/mdpe/IBClient/source/CppClient/ssl/ESocketSSL.cpp">
+			<Option target="IB_Client"/>
+		</Unit>
+		<Unit filename="/Users/hanxiao/xtnc/rnd/mdpe/IBClient/source/CppClient/ssl/ESocketSSL.h">
+			<Option target="IB_Client"/>
+		</Unit>
+		<Unit filename="/Users/hanxiao/xtnc/rnd/mdpe/IBClient/source/CppClient/ssl/StdAfx.cpp">
+			<Option target="IB_Client"/>
+		</Unit>
+		<Unit filename="/Users/hanxiao/xtnc/rnd/mdpe/IBClient/source/CppClient/ssl/StdAfx.h">
+			<Option target="IB_Client"/>
+		</Unit>
+		<Unit filename="/Users/hanxiao/xtnc/rnd/mdpe/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\"/>
+		</Unit>
+		<Unit filename="/Users/hanxiao/xtnc/rnd/mdpe/IBClient/source/CppClient/client/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\IBClient\source\CppClient\client\"/>
+		</Unit>
+		<Unit filename="/Users/hanxiao/xtnc/rnd/mdpe/IBClient/source/CppClient/client/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\IBClient\source\CppClient\client\"/>
+		</Unit>
+	</Project>
+</CodeBlocks_project_file>

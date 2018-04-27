@@ -1,11 +1,12 @@
 
+#include <iostream>
 
-#include <stdio.h>
-#include <stdlib.h>
 
 int main(int argc, char** argv)
 {
    // demoRun(argc, argv);
+
+    std::cout<< "Compiled and linked... I hope"<<"\n";
     return 0;
 }
 
