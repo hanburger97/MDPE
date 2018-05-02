@@ -26,6 +26,8 @@
 				<Compiler>
 					<Add directory="/Users/hanxiao/xtnc/rnd/mdpe/src"/>
 					<Add directory="/Users/hanxiao/xtnc/rnd/mdpe/./src/includes"/>
+					<Add directory="/opt/bb/include"/>
+					<Add directory="/opt/xtnc/include"/>
 					<Add directory="/Users/hanxiao/xtnc/rnd/mdpe/IBClient/source/CppClient/client/./includes"/>
 					<Add directory="/usr/local/opt/openssl/include"/>
 					<Add directory="/Library/Developer/CommandLineTools/usr/include/c++/v1"/>
@@ -52,6 +54,8 @@
 				<Compiler>
 					<Add directory="/Users/hanxiao/xtnc/rnd/mdpe/src"/>
 					<Add directory="/Users/hanxiao/xtnc/rnd/mdpe/./src/includes"/>
+					<Add directory="/opt/bb/include"/>
+					<Add directory="/opt/xtnc/include"/>
 					<Add directory="/Users/hanxiao/xtnc/rnd/mdpe/IBClient/source/CppClient/client/./includes"/>
 					<Add directory="/usr/local/opt/openssl/include"/>
 					<Add directory="/Library/Developer/CommandLineTools/usr/include/c++/v1"/>

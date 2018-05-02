@@ -81,33 +81,9 @@ CMakeFiles/mdpe.dir/Main.cpp.o.provides: CMakeFiles/mdpe.dir/Main.cpp.o.requires
 CMakeFiles/mdpe.dir/Main.cpp.o.provides.build: CMakeFiles/mdpe.dir/Main.cpp.o
 
 
-CMakeFiles/mdpe.dir/src/IBInterface.cpp.o: CMakeFiles/mdpe.dir/flags.make
-CMakeFiles/mdpe.dir/src/IBInterface.cpp.o: src/IBInterface.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/hanxiao/xtnc/rnd/mdpe/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/mdpe.dir/src/IBInterface.cpp.o"
-	/Library/Developer/CommandLineTools/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/mdpe.dir/src/IBInterface.cpp.o -c /Users/hanxiao/xtnc/rnd/mdpe/src/IBInterface.cpp
-
-CMakeFiles/mdpe.dir/src/IBInterface.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/mdpe.dir/src/IBInterface.cpp.i"
-	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/hanxiao/xtnc/rnd/mdpe/src/IBInterface.cpp > CMakeFiles/mdpe.dir/src/IBInterface.cpp.i
-
-CMakeFiles/mdpe.dir/src/IBInterface.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/mdpe.dir/src/IBInterface.cpp.s"
-	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/hanxiao/xtnc/rnd/mdpe/src/IBInterface.cpp -o CMakeFiles/mdpe.dir/src/IBInterface.cpp.s
-
-CMakeFiles/mdpe.dir/src/IBInterface.cpp.o.requires:
-
-.PHONY : CMakeFiles/mdpe.dir/src/IBInterface.cpp.o.requires
-
-CMakeFiles/mdpe.dir/src/IBInterface.cpp.o.provides: CMakeFiles/mdpe.dir/src/IBInterface.cpp.o.requires
-	$(MAKE) -f CMakeFiles/mdpe.dir/build.make CMakeFiles/mdpe.dir/src/IBInterface.cpp.o.provides.build
-.PHONY : CMakeFiles/mdpe.dir/src/IBInterface.cpp.o.provides
-
-CMakeFiles/mdpe.dir/src/IBInterface.cpp.o.provides.build: CMakeFiles/mdpe.dir/src/IBInterface.cpp.o
-
-
 CMakeFiles/mdpe.dir/src/Nodes/Node.cpp.o: CMakeFiles/mdpe.dir/flags.make
 CMakeFiles/mdpe.dir/src/Nodes/Node.cpp.o: src/Nodes/Node.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/hanxiao/xtnc/rnd/mdpe/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/mdpe.dir/src/Nodes/Node.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/hanxiao/xtnc/rnd/mdpe/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/mdpe.dir/src/Nodes/Node.cpp.o"
 	/Library/Developer/CommandLineTools/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/mdpe.dir/src/Nodes/Node.cpp.o -c /Users/hanxiao/xtnc/rnd/mdpe/src/Nodes/Node.cpp
 
 CMakeFiles/mdpe.dir/src/Nodes/Node.cpp.i: cmake_force
@@ -131,7 +107,7 @@ CMakeFiles/mdpe.dir/src/Nodes/Node.cpp.o.provides.build: CMakeFiles/mdpe.dir/src
 
 CMakeFiles/mdpe.dir/src/Nodes/StreamingNode.cpp.o: CMakeFiles/mdpe.dir/flags.make
 CMakeFiles/mdpe.dir/src/Nodes/StreamingNode.cpp.o: src/Nodes/StreamingNode.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/hanxiao/xtnc/rnd/mdpe/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object CMakeFiles/mdpe.dir/src/Nodes/StreamingNode.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/hanxiao/xtnc/rnd/mdpe/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/mdpe.dir/src/Nodes/StreamingNode.cpp.o"
 	/Library/Developer/CommandLineTools/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/mdpe.dir/src/Nodes/StreamingNode.cpp.o -c /Users/hanxiao/xtnc/rnd/mdpe/src/Nodes/StreamingNode.cpp
 
 CMakeFiles/mdpe.dir/src/Nodes/StreamingNode.cpp.i: cmake_force
@@ -155,7 +131,7 @@ CMakeFiles/mdpe.dir/src/Nodes/StreamingNode.cpp.o.provides.build: CMakeFiles/mdp
 
 CMakeFiles/mdpe.dir/src/Nodes/SubscriberNode.cpp.o: CMakeFiles/mdpe.dir/flags.make
 CMakeFiles/mdpe.dir/src/Nodes/SubscriberNode.cpp.o: src/Nodes/SubscriberNode.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/hanxiao/xtnc/rnd/mdpe/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object CMakeFiles/mdpe.dir/src/Nodes/SubscriberNode.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/hanxiao/xtnc/rnd/mdpe/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object CMakeFiles/mdpe.dir/src/Nodes/SubscriberNode.cpp.o"
 	/Library/Developer/CommandLineTools/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/mdpe.dir/src/Nodes/SubscriberNode.cpp.o -c /Users/hanxiao/xtnc/rnd/mdpe/src/Nodes/SubscriberNode.cpp
 
 CMakeFiles/mdpe.dir/src/Nodes/SubscriberNode.cpp.i: cmake_force
@@ -179,7 +155,7 @@ CMakeFiles/mdpe.dir/src/Nodes/SubscriberNode.cpp.o.provides.build: CMakeFiles/md
 
 CMakeFiles/mdpe.dir/src/Helpers/Message.cpp.o: CMakeFiles/mdpe.dir/flags.make
 CMakeFiles/mdpe.dir/src/Helpers/Message.cpp.o: src/Helpers/Message.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/hanxiao/xtnc/rnd/mdpe/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building CXX object CMakeFiles/mdpe.dir/src/Helpers/Message.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/hanxiao/xtnc/rnd/mdpe/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object CMakeFiles/mdpe.dir/src/Helpers/Message.cpp.o"
 	/Library/Developer/CommandLineTools/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/mdpe.dir/src/Helpers/Message.cpp.o -c /Users/hanxiao/xtnc/rnd/mdpe/src/Helpers/Message.cpp
 
 CMakeFiles/mdpe.dir/src/Helpers/Message.cpp.i: cmake_force
@@ -203,7 +179,7 @@ CMakeFiles/mdpe.dir/src/Helpers/Message.cpp.o.provides.build: CMakeFiles/mdpe.di
 
 CMakeFiles/mdpe.dir/src/Helpers/Topics.cpp.o: CMakeFiles/mdpe.dir/flags.make
 CMakeFiles/mdpe.dir/src/Helpers/Topics.cpp.o: src/Helpers/Topics.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/hanxiao/xtnc/rnd/mdpe/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Building CXX object CMakeFiles/mdpe.dir/src/Helpers/Topics.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/hanxiao/xtnc/rnd/mdpe/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building CXX object CMakeFiles/mdpe.dir/src/Helpers/Topics.cpp.o"
 	/Library/Developer/CommandLineTools/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/mdpe.dir/src/Helpers/Topics.cpp.o -c /Users/hanxiao/xtnc/rnd/mdpe/src/Helpers/Topics.cpp
 
 CMakeFiles/mdpe.dir/src/Helpers/Topics.cpp.i: cmake_force
@@ -228,7 +204,6 @@ CMakeFiles/mdpe.dir/src/Helpers/Topics.cpp.o.provides.build: CMakeFiles/mdpe.dir
 # Object files for target mdpe
 mdpe_OBJECTS = \
 "CMakeFiles/mdpe.dir/Main.cpp.o" \
-"CMakeFiles/mdpe.dir/src/IBInterface.cpp.o" \
 "CMakeFiles/mdpe.dir/src/Nodes/Node.cpp.o" \
 "CMakeFiles/mdpe.dir/src/Nodes/StreamingNode.cpp.o" \
 "CMakeFiles/mdpe.dir/src/Nodes/SubscriberNode.cpp.o" \
@@ -239,7 +214,6 @@ mdpe_OBJECTS = \
 mdpe_EXTERNAL_OBJECTS =
 
 mdpe: CMakeFiles/mdpe.dir/Main.cpp.o
-mdpe: CMakeFiles/mdpe.dir/src/IBInterface.cpp.o
 mdpe: CMakeFiles/mdpe.dir/src/Nodes/Node.cpp.o
 mdpe: CMakeFiles/mdpe.dir/src/Nodes/StreamingNode.cpp.o
 mdpe: CMakeFiles/mdpe.dir/src/Nodes/SubscriberNode.cpp.o
@@ -247,7 +221,7 @@ mdpe: CMakeFiles/mdpe.dir/src/Helpers/Message.cpp.o
 mdpe: CMakeFiles/mdpe.dir/src/Helpers/Topics.cpp.o
 mdpe: CMakeFiles/mdpe.dir/build.make
 mdpe: CMakeFiles/mdpe.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/Users/hanxiao/xtnc/rnd/mdpe/CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Linking CXX executable mdpe"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/Users/hanxiao/xtnc/rnd/mdpe/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Linking CXX executable mdpe"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/mdpe.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
@@ -256,7 +230,6 @@ CMakeFiles/mdpe.dir/build: mdpe
 .PHONY : CMakeFiles/mdpe.dir/build
 
 CMakeFiles/mdpe.dir/requires: CMakeFiles/mdpe.dir/Main.cpp.o.requires
-CMakeFiles/mdpe.dir/requires: CMakeFiles/mdpe.dir/src/IBInterface.cpp.o.requires
 CMakeFiles/mdpe.dir/requires: CMakeFiles/mdpe.dir/src/Nodes/Node.cpp.o.requires
 CMakeFiles/mdpe.dir/requires: CMakeFiles/mdpe.dir/src/Nodes/StreamingNode.cpp.o.requires
 CMakeFiles/mdpe.dir/requires: CMakeFiles/mdpe.dir/src/Nodes/SubscriberNode.cpp.o.requires

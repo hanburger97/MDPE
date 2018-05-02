@@ -6,5 +6,5 @@ CXX_FLAGS =  -std=c++11 -pthread -Wall -Wno-switch -std=c++11 -Wfatal-errors -pt
 
 CXX_DEFINES = -DIB_Client_EXPORTS
 
-CXX_INCLUDES = -I/Users/hanxiao/xtnc/rnd/mdpe/src -I/Users/hanxiao/xtnc/rnd/mdpe/./src/includes -I/Users/hanxiao/xtnc/rnd/mdpe/IBClient/source/CppClient/client/./includes -I/usr/local/opt/openssl/include 
+CXX_INCLUDES = -I/Users/hanxiao/xtnc/rnd/mdpe/src -I/Users/hanxiao/xtnc/rnd/mdpe/./src/includes -I/opt/bb/include -I/opt/xtnc/include -I/Users/hanxiao/xtnc/rnd/mdpe/IBClient/source/CppClient/client/./includes -I/usr/local/opt/openssl/include 
 

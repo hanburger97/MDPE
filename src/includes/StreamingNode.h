@@ -2,8 +2,10 @@
 // Created by Han Xiao on 2018-03-15.
 //
 #include "includes/Node.h"
-#include "includes/IBInterface.h"
+#include "includes/Topics.h"
+#include "includes/Message.h"
 #include <cppkafka/cppkafka.h>
+#include <libibc/IB.h>
 
 #ifndef MDPE_STREAMINGNODE_H
 #define MDPE_STREAMINGNODE_H
@@ -20,20 +22,24 @@ public:
     ~StreamingNode() override ;
     void start() override ;
 
+protected:
+    void stream(Message msg, int partition = -1);
 
 private:
-    IBInterface * ib;
-
 
 
     cppkafka::Producer * producer;
     cppkafka::Configuration * conf;
 
 
-    void configureKafkaNode();
+    void configureKafkaNode(std::string broker="127.0.0.2", std::string port="9092");
     void errorExit() override ;
 
 
+
+
+    std::vector<Topic*> topics;
+    std::string kafkaBroker;
 };
 
 

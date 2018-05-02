@@ -1,6 +1,5 @@
 file(REMOVE_RECURSE
   "CMakeFiles/mdpe.dir/Main.cpp.o"
-  "CMakeFiles/mdpe.dir/src/IBInterface.cpp.o"
   "CMakeFiles/mdpe.dir/src/Nodes/Node.cpp.o"
   "CMakeFiles/mdpe.dir/src/Nodes/StreamingNode.cpp.o"
   "CMakeFiles/mdpe.dir/src/Nodes/SubscriberNode.cpp.o"

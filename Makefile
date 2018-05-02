@@ -123,6 +123,19 @@ mdpe/fast:
 	$(MAKE) -f CMakeFiles/mdpe.dir/build.make CMakeFiles/mdpe.dir/build
 .PHONY : mdpe/fast
 
+#=============================================================================
+# Target rules for targets named IB_Client
+
+# Build rule for target.
+IB_Client: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 IB_Client
+.PHONY : IB_Client
+
+# fast build rule for target.
+IB_Client/fast:
+	$(MAKE) -f IBClient/source/CppClient/client/CMakeFiles/IB_Client.dir/build.make IBClient/source/CppClient/client/CMakeFiles/IB_Client.dir/build
+.PHONY : IB_Client/fast
+
 Main.o: Main.cpp.o
 
 .PHONY : Main.o
@@ -203,33 +216,6 @@ src/Helpers/Topics.s: src/Helpers/Topics.cpp.s
 src/Helpers/Topics.cpp.s:
 	$(MAKE) -f CMakeFiles/mdpe.dir/build.make CMakeFiles/mdpe.dir/src/Helpers/Topics.cpp.s
 .PHONY : src/Helpers/Topics.cpp.s
-
-src/IBInterface.o: src/IBInterface.cpp.o
-
-.PHONY : src/IBInterface.o
-
-# target to build an object file
-src/IBInterface.cpp.o:
-	$(MAKE) -f CMakeFiles/mdpe.dir/build.make CMakeFiles/mdpe.dir/src/IBInterface.cpp.o
-.PHONY : src/IBInterface.cpp.o
-
-src/IBInterface.i: src/IBInterface.cpp.i
-
-.PHONY : src/IBInterface.i
-
-# target to preprocess a source file
-src/IBInterface.cpp.i:
-	$(MAKE) -f CMakeFiles/mdpe.dir/build.make CMakeFiles/mdpe.dir/src/IBInterface.cpp.i
-.PHONY : src/IBInterface.cpp.i
-
-src/IBInterface.s: src/IBInterface.cpp.s
-
-.PHONY : src/IBInterface.s
-
-# target to generate assembly for a file
-src/IBInterface.cpp.s:
-	$(MAKE) -f CMakeFiles/mdpe.dir/build.make CMakeFiles/mdpe.dir/src/IBInterface.cpp.s
-.PHONY : src/IBInterface.cpp.s
 
 src/Nodes/Node.o: src/Nodes/Node.cpp.o
 
@@ -321,6 +307,7 @@ help:
 	@echo "... rebuild_cache"
 	@echo "... edit_cache"
 	@echo "... mdpe"
+	@echo "... IB_Client"
 	@echo "... Main.o"
 	@echo "... Main.i"
 	@echo "... Main.s"
@@ -330,9 +317,6 @@ help:
 	@echo "... src/Helpers/Topics.o"
 	@echo "... src/Helpers/Topics.i"
 	@echo "... src/Helpers/Topics.s"
-	@echo "... src/IBInterface.o"
-	@echo "... src/IBInterface.i"
-	@echo "... src/IBInterface.s"
 	@echo "... src/Nodes/Node.o"
 	@echo "... src/Nodes/Node.i"
 	@echo "... src/Nodes/Node.s"

@@ -9,18 +9,14 @@
  * call backs and publish it with the
  * */
 StreamingNode::StreamingNode():
-Node("127.0.0.1"),
-ib(new IBInterface("127.0.0.1", 9001))
+Node("127.0.0.1")
 {}
 
 StreamingNode::StreamingNode(std::string host, std::string ibhost, int ibport):
-Node(host),
-ib(new IBInterface(ibhost, ibport))
-{
-}
+Node(host)
+{}
 
 StreamingNode::~StreamingNode() {
-    delete ib;
 
     // idk if this is the correct way to destruct a Producer and Conf instance from RdKafka
     delete conf;
@@ -28,11 +24,13 @@ StreamingNode::~StreamingNode() {
 }
 
 
+
 void StreamingNode::start() {
 
     try{
         configureKafkaNode();
-        ib->connectIB();
+        connect(host, ibport);
+
     }
     catch (int e){
         if (20==e){
@@ -42,8 +40,6 @@ void StreamingNode::start() {
     }
     this->currentState = RUNNING;
 
-
-
 }
 
 //=============== PRIVATE METHODS==========================//
@@ -51,7 +47,6 @@ void StreamingNode::start() {
 void StreamingNode::errorExit() {
     // Do stuff
     // Mem management
-    delete this->ib;
 
 
     //probably will cause seg Fault... idk
@@ -62,12 +57,12 @@ void StreamingNode::errorExit() {
     exit(20);
 }
 
-void StreamingNode::configureKafkaNode() {
+void StreamingNode::configureKafkaNode(std::string broker, std::string port) {
 
     try{
 
-        *conf = {{"metadata.broker.list", "127.0.0.2:9092"}};
-
+        *conf = {{"metadata.broker.list", broker+":"+port}};
+        producer = new cppkafka::Producer(*conf);
 
     }
     catch (std::string& e){
@@ -76,6 +71,28 @@ void StreamingNode::configureKafkaNode() {
     }
 
 }
+
+
+
+void StreamingNode::stream(Message msg, int partition) {
+
+    std::string topicName = msg.getTopicName();
+    std::string key = msg.getKey();
+    std::string payload = msg.getPayload();
+    cppkafka::MessageBuilder builder(topicName);
+    if (partition != -1){
+        builder.partition(partition);
+    }
+    std::string fucku = "shut the fuck up";
+    builder.key(fucku);
+    builder.payload(fucku);
+    producer->produce(builder);
+}
+
+
+
+
+
 
 
 

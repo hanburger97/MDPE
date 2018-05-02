@@ -37,6 +37,8 @@ set(CMAKE_CXX_COMPILER_ID "AppleClang")
 set(CMAKE_CXX_TARGET_INCLUDE_PATH
   "src"
   "./src/includes"
+  "/opt/bb/include"
+  "/opt/xtnc/include"
   "IBClient/source/CppClient/client/./includes"
   "/usr/local/opt/openssl/include"
   )
