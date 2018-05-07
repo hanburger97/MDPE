@@ -36,9 +36,9 @@
 std::atomic<long> IB_Client::NEXTID(0);
 // Since TickerId is really just a long integer... see IB's typedef in commondef.h
 
-IB_Client::IB_Client():
+IB_Client::IB_Client(EWrapper * ew):
         sig(2000), // Timeout 2 seconds
-        cli(new EClientSocket(this, &sig)),
+        cli(new EClientSocket(ew, &sig)),
         reader(new EReader(cli, &sig))
 {
 }
@@ -51,7 +51,7 @@ IB_Client::~IB_Client() {
 bool IB_Client::connect(std::string host, int port) {
     std::cout << "Connecting to " << host << ":"<<port<<std::endl;
     try {
-        bool connection_success = cli->eConnect(host.c_str(), port, false);
+        bool connection_success = cli->eConnect(host.c_str(), port);
         if (!connection_success){throw 20;}
         std::cout<< "Connection [ CONNECTED ]"<<std::endl;
 
@@ -136,10 +136,4 @@ bool IB_Client::cancelSubscription(int reqId) {
         return false;
     }
 }
-
-//========== Reception Operation===============================================================
-
-//============Override to EWrapper============================================================
-
-
 

@@ -3,28 +3,8 @@
 
 CMakeFiles/mdpe.dir/Main.cpp.o: Main.cpp
 
-CMakeFiles/mdpe.dir/src/Helpers/Message.cpp.o: ./src/includes/Message.h
-CMakeFiles/mdpe.dir/src/Helpers/Message.cpp.o: src/Helpers/Message.cpp
-CMakeFiles/mdpe.dir/src/Helpers/Message.cpp.o: src/includes/Topics.h
-
 CMakeFiles/mdpe.dir/src/Helpers/Topics.cpp.o: ./src/includes/Topics.h
 CMakeFiles/mdpe.dir/src/Helpers/Topics.cpp.o: src/Helpers/Topics.cpp
-
-CMakeFiles/mdpe.dir/src/IBInterface.cpp.o: ./src/includes/IBInterface.h
-CMakeFiles/mdpe.dir/src/IBInterface.cpp.o: src/IBInterface.cpp
-CMakeFiles/mdpe.dir/src/IBInterface.cpp.o: /opt/xtnc/include/libibc/CommonDefs.h
-CMakeFiles/mdpe.dir/src/IBInterface.cpp.o: /opt/xtnc/include/libibc/Contract.h
-CMakeFiles/mdpe.dir/src/IBInterface.cpp.o: /opt/xtnc/include/libibc/EDecoder.h
-CMakeFiles/mdpe.dir/src/IBInterface.cpp.o: /opt/xtnc/include/libibc/EMutex.h
-CMakeFiles/mdpe.dir/src/IBInterface.cpp.o: /opt/xtnc/include/libibc/EReader.h
-CMakeFiles/mdpe.dir/src/IBInterface.cpp.o: /opt/xtnc/include/libibc/EReaderOSSignal.h
-CMakeFiles/mdpe.dir/src/IBInterface.cpp.o: /opt/xtnc/include/libibc/EReaderSignal.h
-CMakeFiles/mdpe.dir/src/IBInterface.cpp.o: /opt/xtnc/include/libibc/EWrapper.h
-CMakeFiles/mdpe.dir/src/IBInterface.cpp.o: /opt/xtnc/include/libibc/IB.h
-CMakeFiles/mdpe.dir/src/IBInterface.cpp.o: /opt/xtnc/include/libibc/SoftDollarTier.h
-CMakeFiles/mdpe.dir/src/IBInterface.cpp.o: /opt/xtnc/include/libibc/StdAfx.h
-CMakeFiles/mdpe.dir/src/IBInterface.cpp.o: /opt/xtnc/include/libibc/TagValue.h
-CMakeFiles/mdpe.dir/src/IBInterface.cpp.o: /opt/xtnc/include/libibc/shared_ptr.h
 
 CMakeFiles/mdpe.dir/src/Nodes/Node.cpp.o: ./src/includes/Node.h
 CMakeFiles/mdpe.dir/src/Nodes/Node.cpp.o: src/Nodes/Node.cpp
@@ -41,7 +21,6 @@ CMakeFiles/mdpe.dir/src/Nodes/Node.cpp.o: /opt/xtnc/include/libibc/SoftDollarTie
 CMakeFiles/mdpe.dir/src/Nodes/Node.cpp.o: /opt/xtnc/include/libibc/StdAfx.h
 CMakeFiles/mdpe.dir/src/Nodes/Node.cpp.o: /opt/xtnc/include/libibc/TagValue.h
 CMakeFiles/mdpe.dir/src/Nodes/Node.cpp.o: /opt/xtnc/include/libibc/shared_ptr.h
-CMakeFiles/mdpe.dir/src/Nodes/Node.cpp.o: src/includes/IBInterface.h
 
 CMakeFiles/mdpe.dir/src/Nodes/StreamingNode.cpp.o: ./src/includes/StreamingNode.h
 CMakeFiles/mdpe.dir/src/Nodes/StreamingNode.cpp.o: src/Nodes/StreamingNode.cpp
@@ -85,8 +64,6 @@ CMakeFiles/mdpe.dir/src/Nodes/StreamingNode.cpp.o: /opt/xtnc/include/libibc/StdA
 CMakeFiles/mdpe.dir/src/Nodes/StreamingNode.cpp.o: /opt/xtnc/include/libibc/TagValue.h
 CMakeFiles/mdpe.dir/src/Nodes/StreamingNode.cpp.o: /opt/xtnc/include/libibc/shared_ptr.h
 CMakeFiles/mdpe.dir/src/Nodes/StreamingNode.cpp.o: /opt/xtnc/include/librdkafka/rdkafka.h
-CMakeFiles/mdpe.dir/src/Nodes/StreamingNode.cpp.o: src/includes/IBInterface.h
-CMakeFiles/mdpe.dir/src/Nodes/StreamingNode.cpp.o: src/includes/Message.h
 CMakeFiles/mdpe.dir/src/Nodes/StreamingNode.cpp.o: src/includes/Node.h
 CMakeFiles/mdpe.dir/src/Nodes/StreamingNode.cpp.o: src/includes/Topics.h
 

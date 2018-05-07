@@ -3,7 +3,6 @@ file(REMOVE_RECURSE
   "CMakeFiles/mdpe.dir/src/Nodes/Node.cpp.o"
   "CMakeFiles/mdpe.dir/src/Nodes/StreamingNode.cpp.o"
   "CMakeFiles/mdpe.dir/src/Nodes/SubscriberNode.cpp.o"
-  "CMakeFiles/mdpe.dir/src/Helpers/Message.cpp.o"
   "CMakeFiles/mdpe.dir/src/Helpers/Topics.cpp.o"
   "mdpe.pdb"
   "mdpe"

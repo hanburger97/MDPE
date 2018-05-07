@@ -16,4 +16,4 @@ file(GLOB Client_Src
         "../ssl/*.cpp"
         )
 
-add_library(IB_Client MODULE ${Client_Src})
+add_library(ibc ${Client_Src})

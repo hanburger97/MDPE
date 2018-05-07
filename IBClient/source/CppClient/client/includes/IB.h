@@ -52,7 +52,7 @@ private:
 
 
 public:
-    IB_Client();
+    IB_Client(EWrapper * ew);
     ~IB_Client();
 
     bool connect(std::string host, int port);

@@ -26,7 +26,7 @@ file(REMOVE_RECURSE
   "CMakeFiles/IB_Client.dir/__/ssl/ESocketSSL.cpp.o"
   "CMakeFiles/IB_Client.dir/__/ssl/StdAfx.cpp.o"
   "libIB_Client.pdb"
-  "libIB_Client.so"
+  "libIB_Client.a"
 )
 
 # Per-language clean rules from dependency scanning.

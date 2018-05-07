@@ -6,8 +6,8 @@
 #include <iostream>
 #include <string>
 
-Node::Node(std::string host) :
-IB_Client(), host(host), khost(host), kport(9002), ibhost(host), ibport(9001),
+Node::Node(std::string host, EWrapper * ew) :
+IB_Client(ew), host(host), khost(host), kport(9002), ibhost(host), ibport(9001),
 currentState(SLEEPING)
 {}
 
@@ -27,8 +27,10 @@ std::string Node::getIBHost() const {
 }
 
 void Node::setIBHost(std::string host, int port) {
-    ibhost = host;
-    ibport = port;
+    if (""!=ibhost && ibport) {
+        ibhost = host;
+        ibport = port;
+    }
 }
 
 int Node::getKPort() const {
@@ -40,8 +42,11 @@ std::string Node::getKHost() const {
 }
 
 void Node::setKHost(std::string host, int port) {
-    khost = host;
-    kport = port;
+    if (""!=host && port){
+        khost = host;
+        kport = port;
+    }
+
 }
 
 

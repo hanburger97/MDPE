@@ -6,30 +6,18 @@
 
 #IncludeRegexTransform: 
 
-./src/includes/IBInterface.h
+./src/includes/Node.h
 libibc/IB.h
 -
-
-./src/includes/Message.h
-string
--
-includes/Topics.h
-./src/includes/includes/Topics.h
-
-./src/includes/Node.h
-includes/IBInterface.h
-./src/includes/includes/IBInterface.h
 
 ./src/includes/StreamingNode.h
 includes/Node.h
 ./src/includes/includes/Node.h
-includes/IBInterface.h
-./src/includes/includes/IBInterface.h
 includes/Topics.h
 ./src/includes/includes/Topics.h
-includes/Message.h
-./src/includes/includes/Message.h
 cppkafka/cppkafka.h
+-
+libibc/IB.h
 -
 
 ./src/includes/SubscriberNode.h
@@ -44,21 +32,17 @@ vector
 iostream
 -
 
-/Users/hanxiao/xtnc/rnd/mdpe/src/Helpers/Message.cpp
-Message.h
-/Users/hanxiao/xtnc/rnd/mdpe/src/Helpers/Message.h
-
 /Users/hanxiao/xtnc/rnd/mdpe/src/Helpers/Topics.cpp
 Topics.h
 /Users/hanxiao/xtnc/rnd/mdpe/src/Helpers/Topics.h
 
-/Users/hanxiao/xtnc/rnd/mdpe/src/IBInterface.cpp
-IBInterface.h
-/Users/hanxiao/xtnc/rnd/mdpe/src/IBInterface.h
-
 /Users/hanxiao/xtnc/rnd/mdpe/src/Nodes/Node.cpp
 Node.h
 /Users/hanxiao/xtnc/rnd/mdpe/src/Nodes/Node.h
+iostream
+-
+string
+-
 
 /Users/hanxiao/xtnc/rnd/mdpe/src/Nodes/StreamingNode.cpp
 StreamingNode.h
@@ -558,19 +542,9 @@ Winsock2.h
 sys/socket.h
 -
 
-src/includes/IBInterface.h
+src/includes/Node.h
 libibc/IB.h
 -
-
-src/includes/Message.h
-string
--
-includes/Topics.h
-src/includes/includes/Topics.h
-
-src/includes/Node.h
-includes/IBInterface.h
-src/includes/includes/IBInterface.h
 
 src/includes/Topics.h
 string

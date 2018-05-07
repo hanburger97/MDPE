@@ -3,29 +3,9 @@
 
 CMakeFiles/mdpe.dir/Main.cpp.o
  /Users/hanxiao/xtnc/rnd/mdpe/Main.cpp
-CMakeFiles/mdpe.dir/src/Helpers/Message.cpp.o
- ./src/includes/Message.h
- /Users/hanxiao/xtnc/rnd/mdpe/src/Helpers/Message.cpp
- src/includes/Topics.h
 CMakeFiles/mdpe.dir/src/Helpers/Topics.cpp.o
  ./src/includes/Topics.h
  /Users/hanxiao/xtnc/rnd/mdpe/src/Helpers/Topics.cpp
-CMakeFiles/mdpe.dir/src/IBInterface.cpp.o
- ./src/includes/IBInterface.h
- /Users/hanxiao/xtnc/rnd/mdpe/src/IBInterface.cpp
- /opt/xtnc/include/libibc/CommonDefs.h
- /opt/xtnc/include/libibc/Contract.h
- /opt/xtnc/include/libibc/EDecoder.h
- /opt/xtnc/include/libibc/EMutex.h
- /opt/xtnc/include/libibc/EReader.h
- /opt/xtnc/include/libibc/EReaderOSSignal.h
- /opt/xtnc/include/libibc/EReaderSignal.h
- /opt/xtnc/include/libibc/EWrapper.h
- /opt/xtnc/include/libibc/IB.h
- /opt/xtnc/include/libibc/SoftDollarTier.h
- /opt/xtnc/include/libibc/StdAfx.h
- /opt/xtnc/include/libibc/TagValue.h
- /opt/xtnc/include/libibc/shared_ptr.h
 CMakeFiles/mdpe.dir/src/Nodes/Node.cpp.o
  ./src/includes/Node.h
  /Users/hanxiao/xtnc/rnd/mdpe/src/Nodes/Node.cpp
@@ -42,7 +22,6 @@ CMakeFiles/mdpe.dir/src/Nodes/Node.cpp.o
  /opt/xtnc/include/libibc/StdAfx.h
  /opt/xtnc/include/libibc/TagValue.h
  /opt/xtnc/include/libibc/shared_ptr.h
- src/includes/IBInterface.h
 CMakeFiles/mdpe.dir/src/Nodes/StreamingNode.cpp.o
  ./src/includes/StreamingNode.h
  /Users/hanxiao/xtnc/rnd/mdpe/src/Nodes/StreamingNode.cpp
@@ -86,8 +65,6 @@ CMakeFiles/mdpe.dir/src/Nodes/StreamingNode.cpp.o
  /opt/xtnc/include/libibc/TagValue.h
  /opt/xtnc/include/libibc/shared_ptr.h
  /opt/xtnc/include/librdkafka/rdkafka.h
- src/includes/IBInterface.h
- src/includes/Message.h
  src/includes/Node.h
  src/includes/Topics.h
 CMakeFiles/mdpe.dir/src/Nodes/SubscriberNode.cpp.o

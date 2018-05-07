@@ -24,18 +24,22 @@ set(CMAKE_DEPENDS_CHECK_CXX
   "/Users/hanxiao/xtnc/rnd/mdpe/IBClient/source/CppClient/client/SoftDollarTier.cpp" "/Users/hanxiao/xtnc/rnd/mdpe/IBClient/source/CppClient/client/CMakeFiles/ibc.dir/SoftDollarTier.cpp.o"
   "/Users/hanxiao/xtnc/rnd/mdpe/IBClient/source/CppClient/client/StdAfx.cpp" "/Users/hanxiao/xtnc/rnd/mdpe/IBClient/source/CppClient/client/CMakeFiles/ibc.dir/StdAfx.cpp.o"
   "/Users/hanxiao/xtnc/rnd/mdpe/IBClient/source/CppClient/client/TimeCondition.cpp" "/Users/hanxiao/xtnc/rnd/mdpe/IBClient/source/CppClient/client/CMakeFiles/ibc.dir/TimeCondition.cpp.o"
-  "/Users/hanxiao/xtnc/rnd/mdpe/IBClient/source/CppClient/ssl/EClientSocketSSL.cpp" "/Users/hanxiao/xtnc/rnd/mdpe/IBClient/source/CppClient/client/CMakeFiles/ibc.dir/Users/hanxiao/xtnc/rnd/mdpe/IBClient/source/CppClient/ssl/EClientSocketSSL.cpp.o"
-  "/Users/hanxiao/xtnc/rnd/mdpe/IBClient/source/CppClient/ssl/EReaderSSL.cpp" "/Users/hanxiao/xtnc/rnd/mdpe/IBClient/source/CppClient/client/CMakeFiles/ibc.dir/Users/hanxiao/xtnc/rnd/mdpe/IBClient/source/CppClient/ssl/EReaderSSL.cpp.o"
-  "/Users/hanxiao/xtnc/rnd/mdpe/IBClient/source/CppClient/ssl/ESocketSSL.cpp" "/Users/hanxiao/xtnc/rnd/mdpe/IBClient/source/CppClient/client/CMakeFiles/ibc.dir/Users/hanxiao/xtnc/rnd/mdpe/IBClient/source/CppClient/ssl/ESocketSSL.cpp.o"
-  "/Users/hanxiao/xtnc/rnd/mdpe/IBClient/source/CppClient/ssl/StdAfx.cpp" "/Users/hanxiao/xtnc/rnd/mdpe/IBClient/source/CppClient/client/CMakeFiles/ibc.dir/Users/hanxiao/xtnc/rnd/mdpe/IBClient/source/CppClient/ssl/StdAfx.cpp.o"
   "/Users/hanxiao/xtnc/rnd/mdpe/IBClient/source/CppClient/client/VolumeCondition.cpp" "/Users/hanxiao/xtnc/rnd/mdpe/IBClient/source/CppClient/client/CMakeFiles/ibc.dir/VolumeCondition.cpp.o"
+  "/Users/hanxiao/xtnc/rnd/mdpe/IBClient/source/CppClient/ssl/EClientSocketSSL.cpp" "/Users/hanxiao/xtnc/rnd/mdpe/IBClient/source/CppClient/client/CMakeFiles/ibc.dir/__/ssl/EClientSocketSSL.cpp.o"
+  "/Users/hanxiao/xtnc/rnd/mdpe/IBClient/source/CppClient/ssl/EReaderSSL.cpp" "/Users/hanxiao/xtnc/rnd/mdpe/IBClient/source/CppClient/client/CMakeFiles/ibc.dir/__/ssl/EReaderSSL.cpp.o"
+  "/Users/hanxiao/xtnc/rnd/mdpe/IBClient/source/CppClient/ssl/ESocketSSL.cpp" "/Users/hanxiao/xtnc/rnd/mdpe/IBClient/source/CppClient/client/CMakeFiles/ibc.dir/__/ssl/ESocketSSL.cpp.o"
+  "/Users/hanxiao/xtnc/rnd/mdpe/IBClient/source/CppClient/ssl/StdAfx.cpp" "/Users/hanxiao/xtnc/rnd/mdpe/IBClient/source/CppClient/client/CMakeFiles/ibc.dir/__/ssl/StdAfx.cpp.o"
   "/Users/hanxiao/xtnc/rnd/mdpe/IBClient/source/CppClient/client/executioncondition.cpp" "/Users/hanxiao/xtnc/rnd/mdpe/IBClient/source/CppClient/client/CMakeFiles/ibc.dir/executioncondition.cpp.o"
   )
 set(CMAKE_CXX_COMPILER_ID "AppleClang")
 
 # The include file search paths:
 set(CMAKE_CXX_TARGET_INCLUDE_PATH
-  "./includes"
+  "src"
+  "./src/includes"
+  "/opt/bb/include"
+  "/opt/xtnc/include"
+  "IBClient/source/CppClient/client/./includes"
   "/usr/local/opt/openssl/include"
   )
 

@@ -713,39 +713,40 @@ IB_Client_OBJECTS = \
 # External object files for target IB_Client
 IB_Client_EXTERNAL_OBJECTS =
 
-IBClient/source/CppClient/client/libIB_Client.so: IBClient/source/CppClient/client/CMakeFiles/IB_Client.dir/ContractCondition.cpp.o
-IBClient/source/CppClient/client/libIB_Client.so: IBClient/source/CppClient/client/CMakeFiles/IB_Client.dir/DefaultEWrapper.cpp.o
-IBClient/source/CppClient/client/libIB_Client.so: IBClient/source/CppClient/client/CMakeFiles/IB_Client.dir/EClient.cpp.o
-IBClient/source/CppClient/client/libIB_Client.so: IBClient/source/CppClient/client/CMakeFiles/IB_Client.dir/EClientSocket.cpp.o
-IBClient/source/CppClient/client/libIB_Client.so: IBClient/source/CppClient/client/CMakeFiles/IB_Client.dir/EDecoder.cpp.o
-IBClient/source/CppClient/client/libIB_Client.so: IBClient/source/CppClient/client/CMakeFiles/IB_Client.dir/EMessage.cpp.o
-IBClient/source/CppClient/client/libIB_Client.so: IBClient/source/CppClient/client/CMakeFiles/IB_Client.dir/EMutex.cpp.o
-IBClient/source/CppClient/client/libIB_Client.so: IBClient/source/CppClient/client/CMakeFiles/IB_Client.dir/EReader.cpp.o
-IBClient/source/CppClient/client/libIB_Client.so: IBClient/source/CppClient/client/CMakeFiles/IB_Client.dir/EReaderOSSignal.cpp.o
-IBClient/source/CppClient/client/libIB_Client.so: IBClient/source/CppClient/client/CMakeFiles/IB_Client.dir/EReaderWMSignal.cpp.o
-IBClient/source/CppClient/client/libIB_Client.so: IBClient/source/CppClient/client/CMakeFiles/IB_Client.dir/ESocket.cpp.o
-IBClient/source/CppClient/client/libIB_Client.so: IBClient/source/CppClient/client/CMakeFiles/IB_Client.dir/IB.cpp.o
-IBClient/source/CppClient/client/libIB_Client.so: IBClient/source/CppClient/client/CMakeFiles/IB_Client.dir/MarginCondition.cpp.o
-IBClient/source/CppClient/client/libIB_Client.so: IBClient/source/CppClient/client/CMakeFiles/IB_Client.dir/OperatorCondition.cpp.o
-IBClient/source/CppClient/client/libIB_Client.so: IBClient/source/CppClient/client/CMakeFiles/IB_Client.dir/OrderCondition.cpp.o
-IBClient/source/CppClient/client/libIB_Client.so: IBClient/source/CppClient/client/CMakeFiles/IB_Client.dir/PercentChangeCondition.cpp.o
-IBClient/source/CppClient/client/libIB_Client.so: IBClient/source/CppClient/client/CMakeFiles/IB_Client.dir/PriceCondition.cpp.o
-IBClient/source/CppClient/client/libIB_Client.so: IBClient/source/CppClient/client/CMakeFiles/IB_Client.dir/SoftDollarTier.cpp.o
-IBClient/source/CppClient/client/libIB_Client.so: IBClient/source/CppClient/client/CMakeFiles/IB_Client.dir/StdAfx.cpp.o
-IBClient/source/CppClient/client/libIB_Client.so: IBClient/source/CppClient/client/CMakeFiles/IB_Client.dir/TimeCondition.cpp.o
-IBClient/source/CppClient/client/libIB_Client.so: IBClient/source/CppClient/client/CMakeFiles/IB_Client.dir/VolumeCondition.cpp.o
-IBClient/source/CppClient/client/libIB_Client.so: IBClient/source/CppClient/client/CMakeFiles/IB_Client.dir/executioncondition.cpp.o
-IBClient/source/CppClient/client/libIB_Client.so: IBClient/source/CppClient/client/CMakeFiles/IB_Client.dir/__/ssl/EClientSocketSSL.cpp.o
-IBClient/source/CppClient/client/libIB_Client.so: IBClient/source/CppClient/client/CMakeFiles/IB_Client.dir/__/ssl/EReaderSSL.cpp.o
-IBClient/source/CppClient/client/libIB_Client.so: IBClient/source/CppClient/client/CMakeFiles/IB_Client.dir/__/ssl/ESocketSSL.cpp.o
-IBClient/source/CppClient/client/libIB_Client.so: IBClient/source/CppClient/client/CMakeFiles/IB_Client.dir/__/ssl/StdAfx.cpp.o
-IBClient/source/CppClient/client/libIB_Client.so: IBClient/source/CppClient/client/CMakeFiles/IB_Client.dir/build.make
-IBClient/source/CppClient/client/libIB_Client.so: IBClient/source/CppClient/client/CMakeFiles/IB_Client.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/Users/hanxiao/xtnc/rnd/mdpe/CMakeFiles --progress-num=$(CMAKE_PROGRESS_27) "Linking CXX shared module libIB_Client.so"
+IBClient/source/CppClient/client/libIB_Client.a: IBClient/source/CppClient/client/CMakeFiles/IB_Client.dir/ContractCondition.cpp.o
+IBClient/source/CppClient/client/libIB_Client.a: IBClient/source/CppClient/client/CMakeFiles/IB_Client.dir/DefaultEWrapper.cpp.o
+IBClient/source/CppClient/client/libIB_Client.a: IBClient/source/CppClient/client/CMakeFiles/IB_Client.dir/EClient.cpp.o
+IBClient/source/CppClient/client/libIB_Client.a: IBClient/source/CppClient/client/CMakeFiles/IB_Client.dir/EClientSocket.cpp.o
+IBClient/source/CppClient/client/libIB_Client.a: IBClient/source/CppClient/client/CMakeFiles/IB_Client.dir/EDecoder.cpp.o
+IBClient/source/CppClient/client/libIB_Client.a: IBClient/source/CppClient/client/CMakeFiles/IB_Client.dir/EMessage.cpp.o
+IBClient/source/CppClient/client/libIB_Client.a: IBClient/source/CppClient/client/CMakeFiles/IB_Client.dir/EMutex.cpp.o
+IBClient/source/CppClient/client/libIB_Client.a: IBClient/source/CppClient/client/CMakeFiles/IB_Client.dir/EReader.cpp.o
+IBClient/source/CppClient/client/libIB_Client.a: IBClient/source/CppClient/client/CMakeFiles/IB_Client.dir/EReaderOSSignal.cpp.o
+IBClient/source/CppClient/client/libIB_Client.a: IBClient/source/CppClient/client/CMakeFiles/IB_Client.dir/EReaderWMSignal.cpp.o
+IBClient/source/CppClient/client/libIB_Client.a: IBClient/source/CppClient/client/CMakeFiles/IB_Client.dir/ESocket.cpp.o
+IBClient/source/CppClient/client/libIB_Client.a: IBClient/source/CppClient/client/CMakeFiles/IB_Client.dir/IB.cpp.o
+IBClient/source/CppClient/client/libIB_Client.a: IBClient/source/CppClient/client/CMakeFiles/IB_Client.dir/MarginCondition.cpp.o
+IBClient/source/CppClient/client/libIB_Client.a: IBClient/source/CppClient/client/CMakeFiles/IB_Client.dir/OperatorCondition.cpp.o
+IBClient/source/CppClient/client/libIB_Client.a: IBClient/source/CppClient/client/CMakeFiles/IB_Client.dir/OrderCondition.cpp.o
+IBClient/source/CppClient/client/libIB_Client.a: IBClient/source/CppClient/client/CMakeFiles/IB_Client.dir/PercentChangeCondition.cpp.o
+IBClient/source/CppClient/client/libIB_Client.a: IBClient/source/CppClient/client/CMakeFiles/IB_Client.dir/PriceCondition.cpp.o
+IBClient/source/CppClient/client/libIB_Client.a: IBClient/source/CppClient/client/CMakeFiles/IB_Client.dir/SoftDollarTier.cpp.o
+IBClient/source/CppClient/client/libIB_Client.a: IBClient/source/CppClient/client/CMakeFiles/IB_Client.dir/StdAfx.cpp.o
+IBClient/source/CppClient/client/libIB_Client.a: IBClient/source/CppClient/client/CMakeFiles/IB_Client.dir/TimeCondition.cpp.o
+IBClient/source/CppClient/client/libIB_Client.a: IBClient/source/CppClient/client/CMakeFiles/IB_Client.dir/VolumeCondition.cpp.o
+IBClient/source/CppClient/client/libIB_Client.a: IBClient/source/CppClient/client/CMakeFiles/IB_Client.dir/executioncondition.cpp.o
+IBClient/source/CppClient/client/libIB_Client.a: IBClient/source/CppClient/client/CMakeFiles/IB_Client.dir/__/ssl/EClientSocketSSL.cpp.o
+IBClient/source/CppClient/client/libIB_Client.a: IBClient/source/CppClient/client/CMakeFiles/IB_Client.dir/__/ssl/EReaderSSL.cpp.o
+IBClient/source/CppClient/client/libIB_Client.a: IBClient/source/CppClient/client/CMakeFiles/IB_Client.dir/__/ssl/ESocketSSL.cpp.o
+IBClient/source/CppClient/client/libIB_Client.a: IBClient/source/CppClient/client/CMakeFiles/IB_Client.dir/__/ssl/StdAfx.cpp.o
+IBClient/source/CppClient/client/libIB_Client.a: IBClient/source/CppClient/client/CMakeFiles/IB_Client.dir/build.make
+IBClient/source/CppClient/client/libIB_Client.a: IBClient/source/CppClient/client/CMakeFiles/IB_Client.dir/link.txt
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/Users/hanxiao/xtnc/rnd/mdpe/CMakeFiles --progress-num=$(CMAKE_PROGRESS_27) "Linking CXX static library libIB_Client.a"
+	cd /Users/hanxiao/xtnc/rnd/mdpe/IBClient/source/CppClient/client && $(CMAKE_COMMAND) -P CMakeFiles/IB_Client.dir/cmake_clean_target.cmake
 	cd /Users/hanxiao/xtnc/rnd/mdpe/IBClient/source/CppClient/client && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/IB_Client.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
-IBClient/source/CppClient/client/CMakeFiles/IB_Client.dir/build: IBClient/source/CppClient/client/libIB_Client.so
+IBClient/source/CppClient/client/CMakeFiles/IB_Client.dir/build: IBClient/source/CppClient/client/libIB_Client.a
 
 .PHONY : IBClient/source/CppClient/client/CMakeFiles/IB_Client.dir/build
 

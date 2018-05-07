@@ -21,12 +21,12 @@ file(REMOVE_RECURSE
   "CMakeFiles/ibc.dir/TimeCondition.cpp.o"
   "CMakeFiles/ibc.dir/VolumeCondition.cpp.o"
   "CMakeFiles/ibc.dir/executioncondition.cpp.o"
-  "CMakeFiles/ibc.dir/Users/hanxiao/xtnc/rnd/mdpe/IBClient/source/CppClient/ssl/EClientSocketSSL.cpp.o"
-  "CMakeFiles/ibc.dir/Users/hanxiao/xtnc/rnd/mdpe/IBClient/source/CppClient/ssl/EReaderSSL.cpp.o"
-  "CMakeFiles/ibc.dir/Users/hanxiao/xtnc/rnd/mdpe/IBClient/source/CppClient/ssl/ESocketSSL.cpp.o"
-  "CMakeFiles/ibc.dir/Users/hanxiao/xtnc/rnd/mdpe/IBClient/source/CppClient/ssl/StdAfx.cpp.o"
+  "CMakeFiles/ibc.dir/__/ssl/EClientSocketSSL.cpp.o"
+  "CMakeFiles/ibc.dir/__/ssl/EReaderSSL.cpp.o"
+  "CMakeFiles/ibc.dir/__/ssl/ESocketSSL.cpp.o"
+  "CMakeFiles/ibc.dir/__/ssl/StdAfx.cpp.o"
   "libibc.pdb"
-  "libibc.so"
+  "libibc.a"
 )
 
 # Per-language clean rules from dependency scanning.
