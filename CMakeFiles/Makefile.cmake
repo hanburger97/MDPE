@@ -33,7 +33,6 @@ set(CMAKE_MAKEFILE_DEPENDS
   "CMakeFiles/3.8.2/CMakeCXXCompiler.cmake"
   "CMakeFiles/3.8.2/CMakeSystem.cmake"
   "CMakeLists.txt"
-  "IBClient/source/CppClient/client/CMakeLists.txt"
   )
 
 # The corresponding makefile is:
@@ -45,11 +44,9 @@ set(CMAKE_MAKEFILE_OUTPUTS
 # Byproducts of CMake generate step:
 set(CMAKE_MAKEFILE_PRODUCTS
   "CMakeFiles/CMakeDirectoryInformation.cmake"
-  "IBClient/source/CppClient/client/CMakeFiles/CMakeDirectoryInformation.cmake"
   )
 
 # Dependency information for all targets:
 set(CMAKE_DEPEND_INFO_FILES
   "CMakeFiles/mdpe.dir/DependInfo.cmake"
-  "IBClient/source/CppClient/client/CMakeFiles/ibc.dir/DependInfo.cmake"
   )

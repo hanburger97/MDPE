@@ -14,6 +14,13 @@ IBClient/source/CppClient/client/CMakeFiles/ibc.dir/ContractCondition.cpp.o: IBC
 IBClient/source/CppClient/client/CMakeFiles/ibc.dir/ContractCondition.cpp.o: IBClient/source/CppClient/client/./includes/TagValue.h
 IBClient/source/CppClient/client/CMakeFiles/ibc.dir/ContractCondition.cpp.o: IBClient/source/CppClient/client/./includes/shared_ptr.h
 
+IBClient/source/CppClient/client/CMakeFiles/ibc.dir/ContractSamples.cpp.o: IBClient/source/CppClient/client/ContractSamples.cpp
+IBClient/source/CppClient/client/CMakeFiles/ibc.dir/ContractSamples.cpp.o: IBClient/source/CppClient/client/includes/Contract.h
+IBClient/source/CppClient/client/CMakeFiles/ibc.dir/ContractSamples.cpp.o: IBClient/source/CppClient/client/includes/TagValue.h
+IBClient/source/CppClient/client/CMakeFiles/ibc.dir/ContractSamples.cpp.o: IBClient/source/CppClient/client/includes/shared_ptr.h
+IBClient/source/CppClient/client/CMakeFiles/ibc.dir/ContractSamples.cpp.o: IBClient/source/CppClient/client/./includes/ContractSamples.h
+IBClient/source/CppClient/client/CMakeFiles/ibc.dir/ContractSamples.cpp.o: IBClient/source/CppClient/client/./includes/StdAfx.h
+
 IBClient/source/CppClient/client/CMakeFiles/ibc.dir/DefaultEWrapper.cpp.o: IBClient/source/CppClient/client/DefaultEWrapper.cpp
 IBClient/source/CppClient/client/CMakeFiles/ibc.dir/DefaultEWrapper.cpp.o: IBClient/source/CppClient/client/./includes/CommonDefs.h
 IBClient/source/CppClient/client/CMakeFiles/ibc.dir/DefaultEWrapper.cpp.o: IBClient/source/CppClient/client/./includes/DefaultEWrapper.h

@@ -5,6 +5,7 @@ set(CMAKE_DEPENDS_LANGUAGES
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_CXX
   "/Users/hanxiao/xtnc/rnd/mdpe/IBClient/source/CppClient/client/ContractCondition.cpp" "/Users/hanxiao/xtnc/rnd/mdpe/IBClient/source/CppClient/client/CMakeFiles/ibc.dir/ContractCondition.cpp.o"
+  "/Users/hanxiao/xtnc/rnd/mdpe/IBClient/source/CppClient/client/ContractSamples.cpp" "/Users/hanxiao/xtnc/rnd/mdpe/IBClient/source/CppClient/client/CMakeFiles/ibc.dir/ContractSamples.cpp.o"
   "/Users/hanxiao/xtnc/rnd/mdpe/IBClient/source/CppClient/client/DefaultEWrapper.cpp" "/Users/hanxiao/xtnc/rnd/mdpe/IBClient/source/CppClient/client/CMakeFiles/ibc.dir/DefaultEWrapper.cpp.o"
   "/Users/hanxiao/xtnc/rnd/mdpe/IBClient/source/CppClient/client/EClient.cpp" "/Users/hanxiao/xtnc/rnd/mdpe/IBClient/source/CppClient/client/CMakeFiles/ibc.dir/EClient.cpp.o"
   "/Users/hanxiao/xtnc/rnd/mdpe/IBClient/source/CppClient/client/EClientSocket.cpp" "/Users/hanxiao/xtnc/rnd/mdpe/IBClient/source/CppClient/client/CMakeFiles/ibc.dir/EClientSocket.cpp.o"
@@ -35,7 +36,6 @@ set(CMAKE_CXX_COMPILER_ID "AppleClang")
 
 # The include file search paths:
 set(CMAKE_CXX_TARGET_INCLUDE_PATH
-  "src"
   "./src/includes"
   "/opt/bb/include"
   "/opt/xtnc/include"

@@ -152,6 +152,33 @@ ContractCondition.cpp.s:
 	cd /Users/hanxiao/xtnc/rnd/mdpe && $(MAKE) -f IBClient/source/CppClient/client/CMakeFiles/ibc.dir/build.make IBClient/source/CppClient/client/CMakeFiles/ibc.dir/ContractCondition.cpp.s
 .PHONY : ContractCondition.cpp.s
 
+ContractSamples.o: ContractSamples.cpp.o
+
+.PHONY : ContractSamples.o
+
+# target to build an object file
+ContractSamples.cpp.o:
+	cd /Users/hanxiao/xtnc/rnd/mdpe && $(MAKE) -f IBClient/source/CppClient/client/CMakeFiles/ibc.dir/build.make IBClient/source/CppClient/client/CMakeFiles/ibc.dir/ContractSamples.cpp.o
+.PHONY : ContractSamples.cpp.o
+
+ContractSamples.i: ContractSamples.cpp.i
+
+.PHONY : ContractSamples.i
+
+# target to preprocess a source file
+ContractSamples.cpp.i:
+	cd /Users/hanxiao/xtnc/rnd/mdpe && $(MAKE) -f IBClient/source/CppClient/client/CMakeFiles/ibc.dir/build.make IBClient/source/CppClient/client/CMakeFiles/ibc.dir/ContractSamples.cpp.i
+.PHONY : ContractSamples.cpp.i
+
+ContractSamples.s: ContractSamples.cpp.s
+
+.PHONY : ContractSamples.s
+
+# target to generate assembly for a file
+ContractSamples.cpp.s:
+	cd /Users/hanxiao/xtnc/rnd/mdpe && $(MAKE) -f IBClient/source/CppClient/client/CMakeFiles/ibc.dir/build.make IBClient/source/CppClient/client/CMakeFiles/ibc.dir/ContractSamples.cpp.s
+.PHONY : ContractSamples.cpp.s
+
 DefaultEWrapper.o: DefaultEWrapper.cpp.o
 
 .PHONY : DefaultEWrapper.o
@@ -839,6 +866,9 @@ help:
 	@echo "... ContractCondition.o"
 	@echo "... ContractCondition.i"
 	@echo "... ContractCondition.s"
+	@echo "... ContractSamples.o"
+	@echo "... ContractSamples.i"
+	@echo "... ContractSamples.s"
 	@echo "... DefaultEWrapper.o"
 	@echo "... DefaultEWrapper.i"
 	@echo "... DefaultEWrapper.s"

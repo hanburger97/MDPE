@@ -123,19 +123,6 @@ mdpe/fast:
 	$(MAKE) -f CMakeFiles/mdpe.dir/build.make CMakeFiles/mdpe.dir/build
 .PHONY : mdpe/fast
 
-#=============================================================================
-# Target rules for targets named ibc
-
-# Build rule for target.
-ibc: cmake_check_build_system
-	$(MAKE) -f CMakeFiles/Makefile2 ibc
-.PHONY : ibc
-
-# fast build rule for target.
-ibc/fast:
-	$(MAKE) -f IBClient/source/CppClient/client/CMakeFiles/ibc.dir/build.make IBClient/source/CppClient/client/CMakeFiles/ibc.dir/build
-.PHONY : ibc/fast
-
 Main.o: Main.cpp.o
 
 .PHONY : Main.o
@@ -280,7 +267,6 @@ help:
 	@echo "... rebuild_cache"
 	@echo "... edit_cache"
 	@echo "... mdpe"
-	@echo "... ibc"
 	@echo "... Main.o"
 	@echo "... Main.i"
 	@echo "... Main.s"

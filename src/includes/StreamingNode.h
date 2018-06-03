@@ -1,8 +1,8 @@
 //
 // Created by Han Xiao on 2018-03-15.
 //
-#include "includes/Node.h"
-#include "includes/Topics.h"
+#include "Node.h"
+#include "Topics.h"
 #include <cppkafka/cppkafka.h>
 #include <libibc/IB.h>
 
@@ -21,7 +21,7 @@ private:
     cppkafka::Configuration * conf;
 
 
-    void configureKafkaNode(std::string broker="127.0.0.2", std::string port="9092");
+    void configureKafkaNode(std::string broker="0.0.0.0", std::string port="9092");
     void errorExit() override ;
 
 

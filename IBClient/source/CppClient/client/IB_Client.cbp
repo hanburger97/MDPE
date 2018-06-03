@@ -11,10 +11,10 @@
 				<Option working_dir="/Users/hanxiao/xtnc/rnd/mdpe/IBClient/source/CppClient/client"/>
 				<Option type="4"/>
 				<MakeCommands>
-					<Build command="/usr/bin/make -j8 -f &quot;/Users/hanxiao/xtnc/rnd/mdpe/IBClient/source/CppClient/client/Makefile&quot;  VERBOSE=1 all"/>
-					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/hanxiao/xtnc/rnd/mdpe/IBClient/source/CppClient/client/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -j8 -f &quot;/Users/hanxiao/xtnc/rnd/mdpe/IBClient/source/CppClient/client/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/hanxiao/xtnc/rnd/mdpe/IBClient/source/CppClient/client/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="/usr/bin/make -f &quot;/Users/hanxiao/xtnc/rnd/mdpe/IBClient/source/CppClient/client/Makefile&quot;  VERBOSE=1 all"/>
+					<CompileFile command="/usr/bin/make -f &quot;/Users/hanxiao/xtnc/rnd/mdpe/IBClient/source/CppClient/client/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -f &quot;/Users/hanxiao/xtnc/rnd/mdpe/IBClient/source/CppClient/client/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -f &quot;/Users/hanxiao/xtnc/rnd/mdpe/IBClient/source/CppClient/client/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="ibc">
@@ -24,25 +24,17 @@
 				<Option type="2"/>
 				<Option compiler="gcc"/>
 				<Compiler>
-					<Add directory="/Users/hanxiao/xtnc/rnd/mdpe/src"/>
 					<Add directory="/Users/hanxiao/xtnc/rnd/mdpe/./src/includes"/>
 					<Add directory="/opt/bb/include"/>
 					<Add directory="/opt/xtnc/include"/>
 					<Add directory="/Users/hanxiao/xtnc/rnd/mdpe/IBClient/source/CppClient/client/./includes"/>
 					<Add directory="/usr/local/opt/openssl/include"/>
-					<Add directory="/Library/Developer/CommandLineTools/usr/include/c++/v1"/>
-					<Add directory="/usr/local/include"/>
-					<Add directory="/Library/Developer/CommandLineTools/usr/lib/clang/9.0.0/include"/>
-					<Add directory="/Library/Developer/CommandLineTools/usr/include"/>
-					<Add directory="/usr/include"/>
-					<Add directory="/System/Library/Frameworks"/>
-					<Add directory="/Library/Frameworks"/>
 				</Compiler>
 				<MakeCommands>
-					<Build command="/usr/bin/make -j8 -f &quot;/Users/hanxiao/xtnc/rnd/mdpe/IBClient/source/CppClient/client/Makefile&quot;  VERBOSE=1 ibc"/>
-					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/hanxiao/xtnc/rnd/mdpe/IBClient/source/CppClient/client/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -j8 -f &quot;/Users/hanxiao/xtnc/rnd/mdpe/IBClient/source/CppClient/client/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/hanxiao/xtnc/rnd/mdpe/IBClient/source/CppClient/client/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="/usr/bin/make -f &quot;/Users/hanxiao/xtnc/rnd/mdpe/IBClient/source/CppClient/client/Makefile&quot;  VERBOSE=1 ibc"/>
+					<CompileFile command="/usr/bin/make -f &quot;/Users/hanxiao/xtnc/rnd/mdpe/IBClient/source/CppClient/client/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -f &quot;/Users/hanxiao/xtnc/rnd/mdpe/IBClient/source/CppClient/client/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -f &quot;/Users/hanxiao/xtnc/rnd/mdpe/IBClient/source/CppClient/client/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="ibc/fast">
@@ -52,29 +44,24 @@
 				<Option type="2"/>
 				<Option compiler="gcc"/>
 				<Compiler>
-					<Add directory="/Users/hanxiao/xtnc/rnd/mdpe/src"/>
 					<Add directory="/Users/hanxiao/xtnc/rnd/mdpe/./src/includes"/>
 					<Add directory="/opt/bb/include"/>
 					<Add directory="/opt/xtnc/include"/>
 					<Add directory="/Users/hanxiao/xtnc/rnd/mdpe/IBClient/source/CppClient/client/./includes"/>
 					<Add directory="/usr/local/opt/openssl/include"/>
-					<Add directory="/Library/Developer/CommandLineTools/usr/include/c++/v1"/>
-					<Add directory="/usr/local/include"/>
-					<Add directory="/Library/Developer/CommandLineTools/usr/lib/clang/9.0.0/include"/>
-					<Add directory="/Library/Developer/CommandLineTools/usr/include"/>
-					<Add directory="/usr/include"/>
-					<Add directory="/System/Library/Frameworks"/>
-					<Add directory="/Library/Frameworks"/>
 				</Compiler>
 				<MakeCommands>
-					<Build command="/usr/bin/make -j8 -f &quot;/Users/hanxiao/xtnc/rnd/mdpe/IBClient/source/CppClient/client/Makefile&quot;  VERBOSE=1 ibc/fast"/>
-					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/hanxiao/xtnc/rnd/mdpe/IBClient/source/CppClient/client/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -j8 -f &quot;/Users/hanxiao/xtnc/rnd/mdpe/IBClient/source/CppClient/client/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/hanxiao/xtnc/rnd/mdpe/IBClient/source/CppClient/client/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="/usr/bin/make -f &quot;/Users/hanxiao/xtnc/rnd/mdpe/IBClient/source/CppClient/client/Makefile&quot;  VERBOSE=1 ibc/fast"/>
+					<CompileFile command="/usr/bin/make -f &quot;/Users/hanxiao/xtnc/rnd/mdpe/IBClient/source/CppClient/client/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -f &quot;/Users/hanxiao/xtnc/rnd/mdpe/IBClient/source/CppClient/client/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -f &quot;/Users/hanxiao/xtnc/rnd/mdpe/IBClient/source/CppClient/client/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 		</Build>
 		<Unit filename="/Users/hanxiao/xtnc/rnd/mdpe/IBClient/source/CppClient/client/ContractCondition.cpp">
+			<Option target="ibc"/>
+		</Unit>
+		<Unit filename="/Users/hanxiao/xtnc/rnd/mdpe/IBClient/source/CppClient/client/ContractSamples.cpp">
 			<Option target="ibc"/>
 		</Unit>
 		<Unit filename="/Users/hanxiao/xtnc/rnd/mdpe/IBClient/source/CppClient/client/DefaultEWrapper.cpp">
@@ -150,6 +137,9 @@
 			<Option target="ibc"/>
 		</Unit>
 		<Unit filename="/Users/hanxiao/xtnc/rnd/mdpe/IBClient/source/CppClient/client/includes/ContractCondition.h">
+			<Option target="ibc"/>
+		</Unit>
+		<Unit filename="/Users/hanxiao/xtnc/rnd/mdpe/IBClient/source/CppClient/client/includes/ContractSamples.h">
 			<Option target="ibc"/>
 		</Unit>
 		<Unit filename="/Users/hanxiao/xtnc/rnd/mdpe/IBClient/source/CppClient/client/includes/DefaultEWrapper.h">

@@ -6,20 +6,22 @@ set (CMAKE_CXX_FLAGS "${CMAKE_CXX_FLAGS} -std=c++11 -pthread -Wall -Wno-switch -
 set (CMAKE_BUILD_TYPE Debug)
 set (IB_DIR "IBClient/source/CppClient/client")
 
-
 #include_directories(${IB_DIR})
-include_directories(src)
 include_directories("./src/includes")
 include_directories(/opt/bb/include)
 include_directories(/opt/xtnc/include)
+include_directories(/usr/local/include)
 
 
 
 
-add_subdirectory(${IB_DIR})
+#add_subdirectory(${IB_DIR})
+#This adds it as a subdirectory for development ease, but will and should be ignore during compile and build
+#NOTE:   libibc should be compiled individually and staticly linked
 
 link_directories(/opt/bb/lib)
 link_directories(/opt/xtnc/lib)
+
 
 file(GLOB Main_src
         "Main.cpp"
@@ -30,13 +32,13 @@ file(GLOB Main_src
         "./src/Helpers/*.cpp"
         )
 
-add_library(mdpe SHARED ${Main_src})
-
+add_executable(mdpe ${Main_src})
 # Include our Interactive Broker's interface library
-#   located in /usr/local/lib
+#   /opt/xtnc/
 target_link_libraries(mdpe ibc)
 
 target_link_libraries(mdpe cppkafka)
+
 
 # Need to include both the C and C++ library for Kafka
 # although we technically dont need these since we are using cppkafka
@@ -44,4 +46,6 @@ target_link_libraries(mdpe cppkafka)
 target_link_libraries(mdpe rdkafka++)
 target_link_libraries(mdpe rdkafka)
 
-target_link_libraries(mdpe cdb2api)
+#
+#target_link_libraries(mdpe cdb2api)
+

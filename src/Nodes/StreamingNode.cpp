@@ -3,8 +3,8 @@
 //  X&T All Rights Reserved
 //
 
-#include "includes/Node.h"
-#include "includes/Topics.h"
+#include "Node.h"
+#include "Topics.h"
 #include <cppkafka/cppkafka.h>
 #include <libibc/IB.h>
 
@@ -35,7 +35,7 @@ StreamingNode::~StreamingNode() {
 void StreamingNode::start() {
 
     try{
-        configureKafkaNode();
+        configureKafkaNode(host, std::to_string(kport));
         connect(host, ibport);
 
     }
@@ -69,7 +69,7 @@ void StreamingNode::configureKafkaNode(std::string broker, std::string port) {
 
     try{
 
-        *conf = {{"metadata.broker.list", broker+":"+port}};
+        conf = new cppkafka::Configuration({{"metadata.broker.list", broker+":"+port}});
         producer = new cppkafka::Producer(*conf);
 
     }
@@ -88,12 +88,19 @@ void StreamingNode::configureKafkaNode(std::string broker, std::string port) {
 void StreamingNode::error(const int id, const int errorCode, const std::string errorString)
 {
     printf( "Error. Id: %d, Code: %d, Msg: %s\n", id, errorCode, errorString.c_str());
+
+
 }
 //! [error]
 
 //! [tickprice]
 void StreamingNode::tickPrice( TickerId tickerId, TickType field, double price, int canAutoExecute) {
     printf( "Tick Price. Ticker Id: %ld, Field: %d, Price: %g, CanAutoExecute: %d\n", tickerId, (int)field, price, canAutoExecute);
+    const std::string topic = "testtopic";
+    const std::string tickPriceString = "Tick Price. Ticker Id: "+ std::to_string(tickerId) + ", Field: " + std::to_string(field)+", Price: "+ std::to_string(price)+"\n";
+    producer->produce(cppkafka::MessageBuilder(std::string("testtopic")).partition(0).payload(tickPriceString));
+    producer->flush();
+
 }
 //! [tickprice]
 

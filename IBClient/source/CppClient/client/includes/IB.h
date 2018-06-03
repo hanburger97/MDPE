@@ -33,7 +33,7 @@ enum MarketDataType {
 
 class EClientSocket;
 
-class IB_Client : EWrapper{
+class IB_Client : public EWrapper{
 
 
 private:

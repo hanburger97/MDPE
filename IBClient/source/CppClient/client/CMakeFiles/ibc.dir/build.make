@@ -81,9 +81,33 @@ IBClient/source/CppClient/client/CMakeFiles/ibc.dir/ContractCondition.cpp.o.prov
 IBClient/source/CppClient/client/CMakeFiles/ibc.dir/ContractCondition.cpp.o.provides.build: IBClient/source/CppClient/client/CMakeFiles/ibc.dir/ContractCondition.cpp.o
 
 
+IBClient/source/CppClient/client/CMakeFiles/ibc.dir/ContractSamples.cpp.o: IBClient/source/CppClient/client/CMakeFiles/ibc.dir/flags.make
+IBClient/source/CppClient/client/CMakeFiles/ibc.dir/ContractSamples.cpp.o: IBClient/source/CppClient/client/ContractSamples.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/hanxiao/xtnc/rnd/mdpe/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object IBClient/source/CppClient/client/CMakeFiles/ibc.dir/ContractSamples.cpp.o"
+	cd /Users/hanxiao/xtnc/rnd/mdpe/IBClient/source/CppClient/client && /Library/Developer/CommandLineTools/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/ibc.dir/ContractSamples.cpp.o -c /Users/hanxiao/xtnc/rnd/mdpe/IBClient/source/CppClient/client/ContractSamples.cpp
+
+IBClient/source/CppClient/client/CMakeFiles/ibc.dir/ContractSamples.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/ibc.dir/ContractSamples.cpp.i"
+	cd /Users/hanxiao/xtnc/rnd/mdpe/IBClient/source/CppClient/client && /Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/hanxiao/xtnc/rnd/mdpe/IBClient/source/CppClient/client/ContractSamples.cpp > CMakeFiles/ibc.dir/ContractSamples.cpp.i
+
+IBClient/source/CppClient/client/CMakeFiles/ibc.dir/ContractSamples.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/ibc.dir/ContractSamples.cpp.s"
+	cd /Users/hanxiao/xtnc/rnd/mdpe/IBClient/source/CppClient/client && /Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/hanxiao/xtnc/rnd/mdpe/IBClient/source/CppClient/client/ContractSamples.cpp -o CMakeFiles/ibc.dir/ContractSamples.cpp.s
+
+IBClient/source/CppClient/client/CMakeFiles/ibc.dir/ContractSamples.cpp.o.requires:
+
+.PHONY : IBClient/source/CppClient/client/CMakeFiles/ibc.dir/ContractSamples.cpp.o.requires
+
+IBClient/source/CppClient/client/CMakeFiles/ibc.dir/ContractSamples.cpp.o.provides: IBClient/source/CppClient/client/CMakeFiles/ibc.dir/ContractSamples.cpp.o.requires
+	$(MAKE) -f IBClient/source/CppClient/client/CMakeFiles/ibc.dir/build.make IBClient/source/CppClient/client/CMakeFiles/ibc.dir/ContractSamples.cpp.o.provides.build
+.PHONY : IBClient/source/CppClient/client/CMakeFiles/ibc.dir/ContractSamples.cpp.o.provides
+
+IBClient/source/CppClient/client/CMakeFiles/ibc.dir/ContractSamples.cpp.o.provides.build: IBClient/source/CppClient/client/CMakeFiles/ibc.dir/ContractSamples.cpp.o
+
+
 IBClient/source/CppClient/client/CMakeFiles/ibc.dir/DefaultEWrapper.cpp.o: IBClient/source/CppClient/client/CMakeFiles/ibc.dir/flags.make
 IBClient/source/CppClient/client/CMakeFiles/ibc.dir/DefaultEWrapper.cpp.o: IBClient/source/CppClient/client/DefaultEWrapper.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/hanxiao/xtnc/rnd/mdpe/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object IBClient/source/CppClient/client/CMakeFiles/ibc.dir/DefaultEWrapper.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/hanxiao/xtnc/rnd/mdpe/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object IBClient/source/CppClient/client/CMakeFiles/ibc.dir/DefaultEWrapper.cpp.o"
 	cd /Users/hanxiao/xtnc/rnd/mdpe/IBClient/source/CppClient/client && /Library/Developer/CommandLineTools/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/ibc.dir/DefaultEWrapper.cpp.o -c /Users/hanxiao/xtnc/rnd/mdpe/IBClient/source/CppClient/client/DefaultEWrapper.cpp
 
 IBClient/source/CppClient/client/CMakeFiles/ibc.dir/DefaultEWrapper.cpp.i: cmake_force
@@ -107,7 +131,7 @@ IBClient/source/CppClient/client/CMakeFiles/ibc.dir/DefaultEWrapper.cpp.o.provid
 
 IBClient/source/CppClient/client/CMakeFiles/ibc.dir/EClient.cpp.o: IBClient/source/CppClient/client/CMakeFiles/ibc.dir/flags.make
 IBClient/source/CppClient/client/CMakeFiles/ibc.dir/EClient.cpp.o: IBClient/source/CppClient/client/EClient.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/hanxiao/xtnc/rnd/mdpe/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object IBClient/source/CppClient/client/CMakeFiles/ibc.dir/EClient.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/hanxiao/xtnc/rnd/mdpe/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object IBClient/source/CppClient/client/CMakeFiles/ibc.dir/EClient.cpp.o"
 	cd /Users/hanxiao/xtnc/rnd/mdpe/IBClient/source/CppClient/client && /Library/Developer/CommandLineTools/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/ibc.dir/EClient.cpp.o -c /Users/hanxiao/xtnc/rnd/mdpe/IBClient/source/CppClient/client/EClient.cpp
 
 IBClient/source/CppClient/client/CMakeFiles/ibc.dir/EClient.cpp.i: cmake_force
@@ -131,7 +155,7 @@ IBClient/source/CppClient/client/CMakeFiles/ibc.dir/EClient.cpp.o.provides.build
 
 IBClient/source/CppClient/client/CMakeFiles/ibc.dir/EClientSocket.cpp.o: IBClient/source/CppClient/client/CMakeFiles/ibc.dir/flags.make
 IBClient/source/CppClient/client/CMakeFiles/ibc.dir/EClientSocket.cpp.o: IBClient/source/CppClient/client/EClientSocket.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/hanxiao/xtnc/rnd/mdpe/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object IBClient/source/CppClient/client/CMakeFiles/ibc.dir/EClientSocket.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/hanxiao/xtnc/rnd/mdpe/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object IBClient/source/CppClient/client/CMakeFiles/ibc.dir/EClientSocket.cpp.o"
 	cd /Users/hanxiao/xtnc/rnd/mdpe/IBClient/source/CppClient/client && /Library/Developer/CommandLineTools/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/ibc.dir/EClientSocket.cpp.o -c /Users/hanxiao/xtnc/rnd/mdpe/IBClient/source/CppClient/client/EClientSocket.cpp
 
 IBClient/source/CppClient/client/CMakeFiles/ibc.dir/EClientSocket.cpp.i: cmake_force
@@ -155,7 +179,7 @@ IBClient/source/CppClient/client/CMakeFiles/ibc.dir/EClientSocket.cpp.o.provides
 
 IBClient/source/CppClient/client/CMakeFiles/ibc.dir/EDecoder.cpp.o: IBClient/source/CppClient/client/CMakeFiles/ibc.dir/flags.make
 IBClient/source/CppClient/client/CMakeFiles/ibc.dir/EDecoder.cpp.o: IBClient/source/CppClient/client/EDecoder.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/hanxiao/xtnc/rnd/mdpe/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object IBClient/source/CppClient/client/CMakeFiles/ibc.dir/EDecoder.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/hanxiao/xtnc/rnd/mdpe/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building CXX object IBClient/source/CppClient/client/CMakeFiles/ibc.dir/EDecoder.cpp.o"
 	cd /Users/hanxiao/xtnc/rnd/mdpe/IBClient/source/CppClient/client && /Library/Developer/CommandLineTools/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/ibc.dir/EDecoder.cpp.o -c /Users/hanxiao/xtnc/rnd/mdpe/IBClient/source/CppClient/client/EDecoder.cpp
 
 IBClient/source/CppClient/client/CMakeFiles/ibc.dir/EDecoder.cpp.i: cmake_force
@@ -179,7 +203,7 @@ IBClient/source/CppClient/client/CMakeFiles/ibc.dir/EDecoder.cpp.o.provides.buil
 
 IBClient/source/CppClient/client/CMakeFiles/ibc.dir/EMessage.cpp.o: IBClient/source/CppClient/client/CMakeFiles/ibc.dir/flags.make
 IBClient/source/CppClient/client/CMakeFiles/ibc.dir/EMessage.cpp.o: IBClient/source/CppClient/client/EMessage.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/hanxiao/xtnc/rnd/mdpe/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building CXX object IBClient/source/CppClient/client/CMakeFiles/ibc.dir/EMessage.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/hanxiao/xtnc/rnd/mdpe/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Building CXX object IBClient/source/CppClient/client/CMakeFiles/ibc.dir/EMessage.cpp.o"
 	cd /Users/hanxiao/xtnc/rnd/mdpe/IBClient/source/CppClient/client && /Library/Developer/CommandLineTools/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/ibc.dir/EMessage.cpp.o -c /Users/hanxiao/xtnc/rnd/mdpe/IBClient/source/CppClient/client/EMessage.cpp
 
 IBClient/source/CppClient/client/CMakeFiles/ibc.dir/EMessage.cpp.i: cmake_force
@@ -203,7 +227,7 @@ IBClient/source/CppClient/client/CMakeFiles/ibc.dir/EMessage.cpp.o.provides.buil
 
 IBClient/source/CppClient/client/CMakeFiles/ibc.dir/EMutex.cpp.o: IBClient/source/CppClient/client/CMakeFiles/ibc.dir/flags.make
 IBClient/source/CppClient/client/CMakeFiles/ibc.dir/EMutex.cpp.o: IBClient/source/CppClient/client/EMutex.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/hanxiao/xtnc/rnd/mdpe/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Building CXX object IBClient/source/CppClient/client/CMakeFiles/ibc.dir/EMutex.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/hanxiao/xtnc/rnd/mdpe/CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Building CXX object IBClient/source/CppClient/client/CMakeFiles/ibc.dir/EMutex.cpp.o"
 	cd /Users/hanxiao/xtnc/rnd/mdpe/IBClient/source/CppClient/client && /Library/Developer/CommandLineTools/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/ibc.dir/EMutex.cpp.o -c /Users/hanxiao/xtnc/rnd/mdpe/IBClient/source/CppClient/client/EMutex.cpp
 
 IBClient/source/CppClient/client/CMakeFiles/ibc.dir/EMutex.cpp.i: cmake_force
@@ -227,7 +251,7 @@ IBClient/source/CppClient/client/CMakeFiles/ibc.dir/EMutex.cpp.o.provides.build:
 
 IBClient/source/CppClient/client/CMakeFiles/ibc.dir/EReader.cpp.o: IBClient/source/CppClient/client/CMakeFiles/ibc.dir/flags.make
 IBClient/source/CppClient/client/CMakeFiles/ibc.dir/EReader.cpp.o: IBClient/source/CppClient/client/EReader.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/hanxiao/xtnc/rnd/mdpe/CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Building CXX object IBClient/source/CppClient/client/CMakeFiles/ibc.dir/EReader.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/hanxiao/xtnc/rnd/mdpe/CMakeFiles --progress-num=$(CMAKE_PROGRESS_9) "Building CXX object IBClient/source/CppClient/client/CMakeFiles/ibc.dir/EReader.cpp.o"
 	cd /Users/hanxiao/xtnc/rnd/mdpe/IBClient/source/CppClient/client && /Library/Developer/CommandLineTools/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/ibc.dir/EReader.cpp.o -c /Users/hanxiao/xtnc/rnd/mdpe/IBClient/source/CppClient/client/EReader.cpp
 
 IBClient/source/CppClient/client/CMakeFiles/ibc.dir/EReader.cpp.i: cmake_force
@@ -251,7 +275,7 @@ IBClient/source/CppClient/client/CMakeFiles/ibc.dir/EReader.cpp.o.provides.build
 
 IBClient/source/CppClient/client/CMakeFiles/ibc.dir/EReaderOSSignal.cpp.o: IBClient/source/CppClient/client/CMakeFiles/ibc.dir/flags.make
 IBClient/source/CppClient/client/CMakeFiles/ibc.dir/EReaderOSSignal.cpp.o: IBClient/source/CppClient/client/EReaderOSSignal.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/hanxiao/xtnc/rnd/mdpe/CMakeFiles --progress-num=$(CMAKE_PROGRESS_9) "Building CXX object IBClient/source/CppClient/client/CMakeFiles/ibc.dir/EReaderOSSignal.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/hanxiao/xtnc/rnd/mdpe/CMakeFiles --progress-num=$(CMAKE_PROGRESS_10) "Building CXX object IBClient/source/CppClient/client/CMakeFiles/ibc.dir/EReaderOSSignal.cpp.o"
 	cd /Users/hanxiao/xtnc/rnd/mdpe/IBClient/source/CppClient/client && /Library/Developer/CommandLineTools/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/ibc.dir/EReaderOSSignal.cpp.o -c /Users/hanxiao/xtnc/rnd/mdpe/IBClient/source/CppClient/client/EReaderOSSignal.cpp
 
 IBClient/source/CppClient/client/CMakeFiles/ibc.dir/EReaderOSSignal.cpp.i: cmake_force
@@ -275,7 +299,7 @@ IBClient/source/CppClient/client/CMakeFiles/ibc.dir/EReaderOSSignal.cpp.o.provid
 
 IBClient/source/CppClient/client/CMakeFiles/ibc.dir/EReaderWMSignal.cpp.o: IBClient/source/CppClient/client/CMakeFiles/ibc.dir/flags.make
 IBClient/source/CppClient/client/CMakeFiles/ibc.dir/EReaderWMSignal.cpp.o: IBClient/source/CppClient/client/EReaderWMSignal.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/hanxiao/xtnc/rnd/mdpe/CMakeFiles --progress-num=$(CMAKE_PROGRESS_10) "Building CXX object IBClient/source/CppClient/client/CMakeFiles/ibc.dir/EReaderWMSignal.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/hanxiao/xtnc/rnd/mdpe/CMakeFiles --progress-num=$(CMAKE_PROGRESS_11) "Building CXX object IBClient/source/CppClient/client/CMakeFiles/ibc.dir/EReaderWMSignal.cpp.o"
 	cd /Users/hanxiao/xtnc/rnd/mdpe/IBClient/source/CppClient/client && /Library/Developer/CommandLineTools/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/ibc.dir/EReaderWMSignal.cpp.o -c /Users/hanxiao/xtnc/rnd/mdpe/IBClient/source/CppClient/client/EReaderWMSignal.cpp
 
 IBClient/source/CppClient/client/CMakeFiles/ibc.dir/EReaderWMSignal.cpp.i: cmake_force
@@ -299,7 +323,7 @@ IBClient/source/CppClient/client/CMakeFiles/ibc.dir/EReaderWMSignal.cpp.o.provid
 
 IBClient/source/CppClient/client/CMakeFiles/ibc.dir/ESocket.cpp.o: IBClient/source/CppClient/client/CMakeFiles/ibc.dir/flags.make
 IBClient/source/CppClient/client/CMakeFiles/ibc.dir/ESocket.cpp.o: IBClient/source/CppClient/client/ESocket.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/hanxiao/xtnc/rnd/mdpe/CMakeFiles --progress-num=$(CMAKE_PROGRESS_11) "Building CXX object IBClient/source/CppClient/client/CMakeFiles/ibc.dir/ESocket.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/hanxiao/xtnc/rnd/mdpe/CMakeFiles --progress-num=$(CMAKE_PROGRESS_12) "Building CXX object IBClient/source/CppClient/client/CMakeFiles/ibc.dir/ESocket.cpp.o"
 	cd /Users/hanxiao/xtnc/rnd/mdpe/IBClient/source/CppClient/client && /Library/Developer/CommandLineTools/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/ibc.dir/ESocket.cpp.o -c /Users/hanxiao/xtnc/rnd/mdpe/IBClient/source/CppClient/client/ESocket.cpp
 
 IBClient/source/CppClient/client/CMakeFiles/ibc.dir/ESocket.cpp.i: cmake_force
@@ -323,7 +347,7 @@ IBClient/source/CppClient/client/CMakeFiles/ibc.dir/ESocket.cpp.o.provides.build
 
 IBClient/source/CppClient/client/CMakeFiles/ibc.dir/IB.cpp.o: IBClient/source/CppClient/client/CMakeFiles/ibc.dir/flags.make
 IBClient/source/CppClient/client/CMakeFiles/ibc.dir/IB.cpp.o: IBClient/source/CppClient/client/IB.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/hanxiao/xtnc/rnd/mdpe/CMakeFiles --progress-num=$(CMAKE_PROGRESS_12) "Building CXX object IBClient/source/CppClient/client/CMakeFiles/ibc.dir/IB.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/hanxiao/xtnc/rnd/mdpe/CMakeFiles --progress-num=$(CMAKE_PROGRESS_13) "Building CXX object IBClient/source/CppClient/client/CMakeFiles/ibc.dir/IB.cpp.o"
 	cd /Users/hanxiao/xtnc/rnd/mdpe/IBClient/source/CppClient/client && /Library/Developer/CommandLineTools/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/ibc.dir/IB.cpp.o -c /Users/hanxiao/xtnc/rnd/mdpe/IBClient/source/CppClient/client/IB.cpp
 
 IBClient/source/CppClient/client/CMakeFiles/ibc.dir/IB.cpp.i: cmake_force
@@ -347,7 +371,7 @@ IBClient/source/CppClient/client/CMakeFiles/ibc.dir/IB.cpp.o.provides.build: IBC
 
 IBClient/source/CppClient/client/CMakeFiles/ibc.dir/MarginCondition.cpp.o: IBClient/source/CppClient/client/CMakeFiles/ibc.dir/flags.make
 IBClient/source/CppClient/client/CMakeFiles/ibc.dir/MarginCondition.cpp.o: IBClient/source/CppClient/client/MarginCondition.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/hanxiao/xtnc/rnd/mdpe/CMakeFiles --progress-num=$(CMAKE_PROGRESS_13) "Building CXX object IBClient/source/CppClient/client/CMakeFiles/ibc.dir/MarginCondition.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/hanxiao/xtnc/rnd/mdpe/CMakeFiles --progress-num=$(CMAKE_PROGRESS_14) "Building CXX object IBClient/source/CppClient/client/CMakeFiles/ibc.dir/MarginCondition.cpp.o"
 	cd /Users/hanxiao/xtnc/rnd/mdpe/IBClient/source/CppClient/client && /Library/Developer/CommandLineTools/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/ibc.dir/MarginCondition.cpp.o -c /Users/hanxiao/xtnc/rnd/mdpe/IBClient/source/CppClient/client/MarginCondition.cpp
 
 IBClient/source/CppClient/client/CMakeFiles/ibc.dir/MarginCondition.cpp.i: cmake_force
@@ -371,7 +395,7 @@ IBClient/source/CppClient/client/CMakeFiles/ibc.dir/MarginCondition.cpp.o.provid
 
 IBClient/source/CppClient/client/CMakeFiles/ibc.dir/OperatorCondition.cpp.o: IBClient/source/CppClient/client/CMakeFiles/ibc.dir/flags.make
 IBClient/source/CppClient/client/CMakeFiles/ibc.dir/OperatorCondition.cpp.o: IBClient/source/CppClient/client/OperatorCondition.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/hanxiao/xtnc/rnd/mdpe/CMakeFiles --progress-num=$(CMAKE_PROGRESS_14) "Building CXX object IBClient/source/CppClient/client/CMakeFiles/ibc.dir/OperatorCondition.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/hanxiao/xtnc/rnd/mdpe/CMakeFiles --progress-num=$(CMAKE_PROGRESS_15) "Building CXX object IBClient/source/CppClient/client/CMakeFiles/ibc.dir/OperatorCondition.cpp.o"
 	cd /Users/hanxiao/xtnc/rnd/mdpe/IBClient/source/CppClient/client && /Library/Developer/CommandLineTools/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/ibc.dir/OperatorCondition.cpp.o -c /Users/hanxiao/xtnc/rnd/mdpe/IBClient/source/CppClient/client/OperatorCondition.cpp
 
 IBClient/source/CppClient/client/CMakeFiles/ibc.dir/OperatorCondition.cpp.i: cmake_force
@@ -395,7 +419,7 @@ IBClient/source/CppClient/client/CMakeFiles/ibc.dir/OperatorCondition.cpp.o.prov
 
 IBClient/source/CppClient/client/CMakeFiles/ibc.dir/OrderCondition.cpp.o: IBClient/source/CppClient/client/CMakeFiles/ibc.dir/flags.make
 IBClient/source/CppClient/client/CMakeFiles/ibc.dir/OrderCondition.cpp.o: IBClient/source/CppClient/client/OrderCondition.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/hanxiao/xtnc/rnd/mdpe/CMakeFiles --progress-num=$(CMAKE_PROGRESS_15) "Building CXX object IBClient/source/CppClient/client/CMakeFiles/ibc.dir/OrderCondition.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/hanxiao/xtnc/rnd/mdpe/CMakeFiles --progress-num=$(CMAKE_PROGRESS_16) "Building CXX object IBClient/source/CppClient/client/CMakeFiles/ibc.dir/OrderCondition.cpp.o"
 	cd /Users/hanxiao/xtnc/rnd/mdpe/IBClient/source/CppClient/client && /Library/Developer/CommandLineTools/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/ibc.dir/OrderCondition.cpp.o -c /Users/hanxiao/xtnc/rnd/mdpe/IBClient/source/CppClient/client/OrderCondition.cpp
 
 IBClient/source/CppClient/client/CMakeFiles/ibc.dir/OrderCondition.cpp.i: cmake_force
@@ -419,7 +443,7 @@ IBClient/source/CppClient/client/CMakeFiles/ibc.dir/OrderCondition.cpp.o.provide
 
 IBClient/source/CppClient/client/CMakeFiles/ibc.dir/PercentChangeCondition.cpp.o: IBClient/source/CppClient/client/CMakeFiles/ibc.dir/flags.make
 IBClient/source/CppClient/client/CMakeFiles/ibc.dir/PercentChangeCondition.cpp.o: IBClient/source/CppClient/client/PercentChangeCondition.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/hanxiao/xtnc/rnd/mdpe/CMakeFiles --progress-num=$(CMAKE_PROGRESS_16) "Building CXX object IBClient/source/CppClient/client/CMakeFiles/ibc.dir/PercentChangeCondition.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/hanxiao/xtnc/rnd/mdpe/CMakeFiles --progress-num=$(CMAKE_PROGRESS_17) "Building CXX object IBClient/source/CppClient/client/CMakeFiles/ibc.dir/PercentChangeCondition.cpp.o"
 	cd /Users/hanxiao/xtnc/rnd/mdpe/IBClient/source/CppClient/client && /Library/Developer/CommandLineTools/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/ibc.dir/PercentChangeCondition.cpp.o -c /Users/hanxiao/xtnc/rnd/mdpe/IBClient/source/CppClient/client/PercentChangeCondition.cpp
 
 IBClient/source/CppClient/client/CMakeFiles/ibc.dir/PercentChangeCondition.cpp.i: cmake_force
@@ -443,7 +467,7 @@ IBClient/source/CppClient/client/CMakeFiles/ibc.dir/PercentChangeCondition.cpp.o
 
 IBClient/source/CppClient/client/CMakeFiles/ibc.dir/PriceCondition.cpp.o: IBClient/source/CppClient/client/CMakeFiles/ibc.dir/flags.make
 IBClient/source/CppClient/client/CMakeFiles/ibc.dir/PriceCondition.cpp.o: IBClient/source/CppClient/client/PriceCondition.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/hanxiao/xtnc/rnd/mdpe/CMakeFiles --progress-num=$(CMAKE_PROGRESS_17) "Building CXX object IBClient/source/CppClient/client/CMakeFiles/ibc.dir/PriceCondition.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/hanxiao/xtnc/rnd/mdpe/CMakeFiles --progress-num=$(CMAKE_PROGRESS_18) "Building CXX object IBClient/source/CppClient/client/CMakeFiles/ibc.dir/PriceCondition.cpp.o"
 	cd /Users/hanxiao/xtnc/rnd/mdpe/IBClient/source/CppClient/client && /Library/Developer/CommandLineTools/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/ibc.dir/PriceCondition.cpp.o -c /Users/hanxiao/xtnc/rnd/mdpe/IBClient/source/CppClient/client/PriceCondition.cpp
 
 IBClient/source/CppClient/client/CMakeFiles/ibc.dir/PriceCondition.cpp.i: cmake_force
@@ -467,7 +491,7 @@ IBClient/source/CppClient/client/CMakeFiles/ibc.dir/PriceCondition.cpp.o.provide
 
 IBClient/source/CppClient/client/CMakeFiles/ibc.dir/SoftDollarTier.cpp.o: IBClient/source/CppClient/client/CMakeFiles/ibc.dir/flags.make
 IBClient/source/CppClient/client/CMakeFiles/ibc.dir/SoftDollarTier.cpp.o: IBClient/source/CppClient/client/SoftDollarTier.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/hanxiao/xtnc/rnd/mdpe/CMakeFiles --progress-num=$(CMAKE_PROGRESS_18) "Building CXX object IBClient/source/CppClient/client/CMakeFiles/ibc.dir/SoftDollarTier.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/hanxiao/xtnc/rnd/mdpe/CMakeFiles --progress-num=$(CMAKE_PROGRESS_19) "Building CXX object IBClient/source/CppClient/client/CMakeFiles/ibc.dir/SoftDollarTier.cpp.o"
 	cd /Users/hanxiao/xtnc/rnd/mdpe/IBClient/source/CppClient/client && /Library/Developer/CommandLineTools/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/ibc.dir/SoftDollarTier.cpp.o -c /Users/hanxiao/xtnc/rnd/mdpe/IBClient/source/CppClient/client/SoftDollarTier.cpp
 
 IBClient/source/CppClient/client/CMakeFiles/ibc.dir/SoftDollarTier.cpp.i: cmake_force
@@ -491,7 +515,7 @@ IBClient/source/CppClient/client/CMakeFiles/ibc.dir/SoftDollarTier.cpp.o.provide
 
 IBClient/source/CppClient/client/CMakeFiles/ibc.dir/StdAfx.cpp.o: IBClient/source/CppClient/client/CMakeFiles/ibc.dir/flags.make
 IBClient/source/CppClient/client/CMakeFiles/ibc.dir/StdAfx.cpp.o: IBClient/source/CppClient/client/StdAfx.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/hanxiao/xtnc/rnd/mdpe/CMakeFiles --progress-num=$(CMAKE_PROGRESS_19) "Building CXX object IBClient/source/CppClient/client/CMakeFiles/ibc.dir/StdAfx.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/hanxiao/xtnc/rnd/mdpe/CMakeFiles --progress-num=$(CMAKE_PROGRESS_20) "Building CXX object IBClient/source/CppClient/client/CMakeFiles/ibc.dir/StdAfx.cpp.o"
 	cd /Users/hanxiao/xtnc/rnd/mdpe/IBClient/source/CppClient/client && /Library/Developer/CommandLineTools/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/ibc.dir/StdAfx.cpp.o -c /Users/hanxiao/xtnc/rnd/mdpe/IBClient/source/CppClient/client/StdAfx.cpp
 
 IBClient/source/CppClient/client/CMakeFiles/ibc.dir/StdAfx.cpp.i: cmake_force
@@ -515,7 +539,7 @@ IBClient/source/CppClient/client/CMakeFiles/ibc.dir/StdAfx.cpp.o.provides.build:
 
 IBClient/source/CppClient/client/CMakeFiles/ibc.dir/TimeCondition.cpp.o: IBClient/source/CppClient/client/CMakeFiles/ibc.dir/flags.make
 IBClient/source/CppClient/client/CMakeFiles/ibc.dir/TimeCondition.cpp.o: IBClient/source/CppClient/client/TimeCondition.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/hanxiao/xtnc/rnd/mdpe/CMakeFiles --progress-num=$(CMAKE_PROGRESS_20) "Building CXX object IBClient/source/CppClient/client/CMakeFiles/ibc.dir/TimeCondition.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/hanxiao/xtnc/rnd/mdpe/CMakeFiles --progress-num=$(CMAKE_PROGRESS_21) "Building CXX object IBClient/source/CppClient/client/CMakeFiles/ibc.dir/TimeCondition.cpp.o"
 	cd /Users/hanxiao/xtnc/rnd/mdpe/IBClient/source/CppClient/client && /Library/Developer/CommandLineTools/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/ibc.dir/TimeCondition.cpp.o -c /Users/hanxiao/xtnc/rnd/mdpe/IBClient/source/CppClient/client/TimeCondition.cpp
 
 IBClient/source/CppClient/client/CMakeFiles/ibc.dir/TimeCondition.cpp.i: cmake_force
@@ -539,7 +563,7 @@ IBClient/source/CppClient/client/CMakeFiles/ibc.dir/TimeCondition.cpp.o.provides
 
 IBClient/source/CppClient/client/CMakeFiles/ibc.dir/VolumeCondition.cpp.o: IBClient/source/CppClient/client/CMakeFiles/ibc.dir/flags.make
 IBClient/source/CppClient/client/CMakeFiles/ibc.dir/VolumeCondition.cpp.o: IBClient/source/CppClient/client/VolumeCondition.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/hanxiao/xtnc/rnd/mdpe/CMakeFiles --progress-num=$(CMAKE_PROGRESS_21) "Building CXX object IBClient/source/CppClient/client/CMakeFiles/ibc.dir/VolumeCondition.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/hanxiao/xtnc/rnd/mdpe/CMakeFiles --progress-num=$(CMAKE_PROGRESS_22) "Building CXX object IBClient/source/CppClient/client/CMakeFiles/ibc.dir/VolumeCondition.cpp.o"
 	cd /Users/hanxiao/xtnc/rnd/mdpe/IBClient/source/CppClient/client && /Library/Developer/CommandLineTools/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/ibc.dir/VolumeCondition.cpp.o -c /Users/hanxiao/xtnc/rnd/mdpe/IBClient/source/CppClient/client/VolumeCondition.cpp
 
 IBClient/source/CppClient/client/CMakeFiles/ibc.dir/VolumeCondition.cpp.i: cmake_force
@@ -563,7 +587,7 @@ IBClient/source/CppClient/client/CMakeFiles/ibc.dir/VolumeCondition.cpp.o.provid
 
 IBClient/source/CppClient/client/CMakeFiles/ibc.dir/executioncondition.cpp.o: IBClient/source/CppClient/client/CMakeFiles/ibc.dir/flags.make
 IBClient/source/CppClient/client/CMakeFiles/ibc.dir/executioncondition.cpp.o: IBClient/source/CppClient/client/executioncondition.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/hanxiao/xtnc/rnd/mdpe/CMakeFiles --progress-num=$(CMAKE_PROGRESS_22) "Building CXX object IBClient/source/CppClient/client/CMakeFiles/ibc.dir/executioncondition.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/hanxiao/xtnc/rnd/mdpe/CMakeFiles --progress-num=$(CMAKE_PROGRESS_23) "Building CXX object IBClient/source/CppClient/client/CMakeFiles/ibc.dir/executioncondition.cpp.o"
 	cd /Users/hanxiao/xtnc/rnd/mdpe/IBClient/source/CppClient/client && /Library/Developer/CommandLineTools/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/ibc.dir/executioncondition.cpp.o -c /Users/hanxiao/xtnc/rnd/mdpe/IBClient/source/CppClient/client/executioncondition.cpp
 
 IBClient/source/CppClient/client/CMakeFiles/ibc.dir/executioncondition.cpp.i: cmake_force
@@ -587,7 +611,7 @@ IBClient/source/CppClient/client/CMakeFiles/ibc.dir/executioncondition.cpp.o.pro
 
 IBClient/source/CppClient/client/CMakeFiles/ibc.dir/__/ssl/EClientSocketSSL.cpp.o: IBClient/source/CppClient/client/CMakeFiles/ibc.dir/flags.make
 IBClient/source/CppClient/client/CMakeFiles/ibc.dir/__/ssl/EClientSocketSSL.cpp.o: IBClient/source/CppClient/ssl/EClientSocketSSL.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/hanxiao/xtnc/rnd/mdpe/CMakeFiles --progress-num=$(CMAKE_PROGRESS_23) "Building CXX object IBClient/source/CppClient/client/CMakeFiles/ibc.dir/__/ssl/EClientSocketSSL.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/hanxiao/xtnc/rnd/mdpe/CMakeFiles --progress-num=$(CMAKE_PROGRESS_24) "Building CXX object IBClient/source/CppClient/client/CMakeFiles/ibc.dir/__/ssl/EClientSocketSSL.cpp.o"
 	cd /Users/hanxiao/xtnc/rnd/mdpe/IBClient/source/CppClient/client && /Library/Developer/CommandLineTools/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/ibc.dir/__/ssl/EClientSocketSSL.cpp.o -c /Users/hanxiao/xtnc/rnd/mdpe/IBClient/source/CppClient/ssl/EClientSocketSSL.cpp
 
 IBClient/source/CppClient/client/CMakeFiles/ibc.dir/__/ssl/EClientSocketSSL.cpp.i: cmake_force
@@ -611,7 +635,7 @@ IBClient/source/CppClient/client/CMakeFiles/ibc.dir/__/ssl/EClientSocketSSL.cpp.
 
 IBClient/source/CppClient/client/CMakeFiles/ibc.dir/__/ssl/EReaderSSL.cpp.o: IBClient/source/CppClient/client/CMakeFiles/ibc.dir/flags.make
 IBClient/source/CppClient/client/CMakeFiles/ibc.dir/__/ssl/EReaderSSL.cpp.o: IBClient/source/CppClient/ssl/EReaderSSL.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/hanxiao/xtnc/rnd/mdpe/CMakeFiles --progress-num=$(CMAKE_PROGRESS_24) "Building CXX object IBClient/source/CppClient/client/CMakeFiles/ibc.dir/__/ssl/EReaderSSL.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/hanxiao/xtnc/rnd/mdpe/CMakeFiles --progress-num=$(CMAKE_PROGRESS_25) "Building CXX object IBClient/source/CppClient/client/CMakeFiles/ibc.dir/__/ssl/EReaderSSL.cpp.o"
 	cd /Users/hanxiao/xtnc/rnd/mdpe/IBClient/source/CppClient/client && /Library/Developer/CommandLineTools/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/ibc.dir/__/ssl/EReaderSSL.cpp.o -c /Users/hanxiao/xtnc/rnd/mdpe/IBClient/source/CppClient/ssl/EReaderSSL.cpp
 
 IBClient/source/CppClient/client/CMakeFiles/ibc.dir/__/ssl/EReaderSSL.cpp.i: cmake_force
@@ -635,7 +659,7 @@ IBClient/source/CppClient/client/CMakeFiles/ibc.dir/__/ssl/EReaderSSL.cpp.o.prov
 
 IBClient/source/CppClient/client/CMakeFiles/ibc.dir/__/ssl/ESocketSSL.cpp.o: IBClient/source/CppClient/client/CMakeFiles/ibc.dir/flags.make
 IBClient/source/CppClient/client/CMakeFiles/ibc.dir/__/ssl/ESocketSSL.cpp.o: IBClient/source/CppClient/ssl/ESocketSSL.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/hanxiao/xtnc/rnd/mdpe/CMakeFiles --progress-num=$(CMAKE_PROGRESS_25) "Building CXX object IBClient/source/CppClient/client/CMakeFiles/ibc.dir/__/ssl/ESocketSSL.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/hanxiao/xtnc/rnd/mdpe/CMakeFiles --progress-num=$(CMAKE_PROGRESS_26) "Building CXX object IBClient/source/CppClient/client/CMakeFiles/ibc.dir/__/ssl/ESocketSSL.cpp.o"
 	cd /Users/hanxiao/xtnc/rnd/mdpe/IBClient/source/CppClient/client && /Library/Developer/CommandLineTools/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/ibc.dir/__/ssl/ESocketSSL.cpp.o -c /Users/hanxiao/xtnc/rnd/mdpe/IBClient/source/CppClient/ssl/ESocketSSL.cpp
 
 IBClient/source/CppClient/client/CMakeFiles/ibc.dir/__/ssl/ESocketSSL.cpp.i: cmake_force
@@ -659,7 +683,7 @@ IBClient/source/CppClient/client/CMakeFiles/ibc.dir/__/ssl/ESocketSSL.cpp.o.prov
 
 IBClient/source/CppClient/client/CMakeFiles/ibc.dir/__/ssl/StdAfx.cpp.o: IBClient/source/CppClient/client/CMakeFiles/ibc.dir/flags.make
 IBClient/source/CppClient/client/CMakeFiles/ibc.dir/__/ssl/StdAfx.cpp.o: IBClient/source/CppClient/ssl/StdAfx.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/hanxiao/xtnc/rnd/mdpe/CMakeFiles --progress-num=$(CMAKE_PROGRESS_26) "Building CXX object IBClient/source/CppClient/client/CMakeFiles/ibc.dir/__/ssl/StdAfx.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/hanxiao/xtnc/rnd/mdpe/CMakeFiles --progress-num=$(CMAKE_PROGRESS_27) "Building CXX object IBClient/source/CppClient/client/CMakeFiles/ibc.dir/__/ssl/StdAfx.cpp.o"
 	cd /Users/hanxiao/xtnc/rnd/mdpe/IBClient/source/CppClient/client && /Library/Developer/CommandLineTools/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/ibc.dir/__/ssl/StdAfx.cpp.o -c /Users/hanxiao/xtnc/rnd/mdpe/IBClient/source/CppClient/ssl/StdAfx.cpp
 
 IBClient/source/CppClient/client/CMakeFiles/ibc.dir/__/ssl/StdAfx.cpp.i: cmake_force
@@ -684,6 +708,7 @@ IBClient/source/CppClient/client/CMakeFiles/ibc.dir/__/ssl/StdAfx.cpp.o.provides
 # Object files for target ibc
 ibc_OBJECTS = \
 "CMakeFiles/ibc.dir/ContractCondition.cpp.o" \
+"CMakeFiles/ibc.dir/ContractSamples.cpp.o" \
 "CMakeFiles/ibc.dir/DefaultEWrapper.cpp.o" \
 "CMakeFiles/ibc.dir/EClient.cpp.o" \
 "CMakeFiles/ibc.dir/EClientSocket.cpp.o" \
@@ -714,6 +739,7 @@ ibc_OBJECTS = \
 ibc_EXTERNAL_OBJECTS =
 
 IBClient/source/CppClient/client/libibc.a: IBClient/source/CppClient/client/CMakeFiles/ibc.dir/ContractCondition.cpp.o
+IBClient/source/CppClient/client/libibc.a: IBClient/source/CppClient/client/CMakeFiles/ibc.dir/ContractSamples.cpp.o
 IBClient/source/CppClient/client/libibc.a: IBClient/source/CppClient/client/CMakeFiles/ibc.dir/DefaultEWrapper.cpp.o
 IBClient/source/CppClient/client/libibc.a: IBClient/source/CppClient/client/CMakeFiles/ibc.dir/EClient.cpp.o
 IBClient/source/CppClient/client/libibc.a: IBClient/source/CppClient/client/CMakeFiles/ibc.dir/EClientSocket.cpp.o
@@ -741,7 +767,7 @@ IBClient/source/CppClient/client/libibc.a: IBClient/source/CppClient/client/CMak
 IBClient/source/CppClient/client/libibc.a: IBClient/source/CppClient/client/CMakeFiles/ibc.dir/__/ssl/StdAfx.cpp.o
 IBClient/source/CppClient/client/libibc.a: IBClient/source/CppClient/client/CMakeFiles/ibc.dir/build.make
 IBClient/source/CppClient/client/libibc.a: IBClient/source/CppClient/client/CMakeFiles/ibc.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/Users/hanxiao/xtnc/rnd/mdpe/CMakeFiles --progress-num=$(CMAKE_PROGRESS_27) "Linking CXX static library libibc.a"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/Users/hanxiao/xtnc/rnd/mdpe/CMakeFiles --progress-num=$(CMAKE_PROGRESS_28) "Linking CXX static library libibc.a"
 	cd /Users/hanxiao/xtnc/rnd/mdpe/IBClient/source/CppClient/client && $(CMAKE_COMMAND) -P CMakeFiles/ibc.dir/cmake_clean_target.cmake
 	cd /Users/hanxiao/xtnc/rnd/mdpe/IBClient/source/CppClient/client && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/ibc.dir/link.txt --verbose=$(VERBOSE)
 
@@ -751,6 +777,7 @@ IBClient/source/CppClient/client/CMakeFiles/ibc.dir/build: IBClient/source/CppCl
 .PHONY : IBClient/source/CppClient/client/CMakeFiles/ibc.dir/build
 
 IBClient/source/CppClient/client/CMakeFiles/ibc.dir/requires: IBClient/source/CppClient/client/CMakeFiles/ibc.dir/ContractCondition.cpp.o.requires
+IBClient/source/CppClient/client/CMakeFiles/ibc.dir/requires: IBClient/source/CppClient/client/CMakeFiles/ibc.dir/ContractSamples.cpp.o.requires
 IBClient/source/CppClient/client/CMakeFiles/ibc.dir/requires: IBClient/source/CppClient/client/CMakeFiles/ibc.dir/DefaultEWrapper.cpp.o.requires
 IBClient/source/CppClient/client/CMakeFiles/ibc.dir/requires: IBClient/source/CppClient/client/CMakeFiles/ibc.dir/EClient.cpp.o.requires
 IBClient/source/CppClient/client/CMakeFiles/ibc.dir/requires: IBClient/source/CppClient/client/CMakeFiles/ibc.dir/EClientSocket.cpp.o.requires

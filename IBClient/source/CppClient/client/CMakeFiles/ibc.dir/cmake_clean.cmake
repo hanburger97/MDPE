@@ -1,5 +1,6 @@
 file(REMOVE_RECURSE
   "CMakeFiles/ibc.dir/ContractCondition.cpp.o"
+  "CMakeFiles/ibc.dir/ContractSamples.cpp.o"
   "CMakeFiles/ibc.dir/DefaultEWrapper.cpp.o"
   "CMakeFiles/ibc.dir/EClient.cpp.o"
   "CMakeFiles/ibc.dir/EClientSocket.cpp.o"
