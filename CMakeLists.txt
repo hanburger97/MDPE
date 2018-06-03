@@ -30,7 +30,7 @@ file(GLOB Main_src
         "./src/Helpers/*.cpp"
         )
 
-add_executable(mdpe ${Main_src})
+add_library(mdpe SHARED ${Main_src})
 
 # Include our Interactive Broker's interface library
 #   located in /usr/local/lib

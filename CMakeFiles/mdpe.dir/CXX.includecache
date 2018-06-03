@@ -31,6 +31,8 @@ vector
 /Users/hanxiao/xtnc/rnd/mdpe/Main.cpp
 iostream
 -
+includes/StreamingNode.h
+/Users/hanxiao/xtnc/rnd/mdpe/includes/StreamingNode.h
 
 /Users/hanxiao/xtnc/rnd/mdpe/src/Helpers/Topics.cpp
 Topics.h
@@ -543,6 +545,16 @@ sys/socket.h
 -
 
 src/includes/Node.h
+libibc/IB.h
+-
+
+src/includes/StreamingNode.h
+includes/Node.h
+src/includes/includes/Node.h
+includes/Topics.h
+src/includes/includes/Topics.h
+cppkafka/cppkafka.h
+-
 libibc/IB.h
 -
 

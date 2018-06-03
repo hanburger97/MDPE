@@ -1,6 +1,13 @@
 //
 // Created by Han Xiao on 2018-03-15.
+//  X&T All Rights Reserved
 //
+
+#include "includes/Node.h"
+#include "includes/Topics.h"
+#include <cppkafka/cppkafka.h>
+#include <libibc/IB.h>
+
 #include "StreamingNode.h"
 
 
@@ -391,6 +398,15 @@ void StreamingNode::currentTime(long time) {}
 
 void StreamingNode::nextValidId(OrderId orderId) {}
 
+void StreamingNode::softExit() const {
+
+}
+
+void StreamingNode::shutDown() const{}
+
+STATE StreamingNode::getState() const{}
+
+void StreamingNode::handleDisconnection(){}
 
 
 

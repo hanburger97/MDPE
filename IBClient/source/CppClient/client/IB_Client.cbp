@@ -287,5 +287,8 @@
 		<Unit filename="/Users/hanxiao/xtnc/rnd/mdpe/IBClient/source/CppClient/client/CMakeLists.txt">
 			<Option virtualFolder="CMake Files\IBClient\source\CppClient\client\"/>
 		</Unit>
+		<Unit filename="/Users/hanxiao/xtnc/rnd/mdpe/IBClient/source/CppClient/client/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\IBClient\source\CppClient\client\"/>
+		</Unit>
 	</Project>
 </CodeBlocks_project_file>

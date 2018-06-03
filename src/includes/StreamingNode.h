@@ -116,6 +116,10 @@ public:
     void securityDefinitionOptionalParameter(int reqId, const std::string& exchange, int underlyingConId, const std::string& tradingClass, const std::string& multiplier, std::set<std::string> expirations, std::set<double> strikes) override;
     void securityDefinitionOptionalParameterEnd(int reqId) override;
     void softDollarTiers(int reqId, const std::vector<SoftDollarTier> &tiers) override;
+    void softExit() const override;
+    void shutDown() const override;
+    STATE getState() const override;
+    void handleDisconnection() override;
 
 };
 

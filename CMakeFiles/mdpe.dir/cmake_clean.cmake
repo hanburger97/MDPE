@@ -4,8 +4,8 @@ file(REMOVE_RECURSE
   "CMakeFiles/mdpe.dir/src/Nodes/StreamingNode.cpp.o"
   "CMakeFiles/mdpe.dir/src/Nodes/SubscriberNode.cpp.o"
   "CMakeFiles/mdpe.dir/src/Helpers/Topics.cpp.o"
-  "mdpe.pdb"
-  "mdpe"
+  "libmdpe.pdb"
+  "libmdpe.dylib"
 )
 
 # Per-language clean rules from dependency scanning.
