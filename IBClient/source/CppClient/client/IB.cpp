@@ -27,10 +27,6 @@
 #include "includes/VolumeCondition.h"
 
 #include "includes/CommonDefs.h"
-// Importing the rdkafak lib
-
-
-// librdkafka library must be installed prior
 
 // static atomic long initialization
 std::atomic<long> IB_Client::NEXTID(0);

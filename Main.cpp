@@ -5,6 +5,13 @@
 #include <libibc/ContractSamples.h>
 #include <cppkafka/cppkafka.h>
 
+/*
+ * TO-DO:
+ *      - Refactor the code so that we remove Kafka Streaming Process
+ *      - Implement a basic Library from which we can interface and
+ * */
+
+
 int main(int argc, char** argv)
 {
    // demoRun(argc, argv);
