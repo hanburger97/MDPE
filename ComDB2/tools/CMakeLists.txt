@@ -1,5 +1,0 @@
-add_subdirectory(comdb2ar)
-add_subdirectory(cdb2sockpool)
-add_subdirectory(cdb2_sqlreplay)
-add_subdirectory(cdb2sql)
-add_subdirectory(pmux)

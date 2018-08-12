@@ -1,5 +1,0 @@
-tag ondisk {
-    int id
-    int x
-}
-

@@ -1,9 +1,0 @@
-tag ondisk {
-    int id
-    int value
-}
-
-keys {
-    "value" = value
-}
-

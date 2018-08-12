@@ -1,8 +1,0 @@
-tag ondisk {
-    int id
-    int balance
-}
-keys {
-    "id" = id
-}
-
