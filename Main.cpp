@@ -3,6 +3,7 @@
 #include "StreamingNode.h"
 #include <libibc/IB.h>
 #include <libibc/ContractSamples.h>
+#include <cppkafka/cppkafka.h>
 
 int main(int argc, char** argv)
 {
@@ -15,11 +16,58 @@ int main(int argc, char** argv)
     snode->subscribe((Contract&) samples);
 
 
+
+    cppkafka::Configuration config = {{ "metadata.broker.list", "localhost:9092" },
+                                      { "group.id", "kafka-consumer-test" },
+
+            // Disable auto commit
+                                      { "enable.auto.commit", false },
+
+            // Client group session timeout
+                                      { "session.timeout.ms", 300000 }
+    };
+
+    cppkafka::Producer producer(config);
+
+    cppkafka::Consumer consumer(config);
+
+
+    cppkafka::Topic topic = producer.get_topic("testtopic");
+
+    std::string m = "testing";
+
+    producer.produce(cppkafka::MessageBuilder(std::string("testtopic")).partition(0).payload(m));
+   // producer.flush();
+    std::string cmd;
     while(true){
+        std::cin >> cmd;
+        consumer.subscribe( { "testtopic" });
+
+
+        if("q"==cmd){
+            break;
+        }
+        cppkafka::Message msg = consumer.poll();
+        if (!msg){
+            continue;
+        }
+        if (msg.get_error()) {
+            // rdkafka indicates EOF (end of partition) as errors,
+            // which doesn't really mean something went wrong
+            if (!msg.is_eof()) {
+                // This is an actual error, handle it properly
+                std::cerr << msg.get_error();
+                break;
+            }
+            // Regardless, we need to keep going
+            continue;
+        }
+        // We actually received a message, process it
+        std::cout<< msg.get_payload() << std::endl;
+
 
     }
-
-    std::cout<< "Compiled and linked... I hope"<<"\n";
+    delete snode;
     return 0;
 }
 

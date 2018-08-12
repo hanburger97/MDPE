@@ -60,6 +60,7 @@ void StreamingNode::errorExit() {
     //probably will cause seg Fault... idk
     delete this->producer;
     delete this->conf;
+    
 
 
     exit(20);
@@ -69,7 +70,15 @@ void StreamingNode::configureKafkaNode(std::string broker, std::string port) {
 
     try{
 
-        conf = new cppkafka::Configuration({{"metadata.broker.list", broker+":"+port}});
+        conf = new cppkafka::Configuration({{"metadata.broker.list", "localhost:9092"},
+                                            { "group.id", "kafka-consumer-test" },
+
+                                                   // Disable auto commit
+                                            { "enable.auto.commit", false },
+
+                                                   // Client group session timeout
+                                            { "session.timeout.ms", 300000 }
+                                           });
         producer = new cppkafka::Producer(*conf);
 
     }
@@ -95,10 +104,11 @@ void StreamingNode::error(const int id, const int errorCode, const std::string e
 
 //! [tickprice]
 void StreamingNode::tickPrice( TickerId tickerId, TickType field, double price, int canAutoExecute) {
-    printf( "Tick Price. Ticker Id: %ld, Field: %d, Price: %g, CanAutoExecute: %d\n", tickerId, (int)field, price, canAutoExecute);
+    printf("Tick Price. Ticker Id: %ld, Field: %d, Price: %g, CanAutoExecute: %d\n", tickerId, (int)field, price, canAutoExecute);
     const std::string topic = "testtopic";
     const std::string tickPriceString = "Tick Price. Ticker Id: "+ std::to_string(tickerId) + ", Field: " + std::to_string(field)+", Price: "+ std::to_string(price)+"\n";
-    producer->produce(cppkafka::MessageBuilder(std::string("testtopic")).partition(0).payload(tickPriceString));
+    //std::vector<std::string> payload = {tickPriceString};
+    producer->produce(cppkafka::MessageBuilder(std::string("testtopic")).partition(0).payload({tickPriceString}));
     producer->flush();
 
 }

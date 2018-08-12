@@ -37,7 +37,6 @@ add_executable(mdpe ${Main_src})
 #   /opt/xtnc/
 target_link_libraries(mdpe ibc)
 
-target_link_libraries(mdpe cppkafka)
 
 
 # Need to include both the C and C++ library for Kafka
@@ -45,6 +44,7 @@ target_link_libraries(mdpe cppkafka)
 #   which is built on top of theses, but we'll keep these in, they dont hurt for staging
 target_link_libraries(mdpe rdkafka++)
 target_link_libraries(mdpe rdkafka)
+target_link_libraries(mdpe cppkafka)
 
 #
 #target_link_libraries(mdpe cdb2api)
